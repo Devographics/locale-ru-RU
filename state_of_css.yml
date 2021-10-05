@@ -49,6 +49,11 @@ translations:
     - key: sections.animations_transforms.description
       t: Анимирование и трансформация элементов.
 
+    - key: sections.accessibility.title
+      t: Доступность
+    - key: sections.accessibility.description
+      t: Средства и методы обеспечения доступности.
+
     - key: sections.media_queries.title
       t: Медиавыражения
     - key: sections.media_queries.description
@@ -152,6 +157,58 @@ translations:
     - key: options.css_for_email.3.short
       t: В основном всегда
 
+    # what do you use CSS for?
+    - key: options.what_do_you_use_css_for.marketing_sites
+      t: Рекламные сайты и лендинги
+    - key: options.what_do_you_use_css_for.design_systems
+      t: Дизайн-системы
+    - key: options.what_do_you_use_css_for.blogs
+      t: Блоги и сайты с большим текстовым содержимым
+    - key: options.what_do_you_use_css_for.web_apps
+      t: Веб-приложения
+    - key: options.what_do_you_use_css_for.mobile_apps
+      t: Мобильные приложения
+    - key: options.what_do_you_use_css_for.css_art
+      t: CSS-графика
+    - key: options.what_do_you_use_css_for.emails
+      t: Почтовые рассылки
+    - key: options.what_do_you_use_css_for.printed_documents
+      t: Версии страниц для печати
+
+    # CSS pain points
+    - key: options.css_pain_points.browser_interoperability
+      t: Браузерная несовместимость
+    - key: options.css_pain_points.browser_interoperability.description
+      t: Различия между Chrome, Safari, Firefox и т.д.
+    - key: options.css_pain_points.interactions
+      t: Взаимодействия
+    - key: options.css_pain_points.interactions.description
+      t: Реагирование на действия пользователей или другие события (прокрутка, наведение и т.д.).
+    - key: options.css_pain_points.architecture
+      t: Архитектура и поддержка
+    - key: options.css_pain_points.architecture.description
+      t: Файловая структура, удаление мёртвого кода, рефакторинг и.д..
+    - key: options.css_pain_points.layout_positioning
+      t: Раскладка и позиционирование
+    - key: options.css_pain_points.layout_positioning.description
+      t: Создание раскладок и позиционирование элементов так, как вы хотите.
+    - key: options.css_pain_points.scoping_specificity
+      t: Контекст и специфичность
+    - key: options.css_pain_points.scoping_specificity.description
+      t: Работа с каскадом, переопределение стилей и т.д.
+    - key: options.css_pain_points.responsive_design
+      t: Отзывчивый дизайн
+    - key: options.css_pain_points.responsive_design.description
+      t: Адаптация раскладок и дизайна под различные форм-факторы.
+    - key: options.css_pain_points.form_elements_styling
+      t: Стилизация элементов формы
+    - key: options.css_pain_points.form_elements_styling.description
+      t: Кастомизация внешнего вида и работы элементов формы.
+    - key: options.css_pain_points.performance_issues
+      t: Проблемы с производительностью
+    - key: options.css_pain_points.performance_issues.description
+      t: Исправление скачков прокрутки, создание более плавных анимаций и т.д.
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -182,6 +239,16 @@ translations:
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
+    - key: features.flexbox_gap
+      t: Gap-свойство для флексбокса
+    - key: features.break_rules
+      t: Правила разрыва страниц при печати
+    - key: features.break_rules.description
+      t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
+    - key: features.at_container
+      t: Выражения от контейнера
+    - key: features.at_container.description
+      t: Выражение <code>@container</code>
 
     # shapes & graphics
     - key: features.shapes
@@ -201,9 +268,23 @@ translations:
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
 
+    - key: features.intrinsic_sizing
+      t: Intrinsic-свойства (Intrinsic Sizing)
+    - key: features.intrinsic_sizing.description
+      t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
+    - key: features.repeating_linear_gradient
+      t: <code>repeating-linear-gradient()</code>
+    - key: features.conic_gradient
+      t: <code>conic-gradient()</code>
+    - key: features.color_function
+      t: <code>color()</code>
+
+    - key: features.accent_color
+      t: <code>accent-color</code>
+
     # interactions
     - key: features.scroll_snap
-      t: Привязка прокрутки в CSS (Scroll Snap)
+      t: Привязка прокрутки (Scroll Snap)
     - key: features.overscroll_behavior
       t: <code>overscroll-behavior</code>
     - key: features.overflow_anchor
@@ -212,6 +293,8 @@ translations:
       t: <code>touch-action</code>
     - key: features.pointer_events
       t: <code>pointer-events</code>
+    - key: features.scroll_timeline
+      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -259,6 +342,24 @@ translations:
     - key: features.color_gamut
       t: <code>color-gamut</code>
 
+    - key: features.prefers_reduced_data
+      t: <code>prefers-reduced-data</code>
+    - key: features.tabindex
+      t: HTML-атрибут <code>tabindex</code>
+    - key: features.tabindex.description
+      t: <code>&lt;div tabindex="0"&gt;</code>
+
+    - key: features.color_contrast
+      t: <code>color-contrast()</code>
+
+    - key: features.color_scheme
+      t: <code>color-scheme</code>
+
+    - key: features.aria_attributes
+      t: HTML-атрибуты ARIA
+    - key: features.aria_attributes.description
+      t: <code>role</code>, <code>aria-label</code>, etc.
+
     # other features
     - key: features.variables
       t: CSS-переменные (кастомные свойства)
@@ -274,6 +375,51 @@ translations:
       t: Функции сравнения CSS
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code> и <code>clamp()</code>
+
+    - key: features.at_property
+      t: Кастомные свойства Houdini
+    - key: features.at_property.description
+      t: <code>@property</code>
+    - key: features.at_layer
+      t: <code>@layer</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
+    - key: features.marker
+      t: Псевдоэлемент <code>::marker</code>
+
+    # missing features
+    - key: features.nesting
+      t: Вложенность
+    - key: features.nesting.description
+      t: Возможность создавать вложенные стили в чистом CSS.
+    - key: features.parent_selector
+      t: Родительский селектор
+    - key: features.parent_selector.description
+      t: Возможность обращаться к родительскому элементу из его дочерних.
+    - key: features.browser_support
+      t: Поддержка браузерами
+    - key: features.browser_support.description
+      t: Улучшение поддержки браузерами существующих CSS-возможностей.
+    - key: features.mixins
+      t: Миксины
+    - key: features.mixins.description
+      t: Группировка и переиспользование стилей.
+    - key: features.color_functions
+      t: Цветовые функции
+    - key: features.color_functions.description
+      t: Функции для работы со значениями цвета.
+    - key: features.container_queries
+      t: Выражения от контейнера
+    - key: features.container_queries.description
+      t: Возможность писать стили в зависимости от размеров родительского контейнера.
+    - key: features.scoping
+      t: Область видимости
+    - key: features.scoping.description
+      t: Возможность более точно задать, где должны применятся стили.
+    - key: features.subgrid
+      t: Сабрид
+    - key: features.subgrid.description
+      t: Создание вложенных подгридов внутри родительского грида.
 
     ###########################################################################
     # Units & Selectors
@@ -461,13 +607,6 @@ translations:
       t: :required и :optional
 
     ###########################################################################
-    # Tools
-    ###########################################################################
-
-    - key: tools.atomiccss
-      t: Подход Utility-First/Atomic CSS
-
-    ###########################################################################
     # Environments
     ###########################################################################
 
@@ -477,9 +616,18 @@ translations:
       t: В каких браузерах вы тестируете?
 
     - key: environments.form_factors
-      t: Форм-факторы
+      t: Тестирование
     - key: environments.form_factors.description
-      t: Какие размеры (форм-факторы) вы проверяете?
+      t: На каких форм-факторах (размерах) или окружениях вы проверяете?
+
+    - key: environments.accessibility_features
+      t: Функциональность, связанная с доступностью
+    - key: environments.accessibility_features.description
+      t: Что вы обычно реализуете для улучшения доступности?
+    - key: environments.accessibility_features.others
+      t: Другие фичи для доступности
+    - key: environments.accessibility_features.others
+      t: Помимо представленных вариантов, что вы ещё делаете для доступности
 
     - key: environments.css_for_print
       t: CSS для печати
@@ -491,10 +639,22 @@ translations:
     - key: environments.css_for_email.description
       t: Вы пишете CSS-стили для почтовых клиентов?
 
+    - key: environments.what_do_you_use_css_for
+      t: Где вы в основном применяете CSS?
+    - key: environments.what_do_you_use_css_for.description
+      t: Что вы обычно оформляете с помощью CSS?
+    - key: environments.what_do_you_use_css_for.others
+      t: Другие варианты
+
     - key: charts.axis_legends.css_for_print
       t: Периодичность
     - key: charts.axis_legends.css_for_email
       t: Периодичность
+
+    - key: tools_others.tool_evaluation
+      t: Определяющий фактор при выборе библиотеки
+    - key: tools_others.tool_evaluation.description
+      t: Из каждой пары выберите фактор, который станет для вас решающим при выборе новой библиотеки.
 
     ###########################################################################
     # Opinions
@@ -530,11 +690,30 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: Удовлетворение
 
-    - key: opinions_others.currently_missing_from_css.others
+    # Browser interoperability question
+    - key: opinions.browser_interoperability_features
+      t: Браузерная несовместимость
+    - key: opinions.browser_interoperability_features.description
+      t: >
+          Что в CSS трудно использовать
+          из-за отличий работы в браузерах?
+
+    # Pain Points
+    - key: opinions.css_pain_points
+      t: Болевые точки CSS
+    - key: opinions.css_pain_points.description
+      t: Из каждой пары выберите проблему, с которой вы чаще всего сталкиваетесь.
+    - key: opinions_other.css_pain_points.others
+      t: Другие болевые точки CSS
+
+    # Missing Features
+    - key: opinions_other.currently_missing_from_css
       t: Что вам не хватает в CSS?
-    - key: opinions_others.currently_missing_from_css.others.description
+    - key: opinions_other.currently_missing_from_css.description
+      t: Из каждой пары выберите то, что вы бы хотели больше всего видеть в CSS сегодня.
+    - key: opinions_other.currently_missing_from_css.others
       t: Возможности, которые вы хотели бы видеть в CSS.
-    - key: opinions_others.currently_missing_from_css.others.note
+    - key: opinions_other.currently_missing_from_css.others.note
       t: >
           Эти данные были нормализованы на основе ответов в свободной форме.
           Посмотреть оригинальные ответы можно на сайте [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
@@ -549,3 +728,12 @@ translations:
 
     - key: happiness.state_of_css
       t: Насколько вы удовлетворены текущим состоянием CSS?
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    - key: resources.first_steps
+      t: Первые шаги в CSS
+    - key: resources.learning_methods.description
+      t: Когда вы только начинали, как вы первоначально изучали CSS?
