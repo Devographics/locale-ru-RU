@@ -81,6 +81,10 @@ translations:
     - key: credits.logo_design
     t: Дизайн логотипа
 
+    # support
+    - key: general.support_from
+      t: При поддержке
+
     # footer
     - key: general.privacy_policy
     t: Политика конфиденциальности
