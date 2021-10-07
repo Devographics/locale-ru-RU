@@ -646,27 +646,27 @@ translations:
     - key: options.tool_evaluation.learning_curve_documentation
       t: Документация
     - key: options.tool_evaluation.learning_curve_documentation.description
-      t: Легко ли его изучить и/или хорошо ли он задокументирован?
+      t: Легко ли её изучить и/или хорошо ли она задокументирован?
     - key: options.tool_evaluation.momentum_popularity
       t: Хайп и темп развития
     - key: options.tool_evaluation.momentum_popularity.description
-      t: Вызывает ли он сейчас большой ажиотаж?
+      t: Вызывает ли она сейчас большой ажиотаж?
     - key: options.tool_evaluation.user_base_size
-      t: User Base Size
+      t: Количество пользователей
     - key: options.tool_evaluation.user_base_size.description
-      t: Хорошо ли зарекомендовал себя на протяжении многих лет?
+      t: Хорошо ли она себя зарекомендовала на протяжении многих лет?
     - key: options.tool_evaluation.developer_experience_tooling
-      t: Удобство при разработке
+      t: Удобство разработки (DX)
     - key: options.tool_evaluation.developer_experience_tooling.description
-      t: Имеется ли у него хорошие инструменты для разработки, большая экосистема плагинов и т.д.?
+      t: Имеется ли у неё хорошие инструменты для разработки, большая экосистема плагинов и т.д.?
     - key: options.tool_evaluation.performance_user_experience
-      t: Удобство для пользователей
+      t: Удобство для пользователей (UX)
     - key: options.tool_evaluation.performance_user_experience.description
-      t: Как хорошо влияет он на пользовательское взаимодействие?
+      t: Как хорошо влияет она на пользовательские ощущения?
     - key: options.tool_evaluation.creator_team
       t: Автор и команда
     - key: options.tool_evaluation.creator_team.description
-      t: Создан ли он известной, хорошо финансируемой или опытной командой?
+      t: Создана ли она известной, хорошо финансируемой или опытной командой?
     - key: options.tool_evaluation.accessibility_features
       t: Поддержка доступности
     - key: options.tool_evaluation.accessibility_features.description
@@ -674,7 +674,7 @@ translations:
     - key: options.tool_evaluation.community_inclusivity
       t: Сообщество и инклюзивность
     - key: options.tool_evaluation.community_inclusivity.description
-      t: У него гостеприимное и активное сообщество?
+      t: Вокруг неё гостеприимное и активное сообщество?
 
     # accessibility features
     - key: options.accessibility_features.keyboard_navigation
@@ -809,7 +809,7 @@ translations:
 
     # disability status
     - key: user_info.disability_status
-      t: Disability Status
+      t: Статус инвалидности
     - key: user_info.disability_status.description
       t: >
         We use this data to help track and improve the survey's accessibility and representativeness.
@@ -968,7 +968,7 @@ translations:
     # - key: resources.people.others.description
     #   t: Other answers (freeform field).
     - key: resources.people.others
-      t: People
+      t: Люди
     - key: resources.people.others.description
       t: >
         Люди, которых вы читаете или на которых подписаны, либо просто хотите подчеркнуть их работу
