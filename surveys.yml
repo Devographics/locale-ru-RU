@@ -62,7 +62,7 @@ translations:
     - key: bracket.result
       t: Result
     - key: bracket.cancel
-      t: Cancel
+      t: Отменить
 
     ###########################################################################
     # Demographics (About You/User Info)
