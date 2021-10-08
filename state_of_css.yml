@@ -299,7 +299,7 @@ translations:
     # typography
     - key: features.web_fonts
       t: Веб-шрифты (@font-face)
-    - key: features.variables_fonts
+    - key: features.variable_fonts
       t: Вариативные шрифты
     - key: features.line_breaking
       t: Свойства переноса строк
@@ -621,7 +621,7 @@ translations:
       t: На каких форм-факторах (размерах) или окружениях вы проверяете?
 
     - key: environments.accessibility_features
-      t: Функциональность, связанная с доступностью
+      t: Доступность
     - key: environments.accessibility_features.description
       t: Что вы обычно реализуете для улучшения доступности?
     - key: environments.accessibility_features.others
@@ -712,7 +712,7 @@ translations:
     - key: opinions_other.currently_missing_from_css.description
       t: Из каждой пары выберите то, что вы бы хотели больше всего видеть в CSS сегодня.
     - key: opinions_other.currently_missing_from_css.others
-      t: Возможности, которые вы хотели бы видеть в CSS.
+      t: Возможности, которые вы хотели бы видеть в CSS
     - key: opinions_other.currently_missing_from_css.others.note
       t: >
           Эти данные были нормализованы на основе ответов в свободной форме.
