@@ -719,7 +719,7 @@ translations:
       t: Наставничество
 
     # degree
-    - key: options.higher_education_degree.no
+    - key: options.higher_education_degree.no_degree
       t: Нет
     - key: options.higher_education_degree.yes_related
       t: Да, в области, связанной с моей текущей профессией
