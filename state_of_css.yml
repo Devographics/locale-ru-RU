@@ -691,9 +691,9 @@ translations:
       t: Удовлетворение
 
     # Browser interoperability question
-    - key: opinions_other.browser_interoperability_features
+    - key: opinions_others.browser_interoperability_features
       t: Браузерная несовместимость
-    - key: opinions_other.browser_interoperability_features.description
+    - key: opinions_others.browser_interoperability_features.description
       t: >
           Что в CSS трудно использовать
           из-за отличий работы в браузерах?
@@ -703,7 +703,7 @@ translations:
       t: Болевые точки CSS
     - key: opinions.css_pain_points.description
       t: Из каждой пары выберите проблему, с которой вы чаще всего сталкиваетесь.
-    - key: opinions_other.css_pain_points.others
+    - key: opinions_others.css_pain_points.others
       t: Другие болевые точки CSS
 
     # Missing Features
@@ -711,9 +711,9 @@ translations:
       t: Что вам не хватает в CSS?
     - key: opinions.currently_missing_from_css.description
       t: Из каждой пары выберите то, что вы бы хотели больше всего видеть в CSS сегодня.
-    - key: opinions_other.currently_missing_from_css.others
+    - key: opinions_others.currently_missing_from_css.others
       t: Возможности, которые вы хотели бы видеть в CSS
-    - key: opinions_other.currently_missing_from_css.others.note
+    - key: opinions_others.currently_missing_from_css.others.note
       t: >
           Эти данные были нормализованы на основе ответов в свободной форме.
           Посмотреть оригинальные ответы можно на сайте [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
