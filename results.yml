@@ -135,8 +135,6 @@ translations:
       t: Испанский
     - key: options.locale.ru-RU
       t: Русский
-    - key: options.locale.ua-UA
-      t: Украинский
     - key: options.locale.fr-FR
       t: Французский
     - key: options.locale.zh-Hant
