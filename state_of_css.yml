@@ -417,7 +417,7 @@ translations:
     - key: features.scoping.description
       t: Возможность более точно задать, где должны применятся стили.
     - key: features.subgrid
-      t: Сагбрид
+      t: Сабгрид
     - key: features.subgrid.description
       t: Создание вложенных подгридов внутри родительского грида.
 
