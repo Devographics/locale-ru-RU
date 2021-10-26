@@ -19,6 +19,10 @@ translations:
       t: Зачем нужно создавать аккаунт?
     - key: faq.create_account.description
       t: Мы просим вас зарегистрироваться, чтобы избежать дублирования ответов, сохранить ваши ответы, и оповестить вас, когда будут опубликованы результаты.
+    - key: faq.anonymous_survey
+      t: Могу я пройти опрос анонимно?
+    - key: faq.anonymous_survey.description
+      t: Да, вы можете использовать ненастоящий адрес (something@example.com) или неидентифицирующий адрес электронной почты для участия в опросе, если вы сохраните его для последующего доступа.
     - key: faq.questions_required
       t: Нужно ли отвечать на каждый вопрос?
     - key: faq.questions_required.description
