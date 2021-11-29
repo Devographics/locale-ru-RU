@@ -210,19 +210,19 @@ translations:
     ###########################################################################
 
     # heatmaps
-    - key: blocks.tools_company_size_heatmap.title
+    - key: blocks.tools_company_size_heatmap
       t: Использование по размеру компании
     - key: blocks.tools_company_size_heatmap.description
       t: |
           Степень распределения использования каждой технологии в зависимости от размеров компании.
 
-    - key: blocks.tools_yearly_salary_heatmap.title
+    - key: blocks.tools_yearly_salary_heatmap
       t: Использование по размеру зарплаты
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
           Степень распределения использования каждой технологии в зависимости от размеров зарплаты.
 
-    - key: blocks.tools_years_of_experience_heatmap.title
+    - key: blocks.tools_years_of_experience_heatmap
       t: Использование по количеству опыта
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
@@ -236,12 +236,12 @@ translations:
       t: GitHub
 
     # cardinality
-    - key: blocks.all_sections_tools_cardinality_by_user.title
+    - key: blocks.all_sections_tools_cardinality_by_user
       t: Кардинальность использования технологии
     - key: blocks.all_sections_tools_cardinality_by_user.description
       t: Сколько процентов опрошенных используют определённое количество технологий в каждом разделе.
 
-    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user
       t: Кардинальность использования технологии
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
       t: Сколько процентов опрошенных используют определённое количество технологий  в каждом разделе (учитываются ответы за вариант «Буду использовать снова»).
@@ -250,7 +250,7 @@ translations:
       t: Наиболее популярный ответ
 
     # tools arrows
-    - key: blocks.tools_arrows.title
+    - key: blocks.tools_arrows
       t: Изменения во времени
     - key: blocks.tools_arrows.description
       t: |
@@ -263,7 +263,7 @@ translations:
           - Не показываются технологии с данными только за один год.
 
     # tools quadrant
-    - key: blocks.tools_quadrant.title
+    - key: blocks.tools_quadrant
       t: Сравнение удовлетворённости и использования
     - key: blocks.tools_quadrant.description
       t: |
@@ -289,19 +289,19 @@ translations:
           (Имейте в виду, низкое количество пользователей может быть из-за того, что технология либо не очень хорошо известна, либо её уже многие используют.)
 
     # category other tools
-    - key: blocks.category_other_tools.title
+    - key: blocks.category_other_tools
       t: Другие инструменты
     - key: blocks.category_other_tools.description
       t: Другие инструменты в этой категории (ответы в свободной форме).
 
     # tool experience
-    - key: blocks.tool_experience.title
+    - key: blocks.tool_experience
       t: '{name} Опыт работы'
     - key: blocks.tool_experience.description
       t: Опыт участника опроса с {name}.
 
     # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko.title
+    - key: blocks.tools_experience_marimekko
       t: Сравнение положительных и негативных ответов
     - key: blocks.tools_experience_marimekko.description
       t: |
@@ -310,7 +310,7 @@ translations:
           Ширина столбца представляет собой количество респондентов, знакомых с рассматриваемой технологией.
 
     # tools section streams
-    - key: blocks.tools_section_streams.title
+    - key: blocks.tools_section_streams
       t: Опыт работы
     - key: blocks.tools_section_streams.description
       t: |
@@ -320,14 +320,14 @@ translations:
           Не учитываются технологии, данные по которым есть только за один год.
 
     # tools section overview
-    - key: blocks.tools_section_overview.title
+    - key: blocks.tools_section_overview
       t: Общий обзор
     - key: blocks.tools_section_overview.description
       t: |
           Анализ ответов по исследуемым технологиям. Тёмные сегменты соответствуют положительным оценкам, тогда как светлые — негативным.
 
     # tools experience ranking
-    - key: blocks.tools_experience_ranking.title
+    - key: blocks.tools_experience_ranking
       t: Рейтинги
     - key: blocks.tools_experience_ranking.description
       t: Процент удовлетворённости, заинтересованности, использования, узнаваемости.
@@ -341,7 +341,7 @@ translations:
           - Узнаваемость: разница между количеством ответов за узнаваемость и количеством ответов за вариант ответа **Впервые слышу**.
 
     # happiness
-    - key: blocks.happiness.title
+    - key: blocks.happiness
       t: Общий показатель удовлетворённости
     - key: blocks.happiness.description
       t: |
@@ -349,7 +349,7 @@ translations:
           насколько довольны разработчики текущим состоянием этой категории?
 
     # newsletter
-    - key: blocks.newsletter.title
+    - key: blocks.newsletter
       t: Будьте на связи
     - key: blocks.newsletter.description
       t: |
@@ -360,7 +360,7 @@ translations:
       t: Сообщить мне
 
     # features_overview
-    - key: blocks.features_overview.title
+    - key: blocks.features_overview
       t: Анализ использования
     - key: blocks.features_overview.description
       t: |
@@ -384,7 +384,7 @@ translations:
           Вы можете скопировать этот запрос, чтобы выполнить его в <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">публичном API-сервере GraphQL</a>.
 
     # Tools usage variations
-    - key: blocks.tools_usage_variations.title
+    - key: blocks.tools_usage_variations
       t: Различия использования
     - key: blocks.tools_usage_variations.description
       t: |
@@ -400,7 +400,7 @@ translations:
           Имейте в виду, что инструменты, которые в целом меньше всего используются, как правило, сильнее всего различаются.
 
     # Recommended Resources
-    - key: blocks.recommended_resources.title
+    - key: blocks.recommended_resources
       t: Рекомендуемые ресурсы
 
     ###########################################################################
