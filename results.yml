@@ -349,7 +349,7 @@ translations:
           насколько довольны разработчики текущим состоянием этой категории?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: Будьте на связи
     - key: blocks.newsletter.description
       t: |
