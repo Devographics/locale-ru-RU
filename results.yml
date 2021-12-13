@@ -77,13 +77,13 @@ translations:
       t: Узнаваемость
 
     - key: options.features_mode.grouped
-        t: Grouped
+      t: Grouped
     - key: options.features_mode.awareness_rank
-        t: By Awareness
+      t: By Awareness
     - key: options.features_mode.usage_rank
-        t: By Usage
+      t: By Usage
     - key: options.features_mode.usage_ratio_rank
-        t: By Usage Ratio
+      t: By Usage Ratio
 
     - key: options.features_simplified.know_it
       t: Знаю
@@ -122,25 +122,25 @@ translations:
 
     # other learning methods
     - key: options.first_steps.blogs
-        t: Блоги
+      t: Блоги
     - key: options.first_steps.forums
-        t: Форумы
+      t: Форумы
 
     # other disablities
     - key: options.disability_status_others.adhd
-        t: СДВГ
+      t: СДВГ
     - key: options.disability_status_others.autism
-        t: Аутизм
+      t: Аутизм
     - key: options.disability_status_others.glasses
-        t: Очки
+      t: Очки
     - key: options.disability_status_others.old
-        t: Старость
+      t: Старость
     - key: options.disability_status_others.back_pain
-        t: Боль в спине
+      t: Боль в спине
     - key: options.disability_status_others.epilepsy
-        t: Эпилепсия
+      t: Эпилепсия
     - key: options.disability_status_others.aspergers
-        t: Синдром Аспергера
+      t: Синдром Аспергера
 
     ###########################################################################
     # Sections
@@ -208,7 +208,7 @@ translations:
     - key: user_info.yearly_salary_by_country
       t: Зарплата по странам
     - key: user_info.yearly_salary_by_country.description
-        t: Распределение годовых зарплат по странам с не менее 100 респондентами, отсортированное по убыванию средней зарплаты.
+      t: Распределение годовых зарплат по странам с не менее 100 респондентами, отсортированное по убыванию средней зарплаты.
 
     - key: user_info.yearly_salary_by_degree
       t: Зарплата в зависимости от высшего образования
@@ -270,9 +270,9 @@ translations:
     - key: options.locale.nl-NL
       t: Голландский
     - key: options.locale.ko-KR
-        t: Корейский
+      t: Корейский
     - key: options.locale.ro-RO
-        t: Румынский
+      t: Румынский
 
     ###########################################################################
     # Features
@@ -485,9 +485,9 @@ translations:
       t: >
           Вы можете скопировать этот запрос, чтобы выполнить его в <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">публичном API-сервере GraphQL</a>.
     - key: export.export_json
-        t: Показать данные в виде JSON
+      t: Показать данные в виде JSON
     - key: export.export_graphql
-        t: Посмотреть GraphQL-запрос
+      t: Посмотреть GraphQL-запрос
 
     # Tools usage variations
     - key: blocks.tools_usage_variations
