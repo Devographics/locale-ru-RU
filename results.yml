@@ -28,40 +28,40 @@ translations:
       t: Подробнее.
 
     - key: tabs.all_respondents
-        t: Общее количество
+      t: Общее количество
     - key: tabs.main_answers
-        t: Main Answers
+      t: Main Answers
     - key: tabs.other_answers
-        t: Other Answers
+      t: Other Answers
     - key: tabs.bracket_wins
-        t: Wins
+      t: Wins
     - key: tabs.bracket_matchups
-        t: Matchups
+      t: Matchups
     - key: tabs.chart
-        t: Chart
+      t: Chart
     - key: tabs.data
-        t: Data
+      t: Data
     - key: tabs.share
-        t: Поделиться
+      t: Поделиться
     - key: tabs.debug
-        t: Дебаг
+      t: Дебаг
     - key: tabs.by_country
-        t: По стране
+      t: По стране
     - key: tabs.by_experience
-        t: По опыту
+      t: По опыту
     - key: tabs.by_degree
-        t: По образованию
+      t: По образованию
     - key: tabs.by_salary
-        t: По зарплате
+      t: По зарплате
     - key: tabs.by_gender
-        t: По полу
+      t: По полу
 
     ###########################################################################
     # Block
     ###########################################################################
 
     - key: block.data_from
-        t: foo
+      t: foo
 
     ###########################################################################
     # Options
@@ -184,7 +184,7 @@ translations:
     - key: user_info.locale.description
       t: Какой язык выбрали участники для прохождения опроса?
     - key: user_info.locale.note
-        t: >
+      t: >
         Эти данные получены автоматически на основе системных настроек респондента во время прохождении опроса;
         Отображены только те языки, на которых проходили опрос более 20 респондентов.
 
@@ -196,34 +196,34 @@ translations:
       t: Эти данные получены на основе самих ответов респондентов, источниках перехода на опрос и специальных меток в URL-адресе.
 
     - key: user_info.gender_by_country
-        t: Гендер по странам
+      t: Гендер по странам
     - key: user_info.gender_by_country.description
-        t: Гендерное распределение по странам с не менее 100 респондентами, отсортированное по убыванию от "усредненного пола" (каждому гендерному ключу присваивается целочисленное значение в порядке возрастания).
+      t: Гендерное распределение по странам с не менее 100 респондентами, отсортированное по убыванию от "усредненного пола" (каждому гендерному ключу присваивается целочисленное значение в порядке возрастания).
 
     - key: user_info.years_of_experience_by_salary
-        t: Опыт работы в зависимости от уровня зарплаты
+      t: Опыт работы в зависимости от уровня зарплаты
     - key: user_info.years_of_experience_by_salary.description
-        t: Опыт работы в зависимости от уровня зарплаты.
+      t: Опыт работы в зависимости от уровня зарплаты.
 
     - key: user_info.yearly_salary_by_country
-        t: Зарплата по странам
+      t: Зарплата по странам
     - key: user_info.yearly_salary_by_country.description
         t: Распределение годовых зарплат по странам с не менее 100 респондентами, отсортированное по убыванию средней зарплаты.
 
     - key: user_info.yearly_salary_by_degree
-        t: Зарплата в зависимости от высшего образования
+      t: Зарплата в зависимости от высшего образования
     - key: user_info.yearly_salary_by_degree.description
-        t: Распределение годовых зарплат в зависимости от наличия высшего образования, отсортированное по убыванию средней заработной платы.
+      t: Распределение годовых зарплат в зависимости от наличия высшего образования, отсортированное по убыванию средней заработной платы.
 
     - key: user_info.race_ethnicity_by_years_of_experience
-        t: Расовая и этническая принадлежность по опыту работы
+      t: Расовая и этническая принадлежность по опыту работы
     - key: user_info.race_ethnicity_by_years_of_experience.description
-        t: Расовое и этническое распределение по опыту работы, отсортированное по возрастанию среднего стажа.
+      t: Расовое и этническое распределение по опыту работы, отсортированное по возрастанию среднего стажа.
 
     - key: user_info.higher_education_degree_by_gender
-        t: Высшее образования в зависимости от пола
+      t: Высшее образования в зависимости от пола
     - key: user_info.higher_education_degree_by_gender.description
-        t: Высшее образования в зависимости от пола.
+      t: Высшее образования в зависимости от пола.
 
     ###########################################################################
     # Locales
@@ -512,36 +512,36 @@ translations:
     - key: blocks.recommended_resources
       t: Рекомендуемые ресурсы
 
-  # Brackets
-  - key: tool_evaluation.tool_evaluation_wins
-    t: Рейтинг факторов при выборе библиотеки
-  - key: tool_evaluation.tool_evaluation_wins.description
-    t: Какие факторы наиболее всего важны при оценке новой библиотеки? Результаты ранжируются по количеству выигранных пар.
+    # Brackets
+    - key: tool_evaluation.tool_evaluation_wins
+      t: Рейтинг факторов при выборе библиотеки
+    - key: tool_evaluation.tool_evaluation_wins.description
+      t: Какие факторы наиболее всего важны при оценке новой библиотеки? Результаты ранжируются по количеству выигранных пар.
 
-  - key: tool_evaluation.tool_evaluation_matchups
-    t: Рейтинг факторов при выборе библиотекиs (Пары)
-  - key: tool_evaluation.tool_evaluation_matchups.description
-    t: Какие факторы наиболее всего важны при оценке новой библиотеки? Процент пар, где левый фактор оказался важнее, чем верхний.
+    - key: tool_evaluation.tool_evaluation_matchups
+      t: Рейтинг факторов при выборе библиотекиs (Пары)
+    - key: tool_evaluation.tool_evaluation_matchups.description
+      t: Какие факторы наиболее всего важны при оценке новой библиотеки? Процент пар, где левый фактор оказался важнее, чем верхний.
 
-  - key: css_pain_points.css_pain_points_wins
-    t: Болевые точки CSS
-  - key: css_pain_points.css_pain_points_wins.description
-    t: Наиболее часто возникающая проблема при работе с CSS? Результаты ранжируются по количеству выигранных пар.
+    - key: css_pain_points.css_pain_points_wins
+      t: Болевые точки CSS
+    - key: css_pain_points.css_pain_points_wins.description
+      t: Наиболее часто возникающая проблема при работе с CSS? Результаты ранжируются по количеству выигранных пар.
 
-  - key: css_pain_points.css_pain_points_matchups
-    t: Болевые точки CSS (Пары)
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: Наиболее часто возникающая проблема при работе с CSS? Процент пар, где расположенная слева проблема чаще встречается по сравнению с верхней.
+    - key: css_pain_points.css_pain_points_matchups
+      t: Болевые точки CSS (Пары)
+    - key: css_pain_points.css_pain_points_matchups.description
+      t: Наиболее часто возникающая проблема при работе с CSS? Процент пар, где расположенная слева проблема чаще встречается по сравнению с верхней.
 
-  - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: Отсутствующие фичи в CSS
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: Какую из фичей в CSS вы хотели бы видеть сегодня? Результаты ранжируются по количеству выигранных пар.
+    - key: currently_missing_from_css.currently_missing_from_css_wins
+      t: Отсутствующие фичи в CSS
+    - key: currently_missing_from_css.currently_missing_from_css_wins.description
+      t: Какую из фичей в CSS вы хотели бы видеть сегодня? Результаты ранжируются по количеству выигранных пар.
 
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: Отсутствующие фичи в CSS (Пары)
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: Какую из фичей в CSS вы хотели бы видеть сегодня? Процент пар, где расположенная слева возможность оказалась более желаемой, чем верхняя.
+    - key: currently_missing_from_css.currently_missing_from_css_matchups
+      t: Отсутствующие фичи в CSS (Пары)
+    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+      t: Какую из фичей в CSS вы хотели бы видеть сегодня? Процент пар, где расположенная слева возможность оказалась более желаемой, чем верхняя.
 
     ###########################################################################
     # Charts
