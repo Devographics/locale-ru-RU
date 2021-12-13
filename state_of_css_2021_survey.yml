@@ -1,17 +1,357 @@
 locale: ru
-namespace: css
 translations:
     ###########################################################################
-    # General
+    # Introduction
     ###########################################################################
 
-    - key: general.survey_intro_css2021
+    - key: sections.introduction.description
+      t: |
+
+            <span class="first-letter">Д</span>олжны ли плотники каждые пару лет осваивать новый, более совершенный способ обработки дерева? Чувствуют ли себя самозванцами художники, использующие до сих пор масляные краски? Или только нам, фронтенд-разработчикам, приходится жить с постоянными переменами?
+
+            Поскольку медиавыражения от контейнера и многие другие фичи уже не за горами, всё очень быстро развивается. Да и нам самим нужно не отставать, так что в результатах опроса этого года есть парочка нововведений!
+
+            В частности стоит отметить сопоставление двух наборов данных, например, годовой зарплаты от уровня опыта или пола в зависимости от страны. Вы увидите некоторые из этих разбивок в отчёте, но мы рекомендуем проанализировать полученные результаты самим, используя [публичный API](https://api.stateofjs.com/) или [загрузив данные в виде JSON-файла](https://www.kaggle.com/sachag/state-of-css). Дайте нам знать, если вы создадите собственные визуализации данных!
+
+            А теперь давайте посмотрим, как использовали CSS в этом году!
+
+            *Примечание: из-за нехватки времени нам пришлось перенести проведение опроса [State of JavaScript](http://stateofjs.com/) за 2021 год на январь 2022. Поэтому ещё увидимся после всех праздников!*
+
+            <span class="conclusion__byline">– Саша Грейф</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: Футболка
+
+    - key: sections.tshirt.description
+      t: |
+          ## Поддержите наш опрос, купив футболку!
+
+          Едва ли кто-то бы скучал по плохому качеству видео, громоздким кассетам и необходимостью перематывать назад, — неизменными атрибутами эпохи VHS. Но вот чего *точно* не хватает, так это удивительного и неповторимого дизайна обложек VHS-кассет из 90-х годов.
+
+          Но теперь, благодаря талантливому Кристоферу Кирк-Нильсену, вы можете наслаждаться всей этой невероятно крутой ретро-графикой и одновременно показать свою любовь к CSS!
+
+    - key: tshirt.about
+      t: Подробнее о футболке
+
+    - key: tshirt.description
+      t: |
+          Наша приталенная футболка сделана из высококачественной супер-мягкой ткани, состоящей из трёх материалов (трибленд), создаваемая нашими партнёрами Cotton Bureau.
+
+    - key: tshirt.getit
+      t: Заказать
+
+    - key: tshirt.price
+      t: 29 долларов (без доставки)
+
+    - key: tshirt.designer.heading
+      t: О дизайнере футболки
+
+    - key: tshirt.designer.name
+      t: Кристофер Кирк-Нильсен
+
+    - key: tshirt.designer.bio
+      t: |
+          Родом из Франции, но сейчас проживающий в США, Крис — не только крутой фронтендер, но и талантливый иллюстратор, специализирующийся на дизайне в стиле ретро. Мы рекомендуем вам ознакомиться с его [другими оформлениями футболок](https://chriskirknielsen.com/designs)!
+
+    ###########################################################################
+    # Sections Introductions
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+         В опросе этого года поучаствовали *8714* разработчиков со всего мира, и для
+         того, чтобы лучше отметить разнообразие мнений и сделать более точные выводы, мы не жалея сил
+         добавили новые способы представления полученных данных.
+
+    - key: sections.features.description
+      t: |
+          CSS продолжает бурно развивается и явно не собирается останавливаться на достигнутом, так что разработчики
+          пробуют использовать новые доступные возможности и ожидают еще больше фичей в ближайшие несколько лет.
+
+    - key: sections.technologies.description
+      t: |
+          Поскольку около 50% респондентов с удовольствием используют одну или несколько библиотек для реализации
+          подхода CSS-in-JS, можно с уверенностью сказать, что этому методу стилизации удалось отвоевать свою нишу.
+          Может быть, две стороны фронтенд-мира всё-таки не так и сильно отличаются друг от друга?
+
+    - key: sections.tools_others.description
+      t: |
+          Выбор той или иной технологии часто усложняется наличием конкурирующих между собой приоритетами,
+          так что в этом году мы попытались представить этот процесс с помощью нового формата вопросов в виде турнира.
+
+    - key: sections.environments.description
+      t: |
+          В веб-разработке доступность долгое время оставалась на втором плане, однако сейчас многие разработчики
+          понимают, что на самом деле она должна быть фундаментом, на котором держится всё остальное.
+
+    - key: sections.resources.description
+      t: |
+          Если ранее мы только делали акцент на блогах, подкастах и сайтах,
+          то в этом году мы решили пойти ещё дальше и рассказать о людях, из которых состоит сообщество CSS!
+
+    - key: sections.opinions.description
+      t: |
+          Будь то проблемы, которые тормозят вас сегодня, или недостающие фичи, которые вы использовать завтра,
+          это был ваш шанс высказаться и пожаловаться на CSS!
+
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.gender.note
+      t: |
+          Если вас интересуют подробности гендерной динамики опроса, мы [написали пост в блоге об этом](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj).
+
+    - key: blocks.currently_missing_from_css.note
+      t: |
+          С полным наборам ответов на этот вопрос можно ознакомиться в [нашем специальном проекте](https://whatsmissingfromcss.com/).
+
+    - key: blocks.source.note
       t: >
-          Эй, привет, CSS, чем ты занимался в последнее время? `@container`, да неужели? О, ещё
-          intrinsic-свойствами? Что и даже `@property`?! Да уж, ты времени зря не терял!
+
+        Эта диаграмма объединяет набор ссылок, URL-параметры и ответы в свободной форме (на английском языке).
+
+        - State of JS:  почтовая рассылка [State of JS](https://stateofjs.com).
+
+        - State of CSS: почтовая рассылка State of CSS; сюда относятся ответы, содержащие `email`, `by email` и т.д.
+
+        - Work: ответы, включающие `work`, `colleagues`, `coworkers` и т.д.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: В 2021 году с отрывом в **{value}** функции сравнения CSS стали неотъемлемой частью инструментария разработчика, активно работающего с CSS.
+
+    # - key: award.tool_usage_delta_award.comment
+    #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+    - key: award.tool_satisfaction_award.comment
+      t: С высокой степенью удовлетворённости в **{value}**, PostCSS вновь завоевал первое место.
+
+    - key: award.tool_interest_award.comment
+      t: CSS-модули снова вызвали наибольший интерес (**{value}**) среди CSS-разработчиков в этом году.
+
+    # - key: award.most_write_ins_award.comment
+    #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
 
 
-          Несмотря на то, что пандемия продолжала осложнять жизнь всем нам в течение 2021 года,
-          каким-то образом самоотверженным людям по всему миру удавалось двигать вперёд CSS.
-          И вот снова пришло время исследовать экосистему CSS и выяснить, что с ней происходит.
-          А может быть попутно ещё и узнать о чём-то новом!
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            <span class="first-line">The way you write CSS is about to change forever.</span>
+
+            На протяжении многих лет множество способов написания стилей реализовывались в других местах: в препроцессорах, JavaScript-фреймворках, или компиляторах. Конечно, в самом CSS также появились долгожданные улучшения, такие как [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) или [кастомные свойства](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Тем не менее, мы по-прежнему регулярно обращаемся к библиотекам и другим вспомогательным утилитам.
+
+            Но грядут перемены: язык CSS прогрессирует и совершенствуется, и сейчас мы находимся на переднем крае ускоренной эволюции.
+
+            [Выражения от контейнера](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) откроют совершенно новую эру отзывчивого дизайна, а [каскадные слои](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) значительно упростят использование фреймворков, тематизацию и управление проектами с большой кодовой базой.
+
+            Если заглянуть немного в будущее, то можно увидеть, что на подходе [условные конструкции @when/else](https://css-tricks.com/proposal-for-css-when/), которые позволят нам объединить различные типы выражений — @media, @container и @supports — в одно @-правило.
+
+            И, скрестив пальцы, будем надеяться, что в следующем 2022 году мы, наконец, увидим реальные подвижки в сторону нативной вложенности CSS. Определённо, те кто сейчас используют Sass и PostCSS, уже не смогут представить себе CSS-код по-другому.
+
+            Учитывая всё это, в 2022 году, скорее всего, кардинально изменится способ написания нативного CSS-кода. Это очень захватывающе, поэтому с нетерпением ожидаем всех этих крутых фич в следующем году.
+
+    - key: conclusion.bio
+      t: Веб-разработчик и создатель Polypane
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_pick
+      t: 'Моё открытие в 2021 году: '
+    - key: picks.intro
+      t: Мы попросили участников CSS-сообщества поделиться своим ”открытием года”
+
+    - key: picks.georgedoescode.name
+      t: CSS Paint API
+    - key: picks.georgedoescode.bio
+      t: Разработчик, писатель и плодотворный художник.
+    - key: picks.georgedoescode.description
+      t: |
+            Paint API позволяет нам программно создавать изображения,
+            которые можно было бы использовать в CSS-коде. Это открывает большой простор для творчества,
+            что мне очень по душе!
+
+    - key: picks.cassidoo.name
+      t: Линн Фишер (Lynn Fisher)
+    - key: picks.cassidoo.bio
+      t: ИТ-евангелист, преподаватель и консультант по стартапам.
+    - key: picks.cassidoo.description
+      t: |
+            Линн Фишер постоянно удивляет и восхищает CSS-сообщество
+            своими творческими проектами и экспериментами,
+            и мне нравится, как многому люди могут у нее научиться!
+
+    - key: picks.joshwcomeau.name
+      t: Амелия Ваттенбергер (Amelia Wattenberger)
+    - key: picks.joshwcomeau.bio
+      t: Программист и автор [CSS for JavaScript Developers](https://css-for-js.dev/).
+    - key: picks.joshwcomeau.description
+      t: |
+            Амелия пишет одни из самых удивительных
+            интерактивных постов в своём блоге про CSS и JS.
+            Просто откройте пост о том, как работают проценты в CSS!
+
+    - key: picks.kevinjpowell.name
+      t: Стефани Экклс (Stephanie Eckles)
+    - key: picks.kevinjpowell.bio
+      t: CSS-евангелист
+    - key: picks.kevinjpowell.description
+      t: |
+            Я постоянно поражаюсь постоянным стремлением Стефани
+            делиться своими знаниями о современных методах CSS,
+            а также ее заразительный энтузиазм касательно CSS.
+
+    - key: picks.mmatuzo.name
+      t: aspect-ratio
+    - key: picks.mmatuzo.bio
+      t: Фронтенд-разработчик из Вены, создатель [htmhell.dev](https://htmhell.dev).
+    - key: picks.mmatuzo.description
+      t: |
+            В 2021 году все основные браузеры поддерживают aspect-ratio.
+            Поначалу я недооценивал это свойство, но есть довольно много ситуаций,
+            когда это оно может пригодиться.
+
+    - key: picks.lauragift_.name
+      t: Кевин Пауэлл (Kevin Powell)
+    - key: picks.lauragift_.bio
+      t: Фронтенд-разработчик и контент-автор
+    - key: picks.lauragift_.description
+      t: |
+            Кевин снимает классные видеоролки по CSS на YouTube, и мне они очень нравятся.
+            У него действительно хорошо получается рассказывать про CSS-концепции так,
+            что это одновременно доступно и понятно.
+
+    - key: picks.ericwbailey.name
+      t: Мириам Сюзанн (Miriam Suzanne)
+    - key: picks.ericwbailey.bio
+      t: Inclusive Design and \#a11y евангелист.
+    - key: picks.ericwbailey.description
+      t: |
+            CSS скоро превратится из хорошего в великое.
+            Работа Мириам над выражениями от контейнера и каскадными слоями
+            произведёт революцию в написании CSS.
+
+    - key: picks.samuelkraft.name
+      t: Vanilla Extract
+    - key: picks.samuelkraft.bio
+      t: Фронтедер и дизайнер
+    - key: picks.samuelkraft.description
+      t: |
+            В последнее время мне нравится работать с Vanilla Extract, — это как CSS Modules,
+            но полностью типизированный, и очень приятный для разработчика.
+
+    - key: picks.sachagreif.name
+      t: Open Props
+    - key: picks.sachagreif.bio
+      t: Создатель State of JS и State of CSS
+    - key: picks.sachagreif.description
+      t: |
+            Очень интересно наблюдать, как одни новые CSS-возможности используются
+            в новых проектах! И я думаю, что Open Props Адама Аргайла (Adam Argyle)
+            — это отличный набор кастомных свойств (CSS-переменных).
+
+    - key: picks.shadeed9.name
+      t: Медиавыражения от контейнера
+    - key: picks.shadeed9.bio
+      t: Автор книги [Debugging CSS](https://debuggingcss.com/) и блога [ishadeed.com](http://ishadeed.com)
+    - key: picks.shadeed9.description
+      t: |
+            В этом году мой выбор снова пал на медиавыражения от контейнера в CSS! Однако теперь мы можем поэкспериментировать с ними в браузере.
+            Спасибо Мириам Сюзанне за то, что помогла в этом деле!
+            Не могу дождаться, когда появится возможность свободно использовать эту фичу.
+
+    # - key: picks.georgedoescode.name
+    #   t:
+    # - key: picks.georgedoescode.bio
+    #   t:
+    # - key: picks.georgedoescode.description
+    #   t: |
+
+    - key: picks.argyleink.name
+      t: CSS Noise
+    - key: picks.argyleink.bio
+      t: Пишет CSS в Google
+    - key: picks.argyleink.description
+      t: |
+            Сгенерированные CSS текстуры и случайность позволяют создать уникальное
+            и интересное оформление.
+            Инструменты для работы с шумом сделали эту технику доступной.
+
+    - key: picks.walterstephanie.name
+      t: Мириам Сюзанн (Miriam Suzanne)
+    - key: picks.walterstephanie.bio
+      t: UX-эксперт и любительница CSS
+    - key: picks.walterstephanie.description
+      t: |
+            Мириам — художница и активистка, создающая приложения и произведения искусства. Она эксперт в CSS и упорно работает над CSS-спецификациями для медиавыражений от контейнера.
+
+    # - key: picks.sachagreif.bio
+    #   t: Creator of this survey
+    # - key: picks.sachagreif.description
+    #   t: |
+    #         With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade.
+
+    # - key: picks.christianoliff.bio
+    #   t: Front-end developer for Trimble MAPS
+    # - key: picks.christianoliff.description
+    #   t: |
+    #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+    # - key: picks.kilianvalkhof.bio
+    #   t: Web developer and creator of Polypane
+    # - key: picks.kilianvalkhof.description
+    #   t: |
+    #       `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
+
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
+    #   t: |
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    # - key: picks.sarasoueidan.bio
+    #   t: Independent UI/design engineer
+    # - key: picks.sarasoueidan.description
+    #   t: |
+    #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+    # - key: picks.5t3ph.bio
+    #   t: Software Engineer @ Microsoft
+    # - key: picks.5t3ph.description
+    #   t: |
+    #       In this conference talk, Manuel Matuzovic provides thoughtfully
+    #       crafted examples that are engaging, approachable, and actionable.
+
+    # - key: picks.hugogiraudel.bio
+    #   t: Non-binary accessibility & diversity advocate
+    # - key: picks.hugogiraudel.description
+    #   t: |
+    #       Fela is an amazing piece of software.
+    #       It’s pretty powerful, relatively easy to use and very performant
+
+    # - key: picks.foolip.bio
+    #   t: Software Engineer @ Google
+    # - key: picks.foolip.description
+    #   t: |
+    #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium,
+    #       notably bringing flex gap to WebKit,
+    #       which means that soon it will be available on all modern browsers.
+
+    # - key: picks.jina.bio
+    #   t: Design systems advocate and practitioner
+    # - key: picks.jina.description
+    #   t: |
+    #       The media query to reduce motion, which helps avoid
+    #       triggering dizziness and discomfort.

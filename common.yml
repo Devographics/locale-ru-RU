@@ -26,22 +26,24 @@ translations:
         Сейчас вы просматриваете опрос в режиме только для чтения.
     - key: general.survey_preview
       t: >
-          this survey is in preview mode. Its questions are subject to change, and all
-          inputted data will be deleted when the actual survey starts.
+          Данный опрос находится в режиме предварительного просмотра. Вопросы могут быть
+          изменены, а ответы будут удалены, когда начнётся реальный опрос.
 
     - key: general.survey_read_only_back
       t: >
         <a href="{link}">Вернитесь</a> на главную страницу опроса, чтобы начать или возобновить сессию.
+    - key: general.take_survey
+      t: Перейти к опросу {name} за {year}
 
     # surveys
     - key: general.open_surveys
       t: Открытые опросы
     - key: general.no_open_surveys
-      t: В настоящее время нет открытых опросов.
+      t: Сейчас нет открытых опросов.
     - key: general.closed_surveys
       t: Проведённые опросы
     - key: general.no_closed_surveys
-      t: No surveys are currently closed.
+      t: Сейчас нет закрытых опросов.
     - key: general.preview_surveys
       t: Предварительные опросы
     - key: general.no_preview_surveys
@@ -56,6 +58,10 @@ translations:
       t: Предварительный просмотр опроса »
     - key: general.finish_survey
       t: Завершить опрос »
+    - key: general.next_section
+      t: Следующий раздел
+    - key: general.prev_section
+      t: Предыдущий раздел
     - key: general.survey_closed
       t: Опрос уже закрыт.
     - key: general.survey_results
@@ -69,7 +75,7 @@ translations:
     - key: general.translation_help
       t: Помощь с переводами
     - key: general.newly_added
-      t: Newly added this year
+      t: Добавленное в этом году
 
     # credits
     - key: credits.thanks
@@ -80,6 +86,17 @@ translations:
       t: Дизайн опроса
     - key: credits.logo_design
       t: Дизайн логотипа
+    - key: credits.mobile_testing
+      t: Мобильное тестирование
+    - key: credits.data_visualizations
+      t: Визуализация данных
+    - key: credits.repo_architecture
+      t: Архитектура репозитория
+    - key: credits.code_refactoring
+      t: Рефакторинг кода
+    - key: credits.data_processing
+      t: Обработка данных
+
 
     # support
     - key: general.support_from
@@ -102,13 +119,13 @@ translations:
     - key: general.data_is_saved
       t: Все ваши ответы сохраняются при переходе к предыдущему или следующему разделу.
     - key: general.close_nav
-      t: Close menu
+      t: Закрыть меню
     - key: general.open_nav
-      t: Open menu
+      t: Открыть меню
     - key: general.more_actions
-      t: More actions
+      t: Дополнительные действия
     - key: general.skip_to_content
-      t: Skip to content
+      t: Перейти к основному содержимому
 
     # thanks
     - key: general.back
@@ -119,8 +136,7 @@ translations:
 
         Ваши ответы сохранены. До завершения опроса вы можете посмотреть или изменить их.
 
-        Кроме того, вы поможете нам, если расскажите другим людям об этом опросе.
-        Даже небольшая ваша активность поможет
+        Кроме того, вы поможете нам, если расскажите другим людям об этом опросе. Даже небольшая ваша активность поможет
         повысить точность опроса:
     - key: thanks.learn_more_about
       t: "Некоторые возможности, которые хорошо бы вам изучить:"
@@ -149,7 +165,7 @@ translations:
     - key: forms.select_option
       t: Выбрать вариант
     - key: forms.clear_field
-      t: Clear question
+      t: Отменить ответ
 
     # partners
     - key: partners.our_partners
@@ -210,7 +226,7 @@ translations:
       t: Какие из представленных инструментов и технологий вы регулярно используете.
 
     - key: sections.report.title
-      t: Trend Report
+      t: Отчёт о тенденциях
 
     ###########################################################################
     # Options
@@ -218,11 +234,11 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Впервые слышу/Не уверен, что это
+      t: <span aria-hidden="true">🤷</span> Впервые слышу/Не уверен, что это
     - key: options.features.heard
-      t: ✅ Знаю, но не использовал
+      t: <span aria-hidden="true">✅</span> Знаю, но не использовал
     - key: options.features.used
-      t: 👍 Использовал
+      t: <span aria-hidden="true">👍</span> Использовал
 
     # features (no emoji)
     - key: options.features.never_heard.label
@@ -254,15 +270,15 @@ translations:
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Впервые слышу/Не уверен, что это
+      t: <span aria-hidden="true">🤷</span> Впервые слышу/Не уверен, что это
     - key: options.tools.interested
-      t: ✅ Слышал об этом > Хочу изучить
+      t: <span aria-hidden="true">✅</span> Слышал об этом > Хочу изучить
     - key: options.tools.not_interested
-      t: 🚫 Слышал об этом > Не интересно
+      t: <span aria-hidden="true">🚫</span> Слышал об этом > Не интересно
     - key: options.tools.would_use
-      t: 👍 Использовал > Буду использовать снова
+      t: <span aria-hidden="true">👍</span> Использовал > Буду использовать снова
     - key: options.tools.would_not_use
-      t: 👎 Использовал > Больше не буду использовать
+      t: <span aria-hidden="true">👎</span> Использовал > Больше не буду использовать
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
@@ -342,11 +358,29 @@ translations:
     - key: options.age.range_more_than_65
       t: 65 лет или старше
 
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: '<10'
+    - key: options.age.range_10_18.short
+      t: 10-18
+    - key: options.age.range_18_24.short
+      t: 18-24
+    - key: options.age.range_25_34.short
+      t: 24-34
+    - key: options.age.range_35_44.short
+      t: 35-44
+    - key: options.age.range_45_54.short
+      t: 45-54
+    - key: options.age.range_55_64.short
+      t: 55-64
+    - key: options.age.range_more_than_65.short
+      t: '>65'
+
     # years of experience
     - key: options.years_of_experience.range_less_than_1
       t: Менее одного года
     - key: options.years_of_experience.range_1_2
-      t: От 1 до 2 лет
+      t: От 1 до 2 года
     - key: options.years_of_experience.range_2_5
       t: От 2 до 5 лет
     - key: options.years_of_experience.range_5_10
@@ -358,17 +392,17 @@ translations:
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
-      t: "<1"
+      t: '<1 года'
     - key: options.years_of_experience.range_1_2.short
-      t: 1-2
+      t: 1-2 года
     - key: options.years_of_experience.range_2_5.short
-      t: 2-5
+      t: 2-5 лет
     - key: options.years_of_experience.range_5_10.short
-      t: 5-10
+      t: 5-10 лет
     - key: options.years_of_experience.range_10_20.short
-      t: 10-20
+      t: 10-20 лет
     - key: options.years_of_experience.range_more_than_20.short
-      t: ">20"
+      t: '>20 лет'
 
     # company size
     - key: options.company_size.range_1
@@ -459,20 +493,18 @@ translations:
       t: Бэкенд-разработчик/инженер
 
     # JavaScript proficiency
-
     - key: options.javascript_proficiency.0
       t: Не пишу на JavaScript
     - key: options.javascript_proficiency.1
-      t: Пишу короткие, простые выражения на JavaScript или jQuery
+      t: Пишу короткие, простые скрипты на JavaScript или jQuery
     - key: options.javascript_proficiency.2
       t: Работаю с фронтендом, используя современные фреймворки (React, Vue и т.д.)
     - key: options.javascript_proficiency.3
       t: Могу написать фронтенд с нуля
     - key: options.javascript_proficiency.4
-      t: Владею продвинутыми фронтенд-паттернами (управление состоянием, загрузка данных и т.д.)
+      t: Владею продвинутыми фронтенд-техниками (управление состоянием, загрузка данных и т.д.)
 
     # CSS proficiency
-
     - key: options.css_proficiency.0
       t: Практически не знаю CSS
     - key: options.css_proficiency.1
@@ -485,7 +517,6 @@ translations:
       t: Могу взять на себя стилизацию всего фронтенда с нуля, следуя единой методологии
 
     # Back-end proficiency
-
     - key: options.backend_proficiency.0
       t: Не работаю с бэкендом
     - key: options.backend_proficiency.1
@@ -519,7 +550,24 @@ translations:
       t: Небинарный/Третий пол
     - key: options.gender.questioning
       t: Под вопросом
+    - key: options.gender.prefer_not_to_say
+      t: Это не важно
     - key: options.gender.not_listed
+      t: Ничего из вышеперечисленного
+
+    # Gender (short)
+
+    - key: options.gender.female.short
+      t: Женский
+    - key: options.gender.male.short
+      t: Мужской
+    - key: options.gender.non_binary.short
+      t: Небинарный/гендерно-неконформный
+    - key: options.gender.questioning.short
+      t: Под вопросом
+    - key: options.gender.prefer_not_to_say.short
+      t: Это не важно
+    - key: options.gender.not_listed.short
       t: Ничего из вышеперечисленного
 
     # Race & Ethnicity
@@ -547,6 +595,31 @@ translations:
     - key: options.race_ethnicity.not_listed
       t: Ничего из вышеперечисленного
 
+    # Race & Ethnicity (short)
+
+    - key: options.race_ethnicity.white_european.short
+      t: Белый
+    - key: options.race_ethnicity.south_asian.short
+      t: Уроженец Южной Азии
+    - key: options.race_ethnicity.south_east_asian.short
+      t: Уроженец Юго-Восточной Азии
+    - key: options.race_ethnicity.hispanic_latin.short
+      t: Испанец/латиноамериканец
+    - key: options.race_ethnicity.east_asian.short
+      t: Уроженец Восточной Азии
+    - key: options.race_ethnicity.middle_eastern.short
+      t: Уроженец Ближнего Востока
+    - key: options.race_ethnicity.black_african.short
+      t: Чёрный/африканец
+    - key: options.race_ethnicity.multiracial.short
+      t: Метис
+    - key: options.race_ethnicity.biracial.short
+      t: Представитель двух рас
+    - key: options.race_ethnicity.native_american_islander_australian.short
+      t: Коренной американец/уроженец островов Тихого океана/коренной австралиец
+    - key: options.race_ethnicity.not_listed.short
+      t: Ничего из вышеперечисленного
+
     # Disability Status
     - key: options.disability_status.visual_impairments
       t: >
@@ -560,6 +633,23 @@ translations:
     - key: options.disability_status.cognitive_impairments
       t: >
         Когнитивные нарушения (например, тревожность, дислексия и т.д.)
+    - key: options.disability_status.not_listed
+      t: >
+        Ничего из вышеперечисленного
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: >
+        Нарушения зрения
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Нарушения слуха
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Нарушения подвижности
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Когнитивные нарушения
     - key: options.disability_status.not_listed
       t: >
         Ничего из вышеперечисленного
@@ -676,6 +766,8 @@ translations:
     - key: options.tool_evaluation.community_inclusivity.description
       t: Вокруг неё гостеприимное и активное сообщество?
 
+
+
     # accessibility features
     - key: options.accessibility_features.keyboard_navigation
       t: Навигация с помощью клавиатуры
@@ -725,6 +817,22 @@ translations:
       t: Да, в области, связанной с моей текущей профессией
     - key: options.higher_education_degree.yes_unrelated
       t: Да, но в области, не связанной с моей текущей профессией
+
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: Нет
+    - key: options.higher_education_degree.yes_related.short
+      t: Да, профильное
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: Yes, непрофильное
+
+    # bracket
+    - key: options.bracket.round1
+      t: Round 1 wins
+    - key: options.bracket.round2
+      t: Round 2 wins
+    - key: options.bracket.round3
+      t: Round 3 wins
 
     ###########################################################################
     # Tools
@@ -798,21 +906,32 @@ translations:
       t: Пол
     - key: user_info.gender.description
       t: >
-        We use this data to help track and improve the survey's representativeness.
+        Мы используем ответ для отслеживания и улучшения доступности и репрезентативности опроса
+    - key: user_info.gender.note
+      t: >
+        Хотя мы понимаем, что сбор и публикация данных о многообразии людей может быть щекотливой темой,
+        нам всё же важно запросить эту информацию,
+        чтобы оценить репрезентативность относительно инклюзивности.
 
     # race & ethnicity
     - key: user_info.race_ethnicity
       t: Раса и этническая принадлежность
     - key: user_info.race_ethnicity.description
       t: >
-        We use this data to help track and improve the survey's representativeness.
+        Что из перечисленного ниже относится к вам (если есть)? Пожалуйста, отметьте всё, что подходит к вам.
+    - key: user_info.race_ethnicity.note
+      t: >
+        Хотя мы понимаем, что сбор и публикация данных о многообразии людей может быть щекотливой темой,
+        нам всё же важно запросить эту информацию,
+        чтобы оценить репрезентативность относительно инклюзивности.
 
     # disability status
     - key: user_info.disability_status
       t: Статус инвалидности
     - key: user_info.disability_status.description
       t: >
-        We use this data to help track and improve the survey's accessibility and representativeness.
+        Что из перечисленного ниже имеет к вам отношение (если есть)? Пожалуйста, отметьте все подходящие варианты.
+        Обратите внимание, временная нетрудоспособность или травмы также учитываются.
 
     # disability status (other)
     - key: user_info.disability_status.others
@@ -825,6 +944,8 @@ translations:
       t: Ваша электронная почта
     - key: user_info.country
       t: Страна проживания
+    - key: user_info.country.description
+      t: Где вы сейчас живёте?
 
     - key: user_info.github_username
       t: Ваш логин на GitHub

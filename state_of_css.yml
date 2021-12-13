@@ -209,6 +209,41 @@ translations:
     - key: options.css_pain_points.performance_issues.description
       t: Исправление скачков прокрутки, создание более плавных анимаций и т.д.
 
+
+    # CSS missing features (same as features section)
+    - key: options.currently_missing_from_css.nesting
+      t: Вложенность
+    - key: options.currently_missing_from_css.nesting.description
+      t: Возможность создавать вложенные стили в чистом CSS.
+    - key: options.currently_missing_from_css.parent_selector
+      t: Родительский селектор
+    - key: options.currently_missing_from_css.parent_selector.description
+      t: Возможность обращаться к родительскому элементу из его дочерних.
+    - key: options.currently_missing_from_css.browser_support
+      t: Поддержка браузерами
+    - key: options.currently_missing_from_css.browser_support.description
+      t: Улучшение поддержки браузерами существующих CSS-возможностей.
+    - key: options.currently_missing_from_css.mixins
+      t: Миксины
+    - key: options.currently_missing_from_css.mixins.description
+      t: Группировка и переиспользование стилей.
+    - key: options.currently_missing_from_css.color_functions
+      t: Цветовые функции
+    - key: options.currently_missing_from_css.color_functions.description
+      t: Функции для работы со значениями цвета.
+    - key: options.currently_missing_from_css.container_queries
+      t: Выражения от контейнера
+    - key: options.currently_missing_from_css.container_queries.description
+      t: Возможность писать стили в зависимости от размеров родительского контейнера.
+    - key: options.currently_missing_from_css.scoping
+      t: Область видимости
+    - key: options.currently_missing_from_css.scoping.description
+      t: Возможность более точно задать, где должны применятся стили.
+    - key: options.currently_missing_from_css.subgrid
+      t: Сабгрид
+    - key: options.currently_missing_from_css.subgrid.description
+      t: Создание вложенных подгридов внутри родительского грида.
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -425,7 +460,6 @@ translations:
     # Units & Selectors
     ###########################################################################
 
-    # units & selectors
     - key: features_others.units
       t: Единицы измерения
     - key: features_others.units.description
@@ -722,6 +756,13 @@ translations:
       t: CSS одним словом
     - key: opinions.sum_up_one_word_css.description
       t: Как вы бы выразили своё мнение о CSS одним словом?
+
+    - key: happiness.pre_post_processors
+      t: Насколько вы удовлетворены текущим состоянием пре/постпроцессоров?
+    - key: happiness.css_in_js
+      t: Насколько вы удовлетворены текущим состоянием библиотек, реализующие подход CSS-in-JS?
+    - key: happiness.css_frameworks
+      t: Насколько вы удовлетворены текущим состоянием CSS-фреймворков?
 
     - key: happiness.state_of_the_web
       t: Насколько вы удовлетворены текущим состоянием веб-технологий?
