@@ -77,11 +77,11 @@ translations:
       t: Узнаваемость
 
     - key: options.features_mode.grouped
-      t: Grouped
+      t: Сгруппированный
     - key: options.features_mode.awareness_rank
-      t: By Awareness
+      t: По узнаваемости
     - key: options.features_mode.usage_rank
-      t: By Usage
+      t: По использованию
     - key: options.features_mode.usage_ratio_rank
       t: By Usage Ratio
 
@@ -125,6 +125,8 @@ translations:
       t: Блоги
     - key: options.first_steps.forums
       t: Форумы
+    - key: options.first_steps.view_source
+      t: Посмотреть источник
 
     # other disablities
     - key: options.disability_status_others.adhd
@@ -160,6 +162,9 @@ translations:
 
     - key: sections.conclusion.title
       t: Заключение
+
+    - key: sections.about.title
+      t: О проекте
 
     - key: sections.support.title
       t: Поддержите нас
@@ -214,6 +219,11 @@ translations:
       t: Зарплата в зависимости от высшего образования
     - key: user_info.yearly_salary_by_degree.description
       t: Распределение годовых зарплат в зависимости от наличия высшего образования, отсортированное по убыванию средней заработной платы.
+
+    - key: user_info.yearly_salary_by_experience
+      t: Зарплата в зависимости от опыта
+    - key: user_info.yearly_salary_by_experience.description
+      t: Распределение годовых зарплаты по опыту работы, отсортированное по убыванию средней зарплаты.
 
     - key: user_info.race_ethnicity_by_years_of_experience
       t: Расовая и этническая принадлежность по опыту работы
@@ -519,7 +529,7 @@ translations:
       t: Какие факторы наиболее всего важны при оценке новой библиотеки? Результаты ранжируются по количеству выигранных пар.
 
     - key: tool_evaluation.tool_evaluation_matchups
-      t: Рейтинг факторов при выборе библиотекиs (Пары)
+      t: Рейтинг факторов при выборе библиотеки (Пары)
     - key: tool_evaluation.tool_evaluation_matchups.description
       t: Какие факторы наиболее всего важны при оценке новой библиотеки? Процент пар, где левый фактор оказался важнее, чем верхний.
 
