@@ -742,7 +742,7 @@ translations:
     - key: options.tool_evaluation.momentum_popularity.description
       t: Вызывает ли она сейчас большой ажиотаж?
     - key: options.tool_evaluation.user_base_size
-      t: Количество пользователей
+      t: Число людей
     - key: options.tool_evaluation.user_base_size.description
       t: Хорошо ли она себя зарекомендовала на протяжении многих лет?
     - key: options.tool_evaluation.developer_experience_tooling
@@ -824,15 +824,15 @@ translations:
     - key: options.higher_education_degree.yes_related.short
       t: Да, профильное
     - key: options.higher_education_degree.yes_unrelated.short
-      t: Yes, непрофильное
+      t: Да, непрофильное
 
     # bracket
     - key: options.bracket.round1
-      t: Round 1 wins
+      t: Победил в 1 раунде
     - key: options.bracket.round2
-      t: Round 2 wins
+      t: Победил в 2 раунде
     - key: options.bracket.round3
-      t: Round 3 wins
+      t: Победил в 3 раунде
 
     ###########################################################################
     # Tools
@@ -856,6 +856,9 @@ translations:
     # age
     - key: user_info.age
       t: Возраст
+    - key: user_info.age.description
+      t: Сколько вам лет?
+
 
     # years of experience
     - key: user_info.years_of_experience

@@ -1,895 +1,894 @@
 locale: ru-RU
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
-
-    - key: results.start
-      t: Поехали
-
-    - key: page.previous
-      t: 'Назад:'
-    - key: page.next
-      t: 'Вперёд:'
-
-    - key: general.state_of_css_link
-      t: State of CSS
-
-    - key: general.netlify_link
-      t: Сайт размещён на <a href="{link}">Netlify</a>.
-
-    - key: general.completion_percentage
-      t: 'Процент заполнения:'
-
-    - key: partners.thanks
-      t: Спасибо нашим партнёрам за поддержку!
-
-    - key: partners.learn_more
-      t: Подробнее.
-
-    - key: tabs.all_respondents
-      t: Общее количество
-    - key: tabs.main_answers
-      t: Main Answers
-    - key: tabs.other_answers
-      t: Other Answers
-    - key: tabs.bracket_wins
-      t: Wins
-    - key: tabs.bracket_matchups
-      t: Matchups
-    - key: tabs.chart
-      t: Chart
-    - key: tabs.data
-      t: Data
-    - key: tabs.share
-      t: Поделиться
-    - key: tabs.debug
-      t: Дебаг
-    - key: tabs.by_country
-      t: По стране
-    - key: tabs.by_experience
-      t: По опыту
-    - key: tabs.by_degree
-      t: По образованию
-    - key: tabs.by_salary
-      t: По зарплате
-    - key: tabs.by_gender
-      t: По полу
-
-    ###########################################################################
-    # Block
-    ###########################################################################
-
-    - key: block.data_from
-      t: foo
-
-    ###########################################################################
-    # Options
-    ###########################################################################
-
-    - key: options.experience_ranking.satisfaction
-      t: Удовлетворённость
-    - key: options.experience_ranking.interest
-      t: Заинтересованность
-    - key: options.experience_ranking.usage
-      t: Использование
-    - key: options.experience_ranking.awareness
-      t: Узнаваемость
-
-    - key: options.features_mode.grouped
-      t: Сгруппированный
-    - key: options.features_mode.awareness_rank
-      t: По узнаваемости
-    - key: options.features_mode.usage_rank
-      t: По использованию
-    - key: options.features_mode.usage_ratio_rank
-      t: By Usage Ratio
-
-    - key: options.features_simplified.know_it
-      t: Знаю
-    - key: options.features_simplified.used_it
-      t: Использовал
-    - key: options.features_simplified.usage_ratio
-      t: Процент использования
-
-    - key: options.quadrant.assess
-      t: ПРОБУЮТ
-    - key: options.quadrant.assess.long
-      t: |
-          ПРОБУЮТ: Низкая степень использования, высокая степень удовлетворённости. Технологии, на которые стоит обратить внимание.
-    - key: options.quadrant.adopt
-      t: ПРИМЕНЯЮТ
-    - key: options.quadrant.adopt.long
-      t: |
-          ПРИМЕНЯЮТ: Высокая степень использования, высокая степень удовлетворённости. Технологии, которые можно спокойно применять.
-    - key: options.quadrant.avoid
-      t: ИЗБЕГАЮТ
-    - key: options.quadrant.avoid.long
-      t: |
-          ИЗБЕГАЮТ: Низкая степень использования, высокая степень удовлетворённости. Технологии, которые лучше избегать в настоящий момент.
-    - key: options.quadrant.analyze
-      t: ОЦЕНИВАЮТ
-    - key: options.quadrant.analyze.long
-      t: |
-          ОЦЕНИВАЮТ: Высокая степень использования, низкая степень удовлетворенности. Технологии, над прекращением использования которых стоит задуматься.
-
-    - key: ranges.selector.years_of_experience
-      t: Опыт
-    - key: ranges.selector.yearly_salary
-      t: Зарплата
-    - key: ranges.selector.company_size
-      t: Размер компании
-
-    # other learning methods
-    - key: options.first_steps.blogs
-      t: Блоги
-    - key: options.first_steps.forums
-      t: Форумы
-    - key: options.first_steps.view_source
-      t: Посмотреть источник
-
-    # other disablities
-    - key: options.disability_status_others.adhd
-      t: СДВГ
-    - key: options.disability_status_others.autism
-      t: Аутизм
-    - key: options.disability_status_others.glasses
-      t: Очки
-    - key: options.disability_status_others.old
-      t: Старость
-    - key: options.disability_status_others.back_pain
-      t: Боль в спине
-    - key: options.disability_status_others.epilepsy
-      t: Эпилепсия
-    - key: options.disability_status_others.aspergers
-      t: Синдром Аспергера
-
-    ###########################################################################
-    # Sections
-    ###########################################################################
-
-    - key: sections.introduction.title
-      t: Введение
-
-    - key: sections.demographics.title
-      t: Демография
-
-    - key: sections.tshirt.title
-      t: Футболка
-
-    - key: sections.technologies.title
-      t: Технологии
-
-    - key: sections.conclusion.title
-      t: Заключение
-
-    - key: sections.about.title
-      t: О проекте
-
-    - key: sections.support.title
-      t: Поддержите нас
-    - key: sections.support.description
-      t: >
-          Это волонтёрский проект, но для того, чтобы сделать его устойчивым,
-          мы всегда ищем партнёров, которые могут оказать нам финансовую поддержку
-          или помочь распространить информацию.
-          Если вы хотите помочь нам, то, пожалуйста, не стесняйтесь [связаться с нами](mailto:hello@stateofjs.com)!
-
-    - key: sections.awards.title
-      t: Награды
-    - key: sections.awards.description
-      t: Что привлекло большее внимание в этом году.
-
-    ###########################################################################
-    # User Info
-    ###########################################################################
-
-    - key: user_info.locale
-      t: Язык
-    - key: user_info.locale.description
-      t: Какой язык выбрали участники для прохождения опроса?
-    - key: user_info.locale.note
-      t: >
-        Эти данные получены автоматически на основе системных настроек респондента во время прохождении опроса;
-        Отображены только те языки, на которых проходили опрос более 20 респондентов.
-
-    - key: user_info.source
-      t: Источник
-    - key: user_info.source.description
-      t: Откуда участники узнали об опросе?
-    - key: user_info.source.note
-      t: Эти данные получены на основе самих ответов респондентов, источниках перехода на опрос и специальных меток в URL-адресе.
-
-    - key: user_info.gender_by_country
-      t: Гендер по странам
-    - key: user_info.gender_by_country.description
-      t: Гендерное распределение по странам с не менее 100 респондентами, отсортированное по убыванию от "усредненного пола" (каждому гендерному ключу присваивается целочисленное значение в порядке возрастания).
-
-    - key: user_info.years_of_experience_by_salary
-      t: Опыт работы в зависимости от уровня зарплаты
-    - key: user_info.years_of_experience_by_salary.description
-      t: Опыт работы в зависимости от уровня зарплаты.
-
-    - key: user_info.yearly_salary_by_country
-      t: Зарплата по странам
-    - key: user_info.yearly_salary_by_country.description
-      t: Распределение годовых зарплат по странам с не менее 100 респондентами, отсортированное по убыванию средней зарплаты.
-
-    - key: user_info.yearly_salary_by_degree
-      t: Зарплата в зависимости от высшего образования
-    - key: user_info.yearly_salary_by_degree.description
-      t: Распределение годовых зарплат в зависимости от наличия высшего образования, отсортированное по убыванию средней заработной платы.
-
-    - key: user_info.yearly_salary_by_experience
-      t: Зарплата в зависимости от опыта
-    - key: user_info.yearly_salary_by_experience.description
-      t: Распределение годовых зарплаты по опыту работы, отсортированное по убыванию средней зарплаты.
-
-    - key: user_info.race_ethnicity_by_years_of_experience
-      t: Расовая и этническая принадлежность по опыту работы
-    - key: user_info.race_ethnicity_by_years_of_experience.description
-      t: Расовое и этническое распределение по опыту работы, отсортированное по возрастанию среднего стажа.
-
-    - key: user_info.higher_education_degree_by_gender
-      t: Высшее образования в зависимости от пола
-    - key: user_info.higher_education_degree_by_gender.description
-      t: Высшее образования в зависимости от пола.
-
-    ###########################################################################
-    # Locales
-    ###########################################################################
-
-    - key: options.locale.en-US
-      t: Английский
-    - key: options.locale.ca-ES
-      t: Каталанский
-    - key: options.locale.es-ES
-      t: Испанский
-    - key: options.locale.ru-RU
-      t: Русский
-    - key: options.locale.fr-FR
-      t: Французский
-    - key: options.locale.zh-Hant
-      t: Китайский (традиционный)
-    - key: options.locale.de-DE
-      t: Немецкий
-    - key: options.locale.cs-CZ
-      t: Чешский
-    - key: options.locale.pt-PT
-      t: Португальский
-    - key: options.locale.it-IT
-      t: Итальянский
-    - key: options.locale.sv-SE
-      t: Шведский
-    - key: options.locale.tr-TR
-      t: Турецкий
-    - key: options.locale.id-ID
-      t: Индонезийский
-    - key: options.locale.hi-IN
-      t: Хинди
-    - key: options.locale.zh-Hans
-      t: Китайский (упрощённый)
-    - key: options.locale.ja-JP
-      t: Японский
-    - key: options.locale.ua-UA
-      t: Украинский
-    - key: options.locale.pl-PL
-      t: Польский
-    - key: options.locale.fa-IR
-      t: Персидский
-    - key: options.locale.nl-NL
-      t: Голландский
-    - key: options.locale.ko-KR
-      t: Корейский
-    - key: options.locale.ro-RO
-      t: Румынский
-
-    ###########################################################################
-    # Features
-    ###########################################################################
-
-    - key: features.learn_more
-      t: Подробнее (MDN)
-    - key: features.mdn_link
-      t: MDN
-    - key: features.caniuse_link
-      t: Can I use
-    - key: features.specification_link
-      t: Спецификация на W3C
-
-    # knowledge score
-    - key: features.knowledge_score
-      t: Оценка знаний
-    - key: features.knowledge_score.description
-      t: Сколько CSS-возможностей знали участники опроса?
-
-    ###########################################################################
-    # Tools & Methodologies
-    ###########################################################################
-
-    # general
-    - key: tools.links
-      t: Ссылки
-    - key: tools.github_link
-      t: GitHub
-    - key: tools.github_stars
-      t: stars
-    - key: tools.homepage_link
-      t: Главная страница
-    - key: tools.npm_link
-      t: NPM
-    - key: tools.technology
-      t: Технология
-
-    ###########################################################################
-    # Blocks
-    ###########################################################################
-
-    # heatmaps
-    - key: blocks.tools_company_size_heatmap
-      t: Использование по размеру компании
-    - key: blocks.tools_company_size_heatmap.description
-      t: |
-          Степень распределения использования каждой технологии
-          в зависимости от размеров компании.
-
-    - key: blocks.tools_yearly_salary_heatmap
-      t: Использование по размеру зарплаты
-    - key: blocks.tools_yearly_salary_heatmap.description
-      t: |
-          Степень распределения использования каждой технологии
-          в зависимости от размеров зарплаты.
-
-    - key: blocks.tools_years_of_experience_heatmap
-      t: Использование по количеству опыта
-    - key: blocks.tools_years_of_experience_heatmap.description
-      t: |
-          Степень распределения использования каждой технологии в зависимости от опыта работы.
-          Обратите внимание, что учитывается общий опыт работы, а не с конкретной технологией.
-
-    # tool
-    - key: blocks.entity.homepage_link
-      t: Главная страница
-    - key: blocks.entity.github_link
-      t: GitHub
-
-    # cardinality
-    - key: blocks.all_sections_tools_cardinality_by_user
-      t: Кардинальность использования технологии
-    - key: blocks.all_sections_tools_cardinality_by_user.description
-      t: >
-          Сколько процентов опрошенных **используют**
-          (учитываются ответы за вариант «Буду использовать снова») определённое количество технологий в каждом разделе.
-          Самый нижний столбик представляет собой сумму всех остальных столбиков.
-
-    - key: blocks.cardinality.max
-      t: Наиболее популярный ответ
-
-    # tools arrows
-    - key: blocks.tools_arrows
-      t: Изменения во времени
-    - key: blocks.tools_arrows.description
-      t: |
-          Каждая линия проходит с 2016 по 2020 год. Чем выше точка, тем больше людей использовало технологию.
-          Чем правее точка, тем больше людей хотят изучить её или уже использовали и будут снова пользоваться ей.
-    - key: blocks.tools_arrows.note
-      t: |
-          - По определённым технологиям отсутствуют данные за некоторые года.
-          - Не показываются технологии с данными только за один год.
-          - Формула скорости = (самое последнее мнение - самое старое мнение) + (самое последнее использование) - (самое старое использование).
-          - Положительная скорость означает, что использование и/или положительные мнения увеличились с течением времени.
-
-    # tools quadrant
-    - key: blocks.tools_quadrant
-      t: Сравнение удовлетворённости и использования
-    - key: blocks.tools_quadrant.description
-      t: |
-          Эта диаграмма показывает **процент удовлетворённости** каждой технологией относительно её общего **количества пользователей**.
-          Делится на на четыре квадранта:
-
-            - **ПРОБУЮТ**: Низкая степень использования, высокая степень удовлетворённости. Технологии, на которые стоит обратить внимание.
-
-            - **ПРИМЕНЯЮТ**: Высокая степень использования, высокая степень удовлетворённости. Технологии, которые можно спокойно применять.
-
-            - **ИЗБЕГАЮТ**: Низкая степень использования, высокая степень удовлетворённости. Технологии, которые лучше избегать в настоящий момент.
-
-            - **ОЦЕНИВАЮТ**: Высокая степень использования, низкая степень удовлетворённости. Технологии, от которых, возможно, стоит отказаться.
-
-    # category other tools
-    - key: blocks.category_other_tools
-      t: Другие инструменты
-    - key: blocks.category_other_tools.description
-      t: Другие инструменты в этой категории (ответы в свободной форме).
-
-    # tool experience
-    - key: blocks.tool_experience
-      t: 'Опыт работы с {name}'
-    - key: blocks.tool_experience.description
-      t: Опыт участника опроса с {name}.
-
-    # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko
-      t: Сравнение положительных и негативных ответов
-    - key: blocks.tools_experience_marimekko.description
-      t: |
-          На следующей диаграмме разделены положительные («Хочу изучить», «Буду использовать
-          снова») и негативные («Не интересно», «Больше не буду использовать») ответы справа и
-          слева, соответственно, относительно центральной оси.
-
-          Ширина столбца представляет собой количество респондентов, знакомых с рассматриваемой технологией.
-
-    # tools section streams
-    - key: blocks.tools_section_streams
-      t: Опыт работы
-    - key: blocks.tools_section_streams.description
-      t: |
-          Анализ ответов по исследуемым технологиям в сравнении с предыдущим годом.
-    - key: blocks.tools_section_streams.note
-      t: |
-          Не учитываются технологии, данные по которым есть только за один год.
-
-    # tools section overview
-    - key: blocks.tools_section_overview
-      t: Общий обзор
-    - key: blocks.tools_section_overview.description
-      t: |
-          Анализ ответов по исследуемым технологиям. Тёмные сегменты соответствуют положительным оценкам,
-          тогда как светлые — негативным.
-
-    # tools experience ranking
-    - key: blocks.tools_experience_ranking
-      t: Рейтинги
-    - key: blocks.tools_experience_ranking.description
-      t: Процент удовлетворённости, заинтересованности, использования, узнаваемости.
-    - key: blocks.tools_experience_ranking.note
-      t: |
-          Не учитываются технологии с узнаваемостью менее 10%. Каждое соотношение определяется следующим образом:
-
-          - Удовлетворённость: сравнение ответов **Буду использовать снова** и **Больше не буду использовать**.
-          - Заинтересованность: сравнение ответов **Хочу изучить** и **Не интересно**.
-          - Использование: сравнение ответов **Буду использовать снова**/**Больше не буду использовать** с общим количеством.
-          - Узнаваемость: разница между количеством ответов за узнаваемость и количеством ответов за вариант ответа **Впервые слышу**.
-
-    # happiness
-    - key: blocks.happiness
-      t: Общий показатель удовлетворённости
-    - key: blocks.happiness.description
-      t: |
-          По шкале от одного (очень недоволен) до пяти (очень доволен),
-          насколько довольны разработчики текущим состоянием этой категории?
-
-    # newsletter
-    - key: blocks.newsletter.title
-      t: Будьте на связи
-    - key: blocks.newsletter.description
-      t: |
-          Если вы хотите узнать, когда мы опубликуем дополнительные результаты или объявим о начале опроса в следующем году,
-          напишите свой адрес электронной почты:
-    - key: blocks.newsletter.email
-      t: Ваша электронная почта
-    - key: blocks.newsletter.submit
-      t: Сообщить мне
-
-    # features_overview
-    - key: blocks.features_overview
-      t: Анализ использования
-    - key: blocks.features_overview.description
-      t: |
-          На этой диаграмме представлены степени применения различных возможностей, объединённых по категориям.
-
-          Размер <span class="text-teal-darker text-bold">внешнего круга</span>
-          соответствует общему числу пользователей, которые знают о возможности, тогда как
-          <span class="text-teal text-bold">внутренний круг</span> представляет тех, кто действительно использовал её.
-
-          Наведите на любой круг, чтобы увидеть <span class="text-blackpink text-bold">всплывающую подсказку</span>
-          с подробными данными об общем количестве опрошенных.
-
-    # export
-    - key: export.export
-      t: Экспорт
-    - key: export.title
-      t: 'Экспорт данных: {title}'
-    - key: export.nocsv
-      t: К сожалению, экспорт в CSV недоступен для этого набора данных.
-    - key: export.graphql
-      t: >
-          Вы можете скопировать этот запрос, чтобы выполнить его в <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">публичном API-сервере GraphQL</a>.
-    - key: export.export_json
-      t: Показать данные в виде JSON
-    - key: export.export_graphql
-      t: Посмотреть GraphQL-запрос
-
-    # Tools usage variations
-    - key: blocks.tools_usage_variations
-      t: Различия использования
-    - key: blocks.tools_usage_variations.description
-      t: |
-          Влияние различных факторов (например, шкала заработной платы, опыт или размер компании)
-          на использование (участники, ответившие либо
-          «Буду использовать снова», либо «Больше не буду использовать»).
-
-          Исходный уровень — обычное использование каждого инструмента,
-          а отклонения — дельта от этого уровня в каждом диапазоне. Допустим,
-          инструмент X используют 10% опрошенных (исходный уровень),
-          а процент пользователей, использующих данный инструмент от 1 до 2 лет,
-          составляет 13% (по сравнению со всеми пользователями с таким же опытом),
-          то положительная дельта будет +3%.
-    - key: blocks.tools_usage_variations.note
-      t: |
-          Имейте в виду, что инструменты, которые в целом меньше всего используются, как правило, сильнее всего различаются.
-
-    # Recommended Resources
-    - key: blocks.recommended_resources
-      t: Рекомендуемые ресурсы
-
-    # Brackets
-    - key: tool_evaluation.tool_evaluation_wins
-      t: Рейтинг факторов при выборе библиотеки
-    - key: tool_evaluation.tool_evaluation_wins.description
-      t: Какие факторы наиболее всего важны при оценке новой библиотеки? Результаты ранжируются по количеству выигранных пар.
-
-    - key: tool_evaluation.tool_evaluation_matchups
-      t: Рейтинг факторов при выборе библиотеки (Пары)
-    - key: tool_evaluation.tool_evaluation_matchups.description
-      t: Какие факторы наиболее всего важны при оценке новой библиотеки? Процент пар, где левый фактор оказался важнее, чем верхний.
-
-    - key: css_pain_points.css_pain_points_wins
-      t: Болевые точки CSS
-    - key: css_pain_points.css_pain_points_wins.description
-      t: Наиболее часто возникающая проблема при работе с CSS? Результаты ранжируются по количеству выигранных пар.
-
-    - key: css_pain_points.css_pain_points_matchups
-      t: Болевые точки CSS (Пары)
-    - key: css_pain_points.css_pain_points_matchups.description
-      t: Наиболее часто возникающая проблема при работе с CSS? Процент пар, где расположенная слева проблема чаще встречается по сравнению с верхней.
-
-    - key: currently_missing_from_css.currently_missing_from_css_wins
-      t: Отсутствующие фичи в CSS
-    - key: currently_missing_from_css.currently_missing_from_css_wins.description
-      t: Какую из фичей в CSS вы хотели бы видеть сегодня? Результаты ранжируются по количеству выигранных пар.
-
-    - key: currently_missing_from_css.currently_missing_from_css_matchups
-      t: Отсутствующие фичи в CSS (Пары)
-    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-      t: Какую из фичей в CSS вы хотели бы видеть сегодня? Процент пар, где расположенная слева возможность оказалась более желаемой, чем верхняя.
-
-    ###########################################################################
-    # Charts
-    ###########################################################################
-
-    - key: chart_units.respondents
-      t: "{count} человек ответило на этот вопрос (в процентном отношении от количества участников — {percentage})"
-    - key: chart_units.percentage
-      t: Проценты
-    - key: chart_units.count
-      t: Количество
-    - key: chart_units.percentage_question
-      t: "Процент ответивших на вопрос"
-    - key: chart_units.percentage_survey
-      t: "Процент респондентов опроса"
-
-    - key: charts.average
-      t: Average
-    - key: charts.mean
-      t: Mean
-    - key: charts.overall
-      t: Overall
-    - key: charts.all_respondents
-      t: Общее количество респондентов
-    - key: charts.facet_responses
-      t: '{count} ответов'
-
-    - key: charts.axis_legends.years_of_experience
-      t: Опыт работы
-    - key: charts.axis_legends.yearly_salary
-      t: Размер зарплаты (в долларах)
-    - key: charts.axis_legends.company_size
-      t: Число сотрудников
-    - key: charts.axis_legends.backend_proficiency
-      t: Знание бэкенда
-    - key: charts.axis_legends.css_proficiency
-      t: Знание CSS
-    - key: charts.axis_legends.javascript_proficiency
-      t: Знание JavaScript
-    - key: charts.axis_legends.users_percentage
-      t: Процент пользователей
-    - key: charts.axis_legends.users_count
-      t: Количество пользователей
-    - key: charts.axis_legends.interest_percentage
-      t: Процент заинтересованности
-    - key: charts.axis_legends.satisfaction_percentage
-      t: Процент удовлетворённости
-    - key: charts.axis_legends.usage_percentage
-      t: Процент использования
-    - key: charts.axis_legends.awareness_percentage
-      t: Процент узнаваемости
-    - key: charts.axis_legends.happiness
-      t: Удовлетворённость
-    - key: charts.axis_legends.knowledge_score
-      t: Узнаваемость возможности
-    - key: charts.axis_legends.frequency
-      t: Периодичность
-    - key: charts.axis_legends.age
-      t: Возраст
-    - key: charts.axis_legends.users_percentage_survey
-      t: "В процентах от количества респондентов опроса"
-    - key: charts.axis_legends.users_percentage_question
-      t: "Процентная доля ответивших на вопрос"
-
-    - key: charts.ranges_multiple_diverging_lines.baseline
-      t: исходный уровень
-    - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: позитивное отклонение
-    - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: отрицательное отклонение
-
-    - key: charts.tools_arrows.negative_opinion
-      t: Негативное отношение
-    - key: charts.tools_arrows.positive_opinion
-      t: Положительное отношение
-    - key: charts.tools_arrows.have_not_used
-      t: Не использовал
-    - key: charts.tools_arrows.have_used
-      t: Использовал
-    - key: charts.tools_arrows.x_axis
-      t: X-axis range
-    - key: charts.tools_arrows.y_axis
-      t: Y-axis range
-    - key: charts.tools_arrows.legend
-      t: Легенда
-    - key: charts.tools_arrows.velocity
-      t: Velocity
-    - key: charts.tools_arrows.velocity_positive
-      t: Overall more positive opinions and/or usage over time
-    - key: charts.tools_arrows.velocity_negative
-      t: Overall more negative opinions and/or less usage over time
-    - key: charts.tools_arrows.opinions_positive
-      t: Mostly positive opinions
-    - key: charts.tools_arrows.opinions_negative
-      t: Mostly negative opinions
-    - key: charts.tools_arrows.low_usage
-      t: Low usage
-    - key: charts.tools_arrows.high_usage
-      t: High usage
-    - key: charts.tools_arrows.popularity_positive
-      t: Rising popularity
-    - key: charts.tools_arrows.negative
-      t: Falling popularity
-
-    - key: options.features_categories.layout
-      aliasFor: sections.layout.title
-    - key: options.features_categories.shapes_graphics
-      aliasFor: sections.shapes_graphics.title
-    - key: options.features_categories.interactions
-      aliasFor: sections.interactions.title
-    - key: options.features_categories.typography
-      aliasFor: sections.typography.title
-    - key: options.features_categories.animations_transforms
-      aliasFor: sections.animations_transforms.title
-    - key: options.features_categories.accessibility
-      aliasFor: sections.accessibility.title
-    - key: options.features_categories.media_queries
-      aliasFor: sections.media_queries.title
-    - key: options.features_categories.other_features
-      aliasFor: sections.other_features.title
-
-    ###########################################################################
-    # Sharing
-    ###########################################################################
-
-    - key: share.share
-      t: Поделиться
-    - key: share.options
-      t: Поделитесь результатом
-    - key: share.preview
-      t: Превью картинки в соцсетях
-    - key: share.site.title
-      t: Узнайте результаты опроса {siteTitle}
-    - key: share.site.twitter_text
-      t: 'Узнайте результаты опроса {siteTitle} {link} {hashtag}'
-    - key: share.site.subject
-      t: Результаты опроса {siteTitle}
-    - key: share.site.body
-      t: 'Лишь некоторые интересные результаты опроса: {link}'
-    - key: share.block.twitter_text
-      t: '{hashtag} {year}: {title} {link}'
-    - key: share.block.subject
-      t: Результаты опроса {siteTitle}
-    - key: share.block.body
-      t: 'Лишь некоторые интересные результаты опроса ({title}): {link}'
-    - key: share.twitter
-      t: Поделиться в Twitter
-    - key: share.facebook
-      t: Поделиться в Facebook
-    - key: share.linkedin
-      t: Поделиться в LinkedIn
-    - key: share.email
-      t: Поделиться по электронной почте
-    - key: share.image
-      t: Ссылка на картинку
-    - key: share.link
-      t: Ссылка на раздел
-    - key: share.url
-      t: Ссылка на этот раздел
-    - key: share.close
-      t: Закрыть
-
-    ###########################################################################
-    # Views
-    ###########################################################################
-    - key: views.viz
-      t: Граф
-    - key: views.table
-      t: Таблица
-
-    ###########################################################################
-    # Table
-    ###########################################################################
-    - key: table.label
-      t: Метка
-    - key: table.item
-      t: Item
-    - key: table.percentage_survey
-      t: "Процент от всех участников опроса"
-    - key: table.percentage_question
-      t: "Процент от ответивших на вопрос"
-    - key: table.percentage_facet
-      t: "% of facet respondents"
-    - key: table.count
-      t: Количество
-    - key: table.year
-      t: Год
-    - key: table.mean
-      t: Среднее
-    - key: table.usage
-      aliasFor: options.features_simplified.used_it
-    - key: table.awareness
-      aliasFor: options.features_simplified.know_it
-    - key: table.usage_ratio
-      aliasFor: options.features_simplified.usage_ratio
-
-    - key: table.usage_count
-      aliasFor: charts.axis_legends.users_count
-    - key: table.satisfaction_percentage
-      aliasFor: charts.axis_legends.satisfaction_percentage
-    - key: table.interest_percentage
-      aliasFor: charts.axis_legends.interest_percentage
-    - key: table.usage_percentage
-      aliasFor: charts.axis_legends.usage_percentage
-    - key: table.awareness_percentage
-      aliasFor: charts.axis_legends.awareness_percentage
-
-
-    - key: table.percentages_table
-      t: Проценты
-    - key: table.rankings_table
-      t: Рейтинги
-
-    - key: table.satisfaction_rank
-      t: Показатель удовлетворённости
-    - key: table.interest_rank
-      t: Показатель заинтересованности
-    - key: table.usage_rank
-      t: Показатель использования
-    - key: table.awareness_rank
-      t: Показатель узнаваемости
-
-    - key: table.would_not_use_percentage
-      t: Вариант ответа "Использовал > Больше не буду использовать" в %
-    - key: table.not_interested_percentage
-      t: Вариант ответа "Слышал об этом > Не интересно" в %
-    - key: table.would_use_percentage
-      t: Вариант ответа "Использовал > Буду использовать снова" в %
-    - key: table.interested_percentage
-      t: Вариант ответа "Слышал об этом > Хочу изучить" в %
-
-    ###########################################################################
-    # Awards
-    ###########################################################################
-
-    - key: awards.runner_ups
-      t: Призовые места
-
-    - key: award.feature_adoption_award.title
-      t: Самая применяемая возможность
-    - key: award.feature_adoption_award.description
-      t: Награждается, как наиболее применяемая возможность.
-
-    - key: award.feature_adoption_delta_award.title
-      t: Самая применяемая возможность
-    - key: award.feature_adoption_delta_award.description
-      t: Награждается, как наиболее успешная возможность по сравнению с предыдущим годом (согласно подсчёту ответов за «Использовал»).
-
-    - key: award.tool_usage_award.title
-      t: Самая используемая технология
-    - key: award.tool_usage_award.description
-      t: Награждается, как технология с наибольшим количеством пользователей.
-
-    - key: award.tool_usage_delta_award.title
-      t: Самая используемая технология
-    - key: award.tool_usage_delta_award.description
-      t: Награждается, как наиболее успешная технология по сравнению с предыдущим годом (согласно подсчёту ответов за «Буду использовать снова»).
-
-    - key: award.tool_satisfaction_award.title
-      t: Самый высокий уровень удовлетворённости
-    - key: award.tool_satisfaction_award.description
-      t: Награждается, как технология с наибольшим процентом довольных пользователей.
-
-    - key: award.tool_interest_award.title
-      t: Самый высокий уровень заинтересованности
-    - key: award.tool_interest_award.description
-      t: Награждается, как технология, в изучении которой были заинтересованы больше всего разработчиков.
-
-    - key: award.resource_usage_award.title
-      t: Самый популярный ресурс
-    - key: award.resource_usage_award.description
-      t: Награждается, как ресурс с наибольшей посещаемостью среди пользователей.
-
-    - key: award.prediction_award.title
-      t: Самая перспективная технология
-    - key: award.prediction_award.description
-      t: Награждается, как технология, которая может стать лидером… или нет?
-
-    - key: award.most_write_ins_award.title
-      t: Самый популярный ответ
-    - key: award.most_write_ins_award.description
-      t: Награждается, как наиболее популярный вариант ответа, указанный самими участниками опроса.
-
-    ###########################################################################
-    # Hints
-    ###########################################################################
-
-    - key: hints.hint_hint
-      t: >
-          В таких небольших подсказках по всему опросу
-          будет отображаться полезная информация и всякие разные подробности.
-
-    - key: hints.units_switcher_hint
-      t: >
-          С помощью кнопок в верхнем правом углу каждого блока можно
-          переключаться между процентными показателями и абсолютными выражениями
-          одних и тех же рассматриваемых данных.
-
-    - key: hints.export_hint
-      t: >
-          Кликнув по кнопке <span class="hint-export-button">Экспорт</span> вверху каждого блока
-          можно посмотреть исходные JSON-данные или получить
-          GraphQL-запрос графика (который потом можно выполнить в нашем публичном API).
-
-    - key: hints.completion_hint
-      t: >
-          Поскольку все вопросы являются необязательными, у них разное количество ответов.
-          Индикатор заполнения (<span class="hint-completion-indicator">◕</span>) рядом с каждым вопросом даст понять, сколько людей ответило на него.
-
-    - key: hints.tool_modal_hint
-      t: >
-          Кликните по названию технологии, чтобы узнать более подробные сведения
-          и лучше рассмотреть связанные с ней данные.
-
-    - key: hints.rankings_modes_hint
-      t: >
-          Диаграмма с рейтингом может показывать удовлетворённость, заинтересованность, использование и узнаваемость технологий,
-          поэтому не стесняйтесь смотреть каждую из этих категорий, чтобы лучше понять текущую ситуацию.
-
-    - key: hints.sharing_hint
-      t: >
-          Научно доказано, что публикация этого опроса в Twitter, Facebook или по электронной почте
-          позволит повысить производительность вашего JavaScript-кода на 15%.
-
-    - key: hints.tshirt_hint
-      t: >
-          Ещё одно научно обоснованное утверждение: покупка нашей футболки
-          увеличит ваши знания JavaScript более чем на 9000!
-
-    - key: hints.variants_hint
-      t: >
-        В некоторых графиках есть дополнительные вкладки, на которых представлены взаимодополняющие разбивки тех же самых данных, или других, похожих данных. Обязательно изучите также их!
-
-    - key: hints.share_hint
-      t: >
-        На вкладке <span class="hint-icon hint-share-button">Поделиться</span> вы найдёте много способов поделиться графиком,
-        или даже загрузить его в виде отдельного изображения.
-
-    - key: hints.bracket_hint
-      t: >
-        <span class="hint-bracket"><span class="hint-text">На следующей диаграмме представлены результаты турнира из трёх раундов с восьмью вариантами ответов. В каждом из туре респондентам из пары вариантов нужно предстояло выбрать один ответ, чтобы по итогу в заключительном раунде остался единственный победивший вариант.</span><span class="hint-diagram"/></span>
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: results.start
+    t: Поехали
+
+  - key: page.previous
+    t: 'Назад:'
+  - key: page.next
+    t: 'Вперёд:'
+
+  - key: general.state_of_css_link
+    t: State of CSS
+
+  - key: general.netlify_link
+    t: Сайт размещён на <a href="{link}">Netlify</a>.
+
+  - key: general.completion_percentage
+    t: 'Процент заполнения:'
+
+  - key: partners.thanks
+    t: Спасибо нашим партнёрам за поддержку!
+
+  - key: partners.learn_more
+    t: Подробнее.
+
+  - key: tabs.all_respondents
+    t: Общее количество
+  - key: tabs.main_answers
+    t: Основные варианты
+  - key: tabs.other_answers
+    t: Другие ответы
+  - key: tabs.bracket_wins
+    t: Победы
+  - key: tabs.bracket_matchups
+    t: Пары
+  - key: tabs.chart
+    t: График
+  - key: tabs.data
+    t: Данные
+  - key: tabs.share
+    t: Поделиться
+  - key: tabs.debug
+    t: Дебаг
+  - key: tabs.by_country
+    t: По стране
+  - key: tabs.by_experience
+    t: По опыту
+  - key: tabs.by_degree
+    t: По образованию
+  - key: tabs.by_salary
+    t: По зарплате
+  - key: tabs.by_gender
+    t: По полу
+
+  ###########################################################################
+  # Block
+  ###########################################################################
+
+  - key: block.data_from
+    t: foo
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  - key: options.experience_ranking.satisfaction
+    t: Удовлетворённость
+  - key: options.experience_ranking.interest
+    t: Заинтересованность
+  - key: options.experience_ranking.usage
+    t: Использование
+  - key: options.experience_ranking.awareness
+    t: Узнаваемость
+
+  - key: options.features_mode.grouped
+    t: Сгруппированный
+  - key: options.features_mode.awareness_rank
+    t: По узнаваемости
+  - key: options.features_mode.usage_rank
+    t: По использованию
+  - key: options.features_mode.usage_ratio_rank
+    t: By Usage Ratio
+
+  - key: options.features_simplified.know_it
+    t: Знаю
+  - key: options.features_simplified.used_it
+    t: Использовал
+  - key: options.features_simplified.usage_ratio
+    t: Процент использования
+
+  - key: options.quadrant.assess
+    t: ПРОБУЮТ
+  - key: options.quadrant.assess.long
+    t: |
+      ПРОБУЮТ: Низкая степень использования, высокая степень удовлетворённости. Технологии, на которые стоит обратить внимание.
+  - key: options.quadrant.adopt
+    t: ПРИМЕНЯЮТ
+  - key: options.quadrant.adopt.long
+    t: |
+      ПРИМЕНЯЮТ: Высокая степень использования, высокая степень удовлетворённости. Технологии, которые можно спокойно применять.
+  - key: options.quadrant.avoid
+    t: ИЗБЕГАЮТ
+  - key: options.quadrant.avoid.long
+    t: |
+      ИЗБЕГАЮТ: Низкая степень использования, высокая степень удовлетворённости. Технологии, которые лучше избегать в настоящий момент.
+  - key: options.quadrant.analyze
+    t: ОЦЕНИВАЮТ
+  - key: options.quadrant.analyze.long
+    t: |
+      ОЦЕНИВАЮТ: Высокая степень использования, низкая степень удовлетворенности. Технологии, над прекращением использования которых стоит задуматься.
+
+  - key: ranges.selector.years_of_experience
+    t: Опыт
+  - key: ranges.selector.yearly_salary
+    t: Зарплата
+  - key: ranges.selector.company_size
+    t: Размер компании
+
+  # other learning methods
+  - key: options.first_steps.blogs
+    t: Блоги
+  - key: options.first_steps.forums
+    t: Форумы
+  - key: options.first_steps.view_source
+    t: Посмотреть источник
+
+  # other disablities
+  - key: options.disability_status_others.adhd
+    t: СДВГ
+  - key: options.disability_status_others.autism
+    t: Аутизм
+  - key: options.disability_status_others.glasses
+    t: Очки
+  - key: options.disability_status_others.old
+    t: Старость
+  - key: options.disability_status_others.back_pain
+    t: Боль в спине
+  - key: options.disability_status_others.epilepsy
+    t: Эпилепсия
+  - key: options.disability_status_others.aspergers
+    t: Синдром Аспергера
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.introduction.title
+    t: Введение
+
+  - key: sections.demographics.title
+    t: Демография
+
+  - key: sections.tshirt.title
+    t: Футболка
+
+  - key: sections.technologies.title
+    t: Технологии
+
+  - key: sections.conclusion.title
+    t: Заключение
+
+  - key: sections.about.title
+    t: О проекте
+
+  - key: sections.support.title
+    t: Поддержите нас
+  - key: sections.support.description
+    t: >
+      Это волонтёрский проект, но для того, чтобы сделать его устойчивым,
+      мы всегда ищем партнёров, которые могут оказать нам финансовую поддержку
+      или помочь распространить информацию.
+      Если вы хотите помочь нам, то, пожалуйста, не стесняйтесь [связаться с нами](mailto:hello@stateofjs.com)!
+
+  - key: sections.awards.title
+    t: Награды
+  - key: sections.awards.description
+    t: Что привлекло большее внимание в этом году.
+
+  ###########################################################################
+  # User Info
+  ###########################################################################
+
+  - key: user_info.locale
+    t: Язык
+  - key: user_info.locale.description
+    t: Какой язык выбрали участники для прохождения опроса?
+  - key: user_info.locale.note
+    t: >
+      Эти данные получены автоматически на основе системных настроек респондента во время прохождении опроса;
+      Отображены только те языки, на которых проходили опрос более 20 респондентов.
+
+  - key: user_info.source
+    t: Откуда участники узнали об опросе? # Источник
+  - key: user_info.source.description
+    t: Откуда участники узнали об опросе?
+  - key: user_info.source.note
+    t: Эти данные получены на основе самих ответов респондентов, источниках перехода на опрос и специальных меток в URL-адресе.
+
+  - key: user_info.gender_by_country
+    t: Гендер по странам
+  - key: user_info.gender_by_country.description
+    t: Гендерное распределение по странам с не менее 100 респондентами, отсортированное по убыванию от "усредненного пола" (каждому гендерному ключу присваивается целочисленное значение в порядке возрастания).
+
+  - key: user_info.years_of_experience_by_salary
+    t: Опыт работы в зависимости от уровня зарплаты
+  - key: user_info.years_of_experience_by_salary.description
+    t: Опыт работы в зависимости от уровня зарплаты.
+
+  - key: user_info.yearly_salary_by_country
+    t: Зарплата по странам
+  - key: user_info.yearly_salary_by_country.description
+    t: Распределение годовых зарплат по странам с не менее 100 респондентами, отсортированное по убыванию средней зарплаты.
+
+  - key: user_info.yearly_salary_by_degree
+    t: Зарплата в зависимости от высшего образования
+  - key: user_info.yearly_salary_by_degree.description
+    t: Распределение годовых зарплат в зависимости от наличия высшего образования, отсортированное по убыванию средней заработной платы.
+
+  - key: user_info.yearly_salary_by_experience
+    t: Зарплата в зависимости от опыта
+  - key: user_info.yearly_salary_by_experience.description
+    t: Распределение годовых зарплаты по опыту работы, отсортированное по убыванию средней зарплаты.
+
+  - key: user_info.race_ethnicity_by_years_of_experience
+    t: Расовая и этническая принадлежность по опыту работы
+  - key: user_info.race_ethnicity_by_years_of_experience.description
+    t: Расовое и этническое распределение по опыту работы, отсортированное по возрастанию среднего стажа.
+
+  - key: user_info.higher_education_degree_by_gender
+    t: Высшее образования в зависимости от пола
+  - key: user_info.higher_education_degree_by_gender.description
+    t: Высшее образования в зависимости от пола.
+
+  ###########################################################################
+  # Locales
+  ###########################################################################
+
+  - key: options.locale.en-US
+    t: Английский
+  - key: options.locale.ca-ES
+    t: Каталанский
+  - key: options.locale.es-ES
+    t: Испанский
+  - key: options.locale.ru-RU
+    t: Русский
+  - key: options.locale.fr-FR
+    t: Французский
+  - key: options.locale.zh-Hant
+    t: Китайский (традиционный)
+  - key: options.locale.de-DE
+    t: Немецкий
+  - key: options.locale.cs-CZ
+    t: Чешский
+  - key: options.locale.pt-PT
+    t: Португальский
+  - key: options.locale.it-IT
+    t: Итальянский
+  - key: options.locale.sv-SE
+    t: Шведский
+  - key: options.locale.tr-TR
+    t: Турецкий
+  - key: options.locale.id-ID
+    t: Индонезийский
+  - key: options.locale.hi-IN
+    t: Хинди
+  - key: options.locale.zh-Hans
+    t: Китайский (упрощённый)
+  - key: options.locale.ja-JP
+    t: Японский
+  - key: options.locale.ua-UA
+    t: Украинский
+  - key: options.locale.pl-PL
+    t: Польский
+  - key: options.locale.fa-IR
+    t: Персидский
+  - key: options.locale.nl-NL
+    t: Голландский
+  - key: options.locale.ko-KR
+    t: Корейский
+  - key: options.locale.ro-RO
+    t: Румынский
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  - key: features.learn_more
+    t: Подробнее (MDN)
+  - key: features.mdn_link
+    t: MDN
+  - key: features.caniuse_link
+    t: Can I use
+  - key: features.specification_link
+    t: Спецификация на W3C
+
+  # knowledge score
+  - key: features.knowledge_score
+    t: Оценка знаний
+  - key: features.knowledge_score.description
+    t: Сколько CSS-возможностей знали участники опроса?
+
+  ###########################################################################
+  # Tools & Methodologies
+  ###########################################################################
+
+  # general
+  - key: tools.links
+    t: Ссылки
+  - key: tools.github_link
+    t: GitHub
+  - key: tools.github_stars
+    t: stars
+  - key: tools.homepage_link
+    t: Главная страница
+  - key: tools.npm_link
+    t: NPM
+  - key: tools.technology
+    t: Технология
+
+  ###########################################################################
+  # Blocks
+  ###########################################################################
+
+  # heatmaps
+  - key: blocks.tools_company_size_heatmap
+    t: Использование по размеру компании
+  - key: blocks.tools_company_size_heatmap.description
+    t: |
+      Степень распределения использования каждой технологии
+      в зависимости от размеров компании.
+
+  - key: blocks.tools_yearly_salary_heatmap
+    t: Использование по размеру зарплаты
+  - key: blocks.tools_yearly_salary_heatmap.description
+    t: |
+      Степень распределения использования каждой технологии
+      в зависимости от размеров зарплаты.
+
+  - key: blocks.tools_years_of_experience_heatmap
+    t: Использование по количеству опыта
+  - key: blocks.tools_years_of_experience_heatmap.description
+    t: |
+      Степень распределения использования каждой технологии в зависимости от опыта работы.
+      Обратите внимание, что учитывается общий опыт работы, а не с конкретной технологией.
+
+  # tool
+  - key: blocks.entity.homepage_link
+    t: Главная страница
+  - key: blocks.entity.github_link
+    t: GitHub
+
+  # cardinality
+  - key: blocks.all_sections_tools_cardinality_by_user
+    t: Кардинальность использования технологии
+  - key: blocks.all_sections_tools_cardinality_by_user.description
+    t: >
+      Сколько процентов опрошенных **используют**
+      (учитываются ответы за вариант «Буду использовать снова») определённое количество технологий в каждом разделе.
+      Самый нижний столбик представляет собой сумму всех остальных столбиков.
+
+  - key: blocks.cardinality.max
+    t: Наиболее популярный ответ
+
+  # tools arrows
+  - key: blocks.tools_arrows
+    t: Изменения во времени
+  - key: blocks.tools_arrows.description
+    t: |
+      Каждая линия проходит с 2016 по 2020 год. Чем выше точка, тем больше людей использовало технологию.
+      Чем правее точка, тем больше людей хотят изучить её или уже использовали и будут снова пользоваться ей.
+  - key: blocks.tools_arrows.note
+    t: |
+      - По определённым технологиям отсутствуют данные за некоторые года.
+      - Не показываются технологии с данными только за один год.
+      - Формула скорости = (самое последнее мнение - самое старое мнение) + (самое последнее использование) - (самое старое использование).
+      - Положительная скорость означает, что использование и/или положительные мнения увеличились с течением времени.
+
+  # tools quadrant
+  - key: blocks.tools_quadrant
+    t: Сравнение удовлетворённости и использования
+  - key: blocks.tools_quadrant.description
+    t: |
+      Эта диаграмма показывает **процент удовлетворённости** каждой технологией относительно её общего **количества пользователей**.
+      Делится на на четыре квадранта:
+
+        - **ПРОБУЮТ**: Низкая степень использования, высокая степень удовлетворённости. Технологии, на которые стоит обратить внимание.
+
+        - **ПРИМЕНЯЮТ**: Высокая степень использования, высокая степень удовлетворённости. Технологии, которые можно спокойно применять.
+
+        - **ИЗБЕГАЮТ**: Низкая степень использования, высокая степень удовлетворённости. Технологии, которые лучше избегать в настоящий момент.
+
+        - **ОЦЕНИВАЮТ**: Высокая степень использования, низкая степень удовлетворённости. Технологии, от которых, возможно, стоит отказаться.
+
+  # category other tools
+  - key: blocks.category_other_tools
+    t: Другие инструменты
+  - key: blocks.category_other_tools.description
+    t: Другие инструменты в этой категории (ответы в свободной форме).
+
+  # tool experience
+  - key: blocks.tool_experience
+    t: 'Опыт работы с {name}'
+  - key: blocks.tool_experience.description
+    t: Опыт участника опроса с {name}.
+
+  # tool positive/negative split ("marimekko" chart)
+  - key: blocks.tools_experience_marimekko
+    t: Сравнение положительных и отрицательных ответов
+  - key: blocks.tools_experience_marimekko.description
+    t: |
+      На следующей диаграмме разделены положительные («Хочу изучить», «Буду использовать
+      снова») и негативные («Не интересно», «Больше не буду использовать») ответы справа и
+      слева, соответственно, относительно центральной оси.
+
+      Ширина столбца представляет собой количество респондентов, знакомых с рассматриваемой технологией.
+
+  # tools section streams
+  - key: blocks.tools_section_streams
+    t: Опыт работы
+  - key: blocks.tools_section_streams.description
+    t: |
+      Анализ ответов по исследуемым технологиям в сравнении с предыдущим годом.
+  - key: blocks.tools_section_streams.note
+    t: |
+      Не учитываются технологии, данные по которым есть только за один год.
+
+  # tools section overview
+  - key: blocks.tools_section_overview
+    t: Общий обзор
+  - key: blocks.tools_section_overview.description
+    t: |
+      Анализ ответов по исследуемым технологиям. Тёмные сегменты соответствуют положительным оценкам,
+      тогда как светлые — негативным.
+
+  # tools experience ranking
+  - key: blocks.tools_experience_ranking
+    t: Рейтинги
+  - key: blocks.tools_experience_ranking.description
+    t: Процент удовлетворённости, заинтересованности, использования, узнаваемости.
+  - key: blocks.tools_experience_ranking.note
+    t: |
+      Не учитываются технологии с узнаваемостью менее 10%. Каждое соотношение определяется следующим образом:
+
+      - Удовлетворённость: сравнение ответов **Буду использовать снова** и **Больше не буду использовать**.
+      - Заинтересованность: сравнение ответов **Хочу изучить** и **Не интересно**.
+      - Использование: сравнение ответов **Буду использовать снова**/**Больше не буду использовать** с общим количеством.
+      - Узнаваемость: разница между количеством ответов за узнаваемость и количеством ответов за вариант ответа **Впервые слышу**.
+
+  # happiness
+  - key: blocks.happiness
+    t: Общий показатель удовлетворённости
+  - key: blocks.happiness.description
+    t: |
+      По шкале от одного (очень недоволен) до пяти (очень доволен),
+      насколько довольны разработчики текущим состоянием этой категории?
+
+  # newsletter
+  - key: blocks.newsletter.title
+    t: Будьте на связи
+  - key: blocks.newsletter.description
+    t: |
+      Если вы хотите узнать, когда мы опубликуем дополнительные результаты или объявим о начале опроса в следующем году,
+      напишите свой адрес электронной почты:
+  - key: blocks.newsletter.email
+    t: Ваша электронная почта
+  - key: blocks.newsletter.submit
+    t: Сообщить мне
+
+  # features_overview
+  - key: blocks.features_overview
+    t: Анализ использования
+  - key: blocks.features_overview.description
+    t: |
+      На этой диаграмме представлены степени применения различных возможностей, объединённых по категориям.
+
+      Размер <span class="text-teal-darker text-bold">внешнего круга</span>
+      соответствует общему числу пользователей, которые знают о возможности, тогда как
+      <span class="text-teal text-bold">внутренний круг</span> представляет тех, кто действительно использовал её.
+
+      Наведите на любой круг, чтобы увидеть <span class="text-blackpink text-bold">всплывающую подсказку</span>
+      с подробными данными об общем количестве опрошенных.
+
+  # export
+  - key: export.export
+    t: Экспорт
+  - key: export.title
+    t: 'Экспорт данных: {title}'
+  - key: export.nocsv
+    t: К сожалению, экспорт в CSV недоступен для этого набора данных.
+  - key: export.graphql
+    t: >
+      Вы можете скопировать этот запрос, чтобы выполнить его в <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">публичном API-сервере GraphQL</a>.
+  - key: export.export_json
+    t: Показать данные в виде JSON
+  - key: export.export_graphql
+    t: Посмотреть GraphQL-запрос
+
+  # Tools usage variations
+  - key: blocks.tools_usage_variations
+    t: Различия использования
+  - key: blocks.tools_usage_variations.description
+    t: |
+      Влияние различных факторов (например, шкала заработной платы, опыт или размер компании)
+      на использование (участники, ответившие либо
+      «Буду использовать снова», либо «Больше не буду использовать»).
+
+      Исходный уровень — обычное использование каждого инструмента,
+      а отклонения — дельта от этого уровня в каждом диапазоне. Допустим,
+      инструмент X используют 10% опрошенных (исходный уровень),
+      а процент пользователей, использующих данный инструмент от 1 до 2 лет,
+      составляет 13% (по сравнению со всеми пользователями с таким же опытом),
+      то положительная дельта будет +3%.
+  - key: blocks.tools_usage_variations.note
+    t: |
+      Имейте в виду, что инструменты, которые в целом меньше всего используются, как правило, сильнее всего различаются.
+
+  # Recommended Resources
+  - key: blocks.recommended_resources
+    t: Рекомендуемые ресурсы
+
+  # Brackets
+  - key: tool_evaluation.tool_evaluation_wins
+    t: Рейтинг факторов при выборе библиотеки
+  - key: tool_evaluation.tool_evaluation_wins.description
+    t: Какие факторы наиболее всего важны при оценке новой библиотеки? Результаты ранжируются по количеству выигранных раундов.
+
+  - key: tool_evaluation.tool_evaluation_matchups
+    t: Рейтинг факторов при выборе библиотеки (Пары)
+  - key: tool_evaluation.tool_evaluation_matchups.description
+    t: Какие факторы наиболее всего важны при оценке новой библиотеки? Процент пар, где левый фактор оказался важнее, чем верхний.
+
+  - key: css_pain_points.css_pain_points_wins
+    t: Болевые точки CSS
+  - key: css_pain_points.css_pain_points_wins.description
+    t: Наиболее часто возникающая проблема при работе с CSS? Результаты ранжируются по количеству выигранных раундов.
+
+  - key: css_pain_points.css_pain_points_matchups
+    t: Болевые точки CSS (Пары)
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: Наиболее часто возникающая проблема при работе с CSS? Процент раундов, где расположенная слева проблема чаще встречается по сравнению с верхней.
+
+  - key: currently_missing_from_css.currently_missing_from_css_wins
+    t: Отсутствующие фичи в CSS
+  - key: currently_missing_from_css.currently_missing_from_css_wins.description
+    t: Какую из фичей в CSS вы хотели бы видеть сегодня? Результаты ранжируются по количеству выигранных пар.
+
+  - key: currently_missing_from_css.currently_missing_from_css_matchups
+    t: Отсутствующие фичи в CSS (Пары)
+  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+    t: Какую из фичей в CSS вы хотели бы видеть сегодня? Процент пар, где расположенная слева возможность оказалась более желаемой, чем верхняя.
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: chart_units.respondents
+    t: '{count} человек ответило на этот вопрос ({percentage}% от общего количества участников)'
+  - key: chart_units.percentage
+    t: Проценты
+  - key: chart_units.count
+    t: Количество
+  - key: chart_units.percentage_question
+    t: 'Процент ответивших на вопрос'
+  - key: chart_units.percentage_survey
+    t: 'Процент респондентов опроса'
+
+  - key: charts.average
+    t: Average
+  - key: charts.mean
+    t: Mean
+  - key: charts.overall
+    t: Overall
+  - key: charts.all_respondents
+    t: Общее количество респондентов
+  - key: charts.facet_responses
+    t: '{count} ответов'
+
+  - key: charts.axis_legends.years_of_experience
+    t: Опыт работы
+  - key: charts.axis_legends.yearly_salary
+    t: Размер зарплаты (в долларах)
+  - key: charts.axis_legends.company_size
+    t: Число сотрудников
+  - key: charts.axis_legends.backend_proficiency
+    t: Знание бэкенда
+  - key: charts.axis_legends.css_proficiency
+    t: Знание CSS
+  - key: charts.axis_legends.javascript_proficiency
+    t: Знание JavaScript
+  - key: charts.axis_legends.users_percentage
+    t: Процент людей
+  - key: charts.axis_legends.users_count
+    t: Число людей
+  - key: charts.axis_legends.interest_percentage
+    t: Процент заинтересованности
+  - key: charts.axis_legends.satisfaction_percentage
+    t: Процент удовлетворённости
+  - key: charts.axis_legends.usage_percentage
+    t: Процент использования
+  - key: charts.axis_legends.awareness_percentage
+    t: Процент узнаваемости
+  - key: charts.axis_legends.happiness
+    t: Удовлетворённость
+  - key: charts.axis_legends.knowledge_score
+    t: Узнаваемость возможности
+  - key: charts.axis_legends.frequency
+    t: Периодичность
+  - key: charts.axis_legends.age
+    t: Возраст
+  - key: charts.axis_legends.users_percentage_survey
+    t: '% респондентов опроса'
+  - key: charts.axis_legends.users_percentage_question
+    t: '% ответивших на вопрос'
+
+  - key: charts.ranges_multiple_diverging_lines.baseline
+    t: исходный уровень
+  - key: charts.ranges_multiple_diverging_lines.positive_offset
+    t: позитивное отклонение
+  - key: charts.ranges_multiple_diverging_lines.negative_offset
+    t: отрицательное отклонение
+
+  - key: charts.tools_arrows.negative_opinion
+    t: Негативное отношение
+  - key: charts.tools_arrows.positive_opinion
+    t: Положительное отношение
+  - key: charts.tools_arrows.have_not_used
+    t: Не использовал
+  - key: charts.tools_arrows.have_used
+    t: Использовал
+  - key: charts.tools_arrows.x_axis
+    t: X-axis range
+  - key: charts.tools_arrows.y_axis
+    t: Y-axis range
+  - key: charts.tools_arrows.legend
+    t: Легенда
+  - key: charts.tools_arrows.velocity
+    t: Velocity
+  - key: charts.tools_arrows.velocity_positive
+    t: Overall more positive opinions and/or usage over time
+  - key: charts.tools_arrows.velocity_negative
+    t: Overall more negative opinions and/or less usage over time
+  - key: charts.tools_arrows.opinions_positive
+    t: Mostly positive opinions
+  - key: charts.tools_arrows.opinions_negative
+    t: Mostly negative opinions
+  - key: charts.tools_arrows.low_usage
+    t: Low usage
+  - key: charts.tools_arrows.high_usage
+    t: High usage
+  - key: charts.tools_arrows.popularity_positive
+    t: Rising popularity
+  - key: charts.tools_arrows.negative
+    t: Falling popularity
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.animations_transforms
+    aliasFor: sections.animations_transforms.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.media_queries
+    aliasFor: sections.media_queries.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Sharing
+  ###########################################################################
+
+  - key: share.share
+    t: Поделиться
+  - key: share.options
+    t: Поделитесь результатом
+  - key: share.preview
+    t: Превью картинки в соцсетях
+  - key: share.site.title
+    t: Посмотрите результаты опроса {siteTitle}
+  - key: share.site.twitter_text
+    t: 'Посмотрите результаты опроса {siteTitle} {link} {hashtag}'
+  - key: share.site.subject
+    t: Результаты опроса {siteTitle}
+  - key: share.site.body
+    t: 'Лишь некоторые интересные результаты опроса: {link}'
+  - key: share.block.twitter_text
+    t: '{hashtag} {year}: {title} {link}'
+  - key: share.block.subject
+    t: Результаты опроса {siteTitle}
+  - key: share.block.body
+    t: 'Лишь некоторые интересные результаты опроса ({title}): {link}'
+  - key: share.twitter
+    t: Поделиться в Twitter
+  - key: share.facebook
+    t: Поделиться в Facebook
+  - key: share.linkedin
+    t: Поделиться в LinkedIn
+  - key: share.email
+    t: Поделиться по электронной почте
+  - key: share.image
+    t: Ссылка на картинку
+  - key: share.link
+    t: Ссылка на раздел
+  - key: share.url
+    t: Ссылка на этот раздел
+  - key: share.close
+    t: Закрыть
+
+  ###########################################################################
+  # Views
+  ###########################################################################
+  - key: views.viz
+    t: Граф
+  - key: views.table
+    t: Таблица
+
+  ###########################################################################
+  # Table
+  ###########################################################################
+  - key: table.label
+    t: Имя
+  - key: table.item
+    t: Элемент
+  - key: table.percentage_survey
+    t: 'Процент от всех участников опроса'
+  - key: table.percentage_question
+    t: 'Процент от ответивших на вопрос'
+  - key: table.percentage_facet
+    t: '% of facet respondents'
+  - key: table.count
+    t: Количество
+  - key: table.year
+    t: Год
+  - key: table.mean
+    t: Среднее
+  - key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+  - key: table.percentages_table
+    t: Проценты
+  - key: table.rankings_table
+    t: Рейтинги
+
+  - key: table.satisfaction_rank
+    t: Показатель удовлетворённости
+  - key: table.interest_rank
+    t: Показатель заинтересованности
+  - key: table.usage_rank
+    t: Показатель использования
+  - key: table.awareness_rank
+    t: Показатель узнаваемости
+
+  - key: table.would_not_use_percentage
+    t: Вариант ответа "Использовал > Больше не буду использовать" в %
+  - key: table.not_interested_percentage
+    t: Вариант ответа "Слышал об этом > Не интересно" в %
+  - key: table.would_use_percentage
+    t: Вариант ответа "Использовал > Буду использовать снова" в %
+  - key: table.interested_percentage
+    t: Вариант ответа "Слышал об этом > Хочу изучить" в %
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: awards.runner_ups
+    t: Призовые места
+
+  - key: award.feature_adoption_award.title
+    t: Самая применяемая возможность
+  - key: award.feature_adoption_award.description
+    t: Награждается, как наиболее применяемая возможность.
+
+  - key: award.feature_adoption_delta_award.title
+    t: Самая применяемая возможность
+  - key: award.feature_adoption_delta_award.description
+    t: Награждается, как наиболее успешная возможность по сравнению с предыдущим годом (согласно подсчёту ответов за «Использовал»).
+
+  - key: award.tool_usage_award.title
+    t: Самая используемая технология
+  - key: award.tool_usage_award.description
+    t: Награждается, как технология с наибольшим количеством пользователей.
+
+  - key: award.tool_usage_delta_award.title
+    t: Самая используемая технология
+  - key: award.tool_usage_delta_award.description
+    t: Награждается, как наиболее успешная технология по сравнению с предыдущим годом (согласно подсчёту ответов за «Буду использовать снова»).
+
+  - key: award.tool_satisfaction_award.title
+    t: Самый высокий уровень удовлетворённости
+  - key: award.tool_satisfaction_award.description
+    t: Награждается, как технология с наибольшим процентом довольных пользователей.
+
+  - key: award.tool_interest_award.title
+    t: Самый высокий уровень заинтересованности
+  - key: award.tool_interest_award.description
+    t: Награждается, как технология, в изучении которой были заинтересованы больше всего разработчиков.
+
+  - key: award.resource_usage_award.title
+    t: Самый популярный ресурс
+  - key: award.resource_usage_award.description
+    t: Награждается, как ресурс с наибольшей посещаемостью среди пользователей.
+
+  - key: award.prediction_award.title
+    t: Самая перспективная технология
+  - key: award.prediction_award.description
+    t: Награждается, как технология, которая может стать лидером… или нет?
+
+  - key: award.most_write_ins_award.title
+    t: Самый популярный ответ
+  - key: award.most_write_ins_award.description
+    t: Награждается, как наиболее популярный вариант ответа, указанный самими участниками опроса.
+
+  ###########################################################################
+  # Hints
+  ###########################################################################
+
+  - key: hints.hint_hint
+    t: >
+      В таких небольших подсказках по всему опросу
+      будет отображаться полезная информация и всякие разные подробности.
+
+  - key: hints.units_switcher_hint
+    t: >
+      С помощью кнопок в верхнем правом углу каждого блока можно
+      переключаться между процентными показателями и абсолютными выражениями
+      одних и тех же рассматриваемых данных.
+
+  - key: hints.export_hint
+    t: >
+      Кликнув по кнопке <span class="hint-export-button">Экспорт</span> вверху каждого блока
+      можно посмотреть исходные JSON-данные или получить
+      GraphQL-запрос графика, который потом можно выполнить в публичном API.
+
+  - key: hints.completion_hint
+    t: >
+      Поскольку все вопросы являются необязательными, у них разное количество ответов.
+      Индикатор заполнения (<span class="hint-completion-indicator">◕</span>) рядом с каждым вопросом даст понять, сколько людей ответило на него.
+
+  - key: hints.tool_modal_hint
+    t: >
+      Кликните по названию, чтобы узнать более подробные сведения
+      и лучше рассмотреть связанные с ней данные.
+
+  - key: hints.rankings_modes_hint
+    t: >
+      Диаграмма с рейтингом может показывать удовлетворённость, заинтересованность, использование и узнаваемость технологий,
+      поэтому не стесняйтесь смотреть каждую из этих категорий, чтобы лучше понять текущую ситуацию.
+
+  - key: hints.sharing_hint
+    t: >
+      Научно доказано, что публикация этого опроса в Twitter, Facebook или по электронной почте
+      повысит производительность вашего кода на 15%.
+
+  - key: hints.tshirt_hint
+    t: >
+      Ещё одно научно обоснованное утверждение: покупка нашей футболки
+      повысит ваши навыки программирования!
+
+  - key: hints.variants_hint
+    t: >
+      В некоторых графиках есть дополнительные вкладки, на которых представлены взаимодополняющие разбивки тех же самых данных, или других, похожих данных. Обязательно изучите также их!
+
+  - key: hints.share_hint
+    t: >
+      На вкладке <span class="hint-icon hint-share-button">Поделиться</span> вы найдёте много способов поделиться графиком
+      или даже загрузить его в виде отдельного изображения.
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">На следующей диаграмме представлены результаты турнира из трёх раундов с восьмью вариантами ответов. В каждом из туре респондентам из пары вариантов предстояло выбрать один ответ, чтобы по итогу в заключительном раунде остался единственный вариант, который считается победившим.</span><span class="hint-diagram"/></span>
