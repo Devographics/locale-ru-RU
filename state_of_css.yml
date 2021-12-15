@@ -725,12 +725,12 @@ translations:
       t: Удовлетворение
 
     # Browser interoperability question
-    - key: opinions_others.browser_interoperability_features
+    - key: opinions_others.browser_interoperability_features.others
       t: Браузерная несовместимость
-    - key: opinions_others.browser_interoperability_features.description
+    - key: opinions_others.browser_interoperability_features.others.description
       t: >
           Что в CSS трудно использовать
-          из-за отличий работы в браузерах?
+          из-за различий в браузерах?
 
     # Pain Points
     - key: opinions.css_pain_points

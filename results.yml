@@ -77,7 +77,7 @@ translations:
     t: Узнаваемость
 
   - key: options.features_mode.grouped
-    t: Сгруппированный
+    t: Всё вместе
   - key: options.features_mode.awareness_rank
     t: По узнаваемости
   - key: options.features_mode.usage_rank
@@ -877,7 +877,7 @@ translations:
 
   - key: hints.tshirt_hint
     t: >
-      Ещё одно научно обоснованное утверждение: покупка нашей футболки
+      Ещё одно научно обоснованное доказательство: покупка нашей футболки
       повысит ваши навыки программирования!
 
   - key: hints.variants_hint
