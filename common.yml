@@ -833,6 +833,8 @@ translations:
       t: Победил в 2 раунде
     - key: options.bracket.round3
       t: Победил в 3 раунде
+    - key: options.bracket.combined
+      t: Общее количество
 
     ###########################################################################
     # Tools
