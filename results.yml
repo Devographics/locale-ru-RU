@@ -161,7 +161,7 @@ translations:
     t: Технологии
 
   - key: sections.conclusion.title
-    t: Заключение
+    t: Выводы
 
   - key: sections.about.title
     t: О проекте
