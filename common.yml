@@ -33,7 +33,7 @@ translations:
       t: >
         <a href="{link}">Вернитесь</a> на главную страницу опроса, чтобы начать или возобновить сессию.
     - key: general.take_survey
-      t: Перейти к опросу {name} за {year}
+      t: Пройти опрос {name}
 
     # surveys
     - key: general.open_surveys
@@ -75,7 +75,9 @@ translations:
     - key: general.translation_help
       t: Помощь с переводами
     - key: general.newly_added
-      t: Добавленное в этом году
+      t: Добавлено в этом году
+    - key: general.new
+      t: Новинка
 
     # credits
     - key: credits.thanks
@@ -1038,6 +1040,15 @@ translations:
     - key: tools_others.non_js_languages.others
       t: Другие языки
     - key: tools_others.non_js_languages.others.description
+      t: Другие ответы (поле со свободной формой ответа).
+
+    - key: tools_others.javascript_flavors
+      t: Разновидности JavaScript
+    - key: tools_others.javascript_flavors.description
+      t: Языки, компилируемые в JavaScript
+    - key: tools_others.javascript_flavors.others
+      t: Другие разновидности JavaScript
+    - key: tools_others.javascript_flavors.others.description
       t: Другие ответы (поле со свободной формой ответа).
 
     ###########################################################################

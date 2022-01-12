@@ -54,6 +54,10 @@ translations:
     t: Зарегистрироваться
   - key: accounts.sign_in
     t: Войти
+  - key: accounts.switch_to_sign_up
+    t: Нет аккаунта? Зарегистрируйтесь
+  - key: accounts.switch_to_sign_in
+    t: Уже есть аккаунт? Авторизуйтесь
   - key: accounts.sign_out
     t: Выйти
   - key: accounts.cancel
