@@ -49,7 +49,7 @@ translations:
       t: 29 долларов (без доставки)
 
     - key: tshirt.designer.heading
-      t: О дизайнере футболки
+      t: Об дизайнере футболки
 
     - key: tshirt.designer.name
       t: Кристофер Кирк-Нильсен
@@ -98,6 +98,28 @@ translations:
       t: |
           Будь то проблемы, которые тормозят вас сегодня, или недостающие фичи, которые вы хотите использовать завтра,
           у вас был шанс высказаться и пожаловаться на CSS!
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: options.features_categories.layout
+      aliasFor: sections.layout.title
+    - key: options.features_categories.shapes_graphics
+      aliasFor: sections.shapes_graphics.title
+    - key: options.features_categories.interactions
+      aliasFor: sections.interactions.title
+    - key: options.features_categories.typography
+      aliasFor: sections.typography.title
+    - key: options.features_categories.animations_transforms
+      aliasFor: sections.animations_transforms.title
+    - key: options.features_categories.accessibility
+      aliasFor: sections.accessibility.title
+    - key: options.features_categories.media_queries
+      aliasFor: sections.media_queries.title
+    - key: options.features_categories.other_features
+      aliasFor: sections.other_features.title
+
 
     ###########################################################################
     # Notes

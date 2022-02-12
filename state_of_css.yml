@@ -770,6 +770,27 @@ translations:
     - key: happiness.state_of_css
       t: Насколько вы удовлетворены текущим состоянием CSS?
 
+      # pain points/currently missing (results)
+    - key: css_pain_points.css_pain_points_wins
+      t: Болевые точки CSS
+    - key: css_pain_points.css_pain_points_wins.description
+      t: Наиболее часто возникающая проблема при работе с CSS? Результаты ранжируются по количеству выигранных раундов.
+
+    - key: css_pain_points.css_pain_points_matchups
+      t: Болевые точки CSS (Пары)
+    - key: css_pain_points.css_pain_points_matchups.description
+      t: Наиболее часто возникающая проблема при работе с CSS? Процент раундов, где расположенная слева проблема чаще встречается по сравнению с верхней.
+
+    - key: currently_missing_from_css.currently_missing_from_css_wins
+      t: Отсутствующие фичи в CSS
+    - key: currently_missing_from_css.currently_missing_from_css_wins.description
+      t: Какую из фичей в CSS вы хотели бы видеть сегодня? Результаты ранжируются по количеству выигранных пар.
+
+    - key: currently_missing_from_css.currently_missing_from_css_matchups
+      t: Отсутствующие фичи в CSS (Пары)
+    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+      t: Какую из фичей в CSS вы хотели бы видеть сегодня? Процент пар, где расположенная слева возможность оказалась более желаемой, чем верхняя.
+
     ###########################################################################
     # Resources
     ###########################################################################

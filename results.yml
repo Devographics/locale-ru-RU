@@ -113,6 +113,27 @@ translations:
     t: |
       ОЦЕНИВАЮТ: Высокая степень использования, низкая степень удовлетворенности. Технологии, над прекращением использования которых стоит задуматься.
 
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: Низкая степень использования, высокая степень удовлетворённости. Технологии, на которые стоит обратить внимание.
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: Высокая степень использования, высокая степень удовлетворённости. Технологии, которые можно спокойно применять.
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: Низкая степень использования, высокая степень удовлетворённости. Технологии, которые лучше избегать в настоящий момент.
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: Высокая степень использования, низкая степень удовлетворенности. Технологии, над прекращением использования которых стоит задуматься.
+
   - key: ranges.selector.years_of_experience
     t: Опыт
   - key: ranges.selector.yearly_salary
@@ -143,6 +164,14 @@ translations:
     t: Эпилепсия
   - key: options.disability_status_others.aspergers
     t: Синдром Аспергера
+  - key: options.disability_status_others.color_blindness
+    t: Дальтонизм
+  - key: options.disability_status_others.anxiety
+    t: Беспокойство
+  - key: options.disability_status_others.dyslexia
+    t: Дислексия
+  - key: options.disability_status_others.diabetes
+    t: Диабет
 
   ###########################################################################
   # Sections
@@ -159,6 +188,9 @@ translations:
 
   - key: sections.technologies.title
     t: Технологии
+
+  - key: sections.libraries.title
+    t: Библиотеки
 
   - key: sections.conclusion.title
     t: Выводы
@@ -367,7 +399,7 @@ translations:
 
   # tools arrows
   - key: blocks.tools_arrows
-    t: Изменения во времени
+    t: Изменения в течение времени
   - key: blocks.tools_arrows.description
     t: |
       Каждая линия проходит с 2016 по 2020 год. Чем выше точка, тем больше людей использовало технологию.
@@ -417,6 +449,18 @@ translations:
       слева, соответственно, относительно центральной оси.
 
       Ширина столбца представляет собой количество респондентов, знакомых с рассматриваемой технологией.
+
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Рейтинг библиотек
+  - key: blocks.tools_tier_list.description
+    t: |
+      На этой диаграмме библиотеки ранжированы по коэффициенту удовлетворенности (процент пользователей,
+      которые бы снова воспользовались библиотекой). Обратите внимание, в списке участвуют библиотеки,
+      которые упомянули более 10% респондентов.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
 
   # tools section streams
   - key: blocks.tools_section_streams
@@ -499,6 +543,27 @@ translations:
   - key: export.export_graphql
     t: Посмотреть GraphQL-запрос
 
+  - key: custom_data.heading
+    t: Custom Chart
+  - key: custom_data.custom_data
+    t: Custom Data
+  - key: custom_data.graphql_query
+    t: GraphQL Query
+  - key: custom_data.chart_title
+    t: Custom Chart
+  - key: custom_data.submit
+    t: Submit
+  - key: custom_data.edit_title
+    t: Edit Chart Title
+  - key: custom_data.customize
+    t: Customize Data
+  - key: custom_data.details
+    t: >
+        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+        3. In the explorer window, click the Play ("Execute Query") button.
+        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+
   # Tools usage variations
   - key: blocks.tools_usage_variations
     t: Различия использования
@@ -532,26 +597,6 @@ translations:
     t: Рейтинг факторов при выборе библиотеки (Пары)
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: Какие факторы наиболее всего важны при оценке новой библиотеки? Процент пар, где левый фактор оказался важнее, чем верхний.
-
-  - key: css_pain_points.css_pain_points_wins
-    t: Болевые точки CSS
-  - key: css_pain_points.css_pain_points_wins.description
-    t: Наиболее часто возникающая проблема при работе с CSS? Результаты ранжируются по количеству выигранных раундов.
-
-  - key: css_pain_points.css_pain_points_matchups
-    t: Болевые точки CSS (Пары)
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: Наиболее часто возникающая проблема при работе с CSS? Процент раундов, где расположенная слева проблема чаще встречается по сравнению с верхней.
-
-  - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: Отсутствующие фичи в CSS
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: Какую из фичей в CSS вы хотели бы видеть сегодня? Результаты ранжируются по количеству выигранных пар.
-
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: Отсутствующие фичи в CSS (Пары)
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: Какую из фичей в CSS вы хотели бы видеть сегодня? Процент пар, где расположенная слева возможность оказалась более желаемой, чем верхняя.
 
   ###########################################################################
   # Charts
@@ -652,26 +697,12 @@ translations:
   - key: charts.tools_arrows.high_usage
     t: High usage
   - key: charts.tools_arrows.popularity_positive
-    t: Rising popularity
-  - key: charts.tools_arrows.negative
-    t: Falling popularity
+    t: Рост популярности
+  - key: charts.tools_arrows.popularity_negative
+    t: Падение популярности
 
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.animations_transforms
-    aliasFor: sections.animations_transforms.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.media_queries
-    aliasFor: sections.media_queries.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
+  - key: charts.no_answer
+    t: Без ответа
 
   ###########################################################################
   # Sharing

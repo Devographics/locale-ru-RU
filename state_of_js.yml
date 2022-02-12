@@ -129,7 +129,7 @@ translations:
     - key: options.js_pain_points.managing_dependencies
       t: Управление зависимостями
     - key: options.js_pain_points.managing_dependencies.description
-      t: Управление зависимостями, версиями пакетов и размерами бандлов
+      t: Управление зависимостями, версиями пакетов и размерами бандлов.
     - key: options.js_pain_points.architecture
       t: Архитектура кода
     - key: options.js_pain_points.architecture.description
@@ -383,6 +383,19 @@ translations:
     - key: opinions_others.missing_from_js.others.description
       t: Возможности, которые вы хотели бы видеть в JavaScript.
 
+    - key: happiness.front_end_frameworks
+      t: Насколько вы удовлетворены текущим состоянием фронтенд-фреймворков?
+    - key: happiness.back_end_frameworks
+      t: Насколько вы удовлетворены текущим состоянием бэкенд-фреймворков?
+    - key: happiness.testing
+      t: Насколько вы удовлетворены текущим состоянием инструментов для тестирования?
+    - key: happiness.mobile_desktop
+      t: Насколько вы удовлетворены текущим состоянием фреймворков для создания мобильных и десктопных приложений?
+    - key: happiness.build_tools
+      t: Насколько вы удовлетворены текущим состоянием инструментами сборки?
+    - key: happiness.monorepo_tools
+      t: Насколько вы удовлетворены текущим состоянием инструментами для монорепозиториев?
+
     - key: happiness.state_of_the_web
       t: Насколько вы удовлетворены текущим состоянием веб-технологий?
 
@@ -405,6 +418,27 @@ translations:
       t: Из каждой пары выберите то, что вы бы хотели больше всего видеть в JavaScript сегодня.
     - key: opinions_others.currently_missing_from_js.others
       t: Другие недостающие фичи
+
+    # pain points/currently missing (results)
+    - key: js_pain_points.js_pain_points_wins
+      t: Болевые точки JavaScript
+    - key: js_pain_points.js_pain_points_wins.description
+      t: Наиболее часто возникающая проблема при работе с JavaScript? Результаты ранжируются по количеству выигранных раундов.
+
+    - key: js_pain_points.js_pain_points_matchups
+      t: Болевые точки JavaScript (Matchups)
+    - key: js_pain_points.js_pain_points_matchups.description
+      t: Наиболее часто возникающая проблема при работе с JavaScript? Процент раундов, где расположенная слева проблема чаще встречается по сравнению с верхней.
+
+    - key: currently_missing_from_js.currently_missing_from_js_wins
+      t: Отсутствующие фичи в JavaScript (Пары)
+    - key: currently_missing_from_js.currently_missing_from_js_wins.description
+      t: Какую из фичей в JavaScript вы хотели бы использовать уже сегодня? Результаты ранжируются по количеству выигранных раундов.
+
+    - key: currently_missing_from_js.currently_missing_from_js_matchups
+      t: Отсутствующие фичи в JavaScript (Пары)
+    - key: currently_missing_from_js.currently_missing_from_js_matchups.description
+      t: Какую из фичей в JavaScript вы хотели бы использовать уже сегодня? Процент раундов, где расположенная слева проблема чаще встречается по сравнению с верхней.
 
     ###########################################################################
     # Resources
