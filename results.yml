@@ -544,25 +544,29 @@ translations:
     t: Посмотреть GraphQL-запрос
 
   - key: custom_data.heading
-    t: Custom Chart
+    t: Собственный график
   - key: custom_data.custom_data
-    t: Custom Data
+    t: Ваши данные
   - key: custom_data.graphql_query
-    t: GraphQL Query
+    t: Запрос GraphQL
   - key: custom_data.chart_title
-    t: Custom Chart
+    t: Собственный график
   - key: custom_data.submit
-    t: Submit
+    t: Отправить
   - key: custom_data.edit_title
-    t: Edit Chart Title
+    t: Изменить заголовок графика
   - key: custom_data.customize
-    t: Customize Data
+    t: Изменить данные
   - key: custom_data.details
     t: >
-        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
-        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
-        3. In the explorer window, click the Play ("Execute Query") button.
-        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+
+        1. Скопируйте содержимое текстового поля "Запрос GraphQL" и вставьте его в среднюю панель [проводника GraphQL API](https://graphiql.stateofjs.com/).
+
+        2. Измените запрос, добавив один или несколько **фильтров** из левой панели проводника. Проследите за тем, чтобы общая структура данных осталась прежней.
+
+        3. В окне проводника нажмите кнопку Play ("Выполнить запрос").
+
+        4. Скопируйте результаты изменённого запроса (`{ data: ... }`) в текстовое поле "Ваши данные" и нажмите "Изменить данные".
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -923,3 +927,94 @@ translations:
   - key: hints.bracket_hint
     t: >
       <span class="hint-bracket"><span class="hint-text">На следующей диаграмме представлены результаты турнира из трёх раундов с восьмью вариантами ответов. В каждом из туре респондентам из пары вариантов предстояло выбрать один ответ, чтобы по итогу в заключительном раунде остался единственный вариант, который считается победившим.</span><span class="hint-diagram"/></span>
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: Спасибо
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Спасибо за поддержку опроса. Ваш аватар появится рядом с графиком
+      в течение следующего часа. Если этого не произойдет, пожалуйста, [напишите на электронную почту](mailto:chartsponsor@stateofjs.com).
+
+
+  - key: sponsor.sponsored_by
+    t: >
+      **{name}** пожертвовал **${amount}** этому графику
+
+  - key: sponsor.sponsor_button
+    t: Проспонсировать этот график
+
+  - key: sponsor.sponsor_chart.title
+    t: Поддержать график "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+      Поддержите график финансово, пожертвовав 10 долларов или больше,
+      а в благодарность аватар вашего Twitter-аккаунта будет показан рядом с графиком!
+
+  - key: sponsor.chart_id
+    t: 'ID графика: '
+
+  - key: sponsor.sponsor_this_chart
+    t: Поддержать график (от {baseAmount} долларов)
+
+  - key: sponsor.how_it_works.title
+    t: Как помочь?
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. **Нажмите на кнопку "Поддержать график"** — вы будете перенаправлены на страницу совершения платежа [SendOwl](https://www.sendowl.com/).
+
+
+      2. **Укажите сумму**, которую вы хотели пожертвовать опросу (минимум 10 долларов).
+
+
+      3. После оплаты напишите **имя своего аккаунта в Twitter**.
+
+
+      4. Вы увидите страницу с загрузкой файла **File Download** — можете смело её проигнорировать.
+
+
+      5. Сайт будет пересобран в фоновом режиме, и в течение часа имя вашего Twitter-аккаунта и пожертвование появятся рядом с графиком.
+  - key: sponsor.faq.title
+    t: F.A.Q.
+
+  - key: sponsor.faq.usage.title
+    t: На что будет потрачено моё пожертвование?
+
+  - key: sponsor.faq.usage.description
+    t: Ваше пожертвование поможет покрыть [мои](https://sachagreif.com/) бытовые расходы, а также нанять новых авторов (иллюстраторов, экспертов по доступности и т.д.).
+
+  - key: sponsor.faq.public.title
+    t: Моё пожертвование будет видно всем?
+
+  - key: sponsor.faq.public.description
+    t: Да, ваше **имя пользователя Twitter**, а также **сумма пожертвования** будут публично отображаться рядом с графиком.
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
+
+  - key: sponsor.faq.refund.title
+    t: Можно ли запросить возврат пожертвования?
+
+  - key: sponsor.faq.refund.description
+    t: Все пожертвования подлежат возврату в течение одной недели, за вычетом комиссии за транзакцию.
+
+  - key: sponsor.faq.influence.title
+    t: Повлияют ли пожертвования на результаты опроса?
+
+  - key: sponsor.faq.influence.description
+    t: Пожертвования совершаются уже после публикации результатов опроса, поэтому жертвователи не могут повлиять на них.
+
+  - key: sponsor.faq.feedback.title
+    t: Где я могу оставить отзыв или задать вопрос?
+
+  - key: sponsor.faq.feedback.description
+    t: Это можно сделать в ишью [на GitHub](https://github.com/StateOfJS/Monorepo/issues/69) или [в Discord-чате](https://discord.gg/tuWRUWVyJs).

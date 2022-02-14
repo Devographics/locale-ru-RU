@@ -13,7 +13,7 @@ translations:
 
             Однако не обошлось и без проблем. Мы столкнулись с [утечкой данных](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1), которая, к счастью, не имела негативных последствий. Мы по-прежнему сфокусированы на том, чтобы сделать опрос более инклюзивным, доступным и справедливым.
 
-            Тем не менее, хоть и опрос может отражать только малую часть того, что происходит в JavaScript, надеюсь, вам будет интересно посмотреть полученные результаты!
+            Тем не менее, хоть и опрос может отражать только малую часть того, что происходит в JavaScript, надеюсь, вам будет интересно посмотреть полученные результаты! Подробнее о том, что произошло нового, читайте в [посте](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf) (на английском).
 
             <span class="conclusion__byline">– Саша Грейф</span>
 
@@ -149,10 +149,10 @@ translations:
       t: esbuild едва исполнилось два года, но благодаря росту в **{value}** за последний год он заметно расширил свои позиции.
 
     - key: award.tool_satisfaction_award.comment
-      t: Vite одерживает вверх с поистине невероятным показателем удовлетворённости в **{value}**!
+      t: Vite одерживает вверх с поистине невероятным процентом удовлетворённости в **{value}**!
 
     - key: award.tool_interest_award.comment
-      t: При показателе заинтересованности в **{value}**, первое место снова достаётся Vite!
+      t: При проценте заинтересованности в **{value}**, первое место снова достаётся Vite!
 
     - key: award.most_write_ins_award.comment
       t: На многие вопросы можно было ответить в свободной форме, и Elm указали **{value}** раз, сделав его самым популярным вариантом.
@@ -164,22 +164,21 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            <span class="first-line">The way you write CSS is about to change forever</span>
+          <span class="first-line">По сравнению с 2016 годом, состояние JavaScript значительно улучшилось</span>
 
-            For many years now, many innovations in writing styles for the web have happened elsewhere: in preprocessors, JavaScript frameworks, or compilers. To be sure, CSS itself has also received some welcome improvements like [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) or [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Yet we still reach for libraries and other helpers on a daily basis.
+          Когда проводился первый опрос State of JS, только 21% участников использовали TypeScript, а сейчас уже 69%. Если раньше мы шутили, что каждый день появляется новый фронтенд-фреймворк, то сейчас **React** и **Vue** доминируют уже шесть лет подряд. А процент людей, которые утверждают, что "Экосистема JavaScript меняется слишком быстро", снизился с 59% до 38%.
 
-            But there's a change coming. The core CSS language is getting shaken up and renewed, and we're right at the forefront of accelerated evolution.
+          Это не значит, что язык стоит на месте. Судя по опросу, **опциональная последовательность** и **нулевое слияние** вовсю уже используются в работе, хотя этим возможностям всего два года. И это не предел, ведь ещё куча всего на подходе от TC39: опрошенные отметили, что больше всего им не хватает возможностей по управлению датами, и ведь как раз недавно Temporal API перешёл [на третью стадию принятия](https://github.com/tc39/proposal-temporal).
 
-            [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) will bring in an entirely new era of responsive design, and [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) will make our use of frameworks, theming and managing complex codebases significantly easier.
+          JS-инструментарий также стремительно развивается, совершенно заслуженно можно сказать, что 2021 был годом **Vite**. Vite не только дебютировал с процентом удовлетворённости в 98%, но и сразу же в первый год в опросе его используют 30% участников, т.е. больше чем esbuild. Vite не одинок в попытках улучшить инструменты для сборки JavaScript-кода — 8 из 12 инструментов, которые мы наблюдаем сегодня, нет и двух лет! И хотя **pnpm**, **Turborepo** и **Nx** заняли первые места в нашей новой категории инструментов для монорепозиториев, только 25% опрошенных в целом довольны всеми ими, так что ещё есть над чем работать.
 
-            When we look a little further ahead, we can also see the [@when/else conditional](https://css-tricks.com/proposal-for-css-when/) coming up, which will let us combine media, container and supports queries into a single at-rule.
+          Также следует отметить, что многие новые проекты, такие как **Deno**, **Rome**, **Astro**, **Remix** и другие, теперь поддерживаются венчурными компаниями, что, наверное, хорошо, учитывая, как нелегко бывает с финансированием опенсорс-проектов.
 
-            And fingers crossed, 2022 is the year we finally see some movement on native CSS nesting. Those of us that work with tools like Sass and PostCSS already couldn't imagine another way of working.
+          Поскольку [JavaScript вступил в третий десяток](https://www.swyx.io/js-third-age/), возможности для начинающих опенсорс-разработчиков и предпринимателей продолжают открываться, и мне не терпится увидеть, что произойдёт в ближайшее пару лет!
 
-            All of this together means that 2022 is likely to be a year where the way you write CSS is going to fundamentally change. It's an incredibly exciting period, and we look forward to all the amazing implementations in the year to come.
 
     - key: conclusion.bio
-      t: Web developer and creator of Polypane
+      t: Глава DX-отдела в Temporal
 
     ###########################################################################
     # Picks
@@ -202,7 +201,7 @@ translations:
     - key: picks.vadim_makeev.name
       t: Серверный рендеринг
     - key: picks.vadim_makeev.bio
-      t: DevRel-специалист, подкастер, руководитель Web Standards
+      t: DevRel-специалист, подкастер, руководитель «Веб-стандартов»
     - key: picks.vadim_makeev.description
       t: |
           Пришло время правильно расставить приоритеты. UX важнее DX, и так было всегда. Производительность решает!
@@ -271,7 +270,7 @@ translations:
       t: Сооснователь Remix
     - key: picks.michael_jackson.description
       t: |
-        Мы создали компилятор Remix с использованием esbuild, который определенно поднял планку в области JS-компиляторов.
+        Мы создали компилятор Remix с использованием esbuild, который определенно поднял планку JS-компиляторов.
         Он невероятно быстрый, а при помощи API для реализации плагинов можно сделать всё, что нужно.
 
     - key: picks.david_khourshid.name
@@ -303,7 +302,7 @@ translations:
     - key: picks.wes_bos.name
       t: TC39 Proposals
     - key: picks.wes_bos.bio
-      t: JavaScript Teacher & Podcast Host
+      t: Преподаватель JavaScript и подкастер
     - key: picks.wes_bos.description
       t: |
           Git-репозиторий со всеми предложениями, которые стоило бы реализовать в JavaScript. Довольно интересно читать предлагаемые идеи, и видеть, как они проходят через все этапы одобрения.
@@ -339,68 +338,72 @@ translations:
 
     - key: about.content
       t: >
-            The 2021 State of CSS survey ran from October 5 to November 2 2021, and collected 8714 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants.
+            В 2021 году опрос "State of JS" проводился с 13 января по 2 февраля **2022**, в нём приняло участие 16,085 человек. Этим опросом руковожу я, [Саша Грейф (Sacha Greif)](https://sachagreif.com/), при помощи команды опенсорс-разработчиков и консультантов.
+
+            Логотип и футболка опроса в этом году были разработаны [Кристофером Кирк-Нильсеном (Christopher Kirk-Nielsen)](http://chriskirknielsen.com/).
+
+            ### Цели опроса
+
+            Этот опрос, как и [State of CSS](https://stateofcss.com/), был создан выявления будущих тенденций в экосистеме веб-разработки, чтобы помочь разработчикам сделать выбор в сторону той или иной технологии и инструмента.
+
+            Следовательно, наши опросы направлены на прогнозирование того, что появится в ближайшие несколько лет, а не на анализе популярных решений сейчас, поэтому в них не всегда будут отмечены фичи или технологии, которые наиболее чаще используются в данный момент.
+
+            Опросы также следует воспринимать как **краткая характеристика конкретного подмножества разработчиков**, т.е. представленные данные не отражают состояние всей экосистемы.
+
+            ### Создание опроса
+
+            Текущий опрос частично сделан на основе прошлогоднего опроса с учётом мнений предложений [на GitHub](https://github.com/StateOfJS/Monorepo/issues/56),
+
+            Все вопросы опроса остались необязательными.
+
+            ### Аудитория опроса
+
+            Опрос проводился открыто в онлайн-режиме, поэтому не было какого-либо отбора или фильтрации респондентов. В большинстве своём в текущем опросе поучаствовали люди, которые проходили опрос в предыдыщих годах (они были оповещены о новом опросе через список рассылки) и посетители социальных сетей.
+
+            Обратите внимание, что фреймворки, библиотеки, инструменты могли побуждать своих пользователей поучаствовать в опросе, так что некоторые из них воспользовались этой возможностью и опубликовали баннеры, твиты и т.д. Подробная разбивка, откуда пришли участники опроса, приведена в диаграмме "Источники".
+
+            ### Репрезентативность и инклюзивность
+
+            Хотя мы считаем, что важно дать право голоса каждому сообществу, реальность такова, что в подобном публичном опросе всегда будет сложно правильно представить всех, особенно если изначально есть элемент предвзятости.
 
 
-            This year's logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
-
-            ### Survey Goals
-
-            This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices.
+            Чтобы повысить эффективность опроса мы следуем следующим стратегиям:
 
 
-            As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included.
+            - **Информационное продвижение**: мы всегда стараемся обращаться к различным организациям (как представляющим BIPOC- и LGBTQ-разработчиков, так и онлайн-платформы для обучения), чтобы попытаться разнообразить нашу собственную аудиторию.
 
-            ### Survey Design
+            - **Анализ данных**: с помощью таких фич, как фасеты и вариации, мы постоянно стараемся узнать мнение любой демографической группы, независимо от того, какой малочисленной она может быть в наших данных.
 
-            The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8).
+            - **Снижение барьеров**: если опрос слишком длинный, не очень хорошо разработан, медленно загружается, проводится только на английском языке и т.п., — то в совокупности всё это может оттолкнуть значительное количество людей. Устранение этих проблем поможет снизить порог входа, сделав более разнообразной аудиторию опроса.
 
-            All survey questions were optional.
+            ### Финансирование проекта
 
-            ### Survey Audience
-
-            The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic.
-
-            ### Representativeness & Inclusivity
-
-            While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases.
+            Финансирование проекта осуществляется из разных источников:
 
 
-            In order to counter-balance this, we are implementing three distinct strategies:
+            - **Продажа футболок**.
+
+            - **Спонсорство графиков**: участники сообщества могут помочь финансово опросу в обмен на то, что их имя будет фигурировать в результатах опроса.
+
+            - **Рекламные ссылки**: ссылки на рекомендуемые ресурсы внизу каждой страницы предоставлены нашим партнером [Frontend Masters](https://frontendmasters.com/).
+
+            - **Разовые партнёры**: в этом году команда [Google Chrome](https://www.google.com/chrome/) выделила небольшой бюджет, который позволил нанять [консультанта по доступности](https://fossheim.io/) для работы над опросами по CSS и JS.
 
 
-            - **Outreach**: this year, we reached out to 23 organizations representing BIPOC and LGBTQ developers in the hopes of partnering up. While very few of them replied, we will keep looking for ways to reach out beyond our current audience.
+            Несмотря на эти источники финансирования, в целом опросы остаются по-прежнему некоммерческим самофинансируемым проектом, так что любой вклад или спонсорская помощь очень приветствуются. Мне бы особенно хотелось тесно сотрудничать с самими разработчиками браузеров, поскольку они играют важнейшую роль в веб-экосистеме.
 
-            - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data.
+            ### Технический стек
 
-            - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse.
+            Более подробный технический обзор функционирования опросов вы можете найти в [отдельном посте](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
 
-            ### Project Funding
+            - **Коллекция данных**: кастомное приложение [Vulcan.js](http://vulcanjs.org/).
 
-            Funding from this project comes from a variety of sources:
+            - **Хранение/обработка данных**: MongoDB и MongoDB Aggregations.
 
+            - **Data API**: API-сервер GraphQL на Node.js.
 
-            - **T-shirt sales**.
+            - **Сайт с результатами**: React-приложение на основе [Gatsby](https://www.gatsbyjs.com/).
 
-            - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+            - **Визуализации данных**: библиотека с React-компонентами [Nivo](https://nivo.rocks/).
 
-            - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the survey.
-
-
-            Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.
-
-            ### Technical Overview
-
-            You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
-
-            - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
-
-            - **Data storage/processing**: MongoDB & MongoDB Aggregations.
-
-            - **Data API**: Node.js GraphQL API.
-
-            - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
-
-            - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library.
-
-            - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+            - **Шрифт**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) и [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
