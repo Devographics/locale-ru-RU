@@ -297,14 +297,13 @@ translations:
           Fly позволил мне (фронтенд-инженеру, который не любит DevOps) легко развернуть реальное, глобально распределенное продакшен-приложение.
 
     - key: picks.tejas_kumar.name
-      t: Joe Haddad
+      t: Джо Хаддад (Joe Haddad)
     - key: picks.tejas_kumar.bio
-      t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+      t: Веб-разработчик, спикер на конференциях, директор DevRel-отдела в Xata
     - key: picks.tejas_kumar.description
       t: |
-          Joe works on Next.js at Vercel and is constantly looking to proudly
-          demonstrate its power while actively listening
-          to feedback from the community to support them better.
+          Джо работает над Next.js в компании Vercel и постоянно стремится с гордостью демонстрировать его возможности,
+          одновременно активно прислушиваясь к мнениям в сообществе.
 
     - key: picks.wes_bos.name
       t: TC39 Proposals
