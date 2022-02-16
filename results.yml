@@ -546,13 +546,15 @@ translations:
   - key: custom_data.heading
     t: Собственный график
   - key: custom_data.custom_data
-    t: Ваши данные
+    t: Собственные данные
   - key: custom_data.graphql_query
     t: Запрос GraphQL
   - key: custom_data.chart_title
     t: Собственный график
   - key: custom_data.submit
     t: Отправить
+  - key: custom_data.empty_contents
+    t: Заполните поле "Собственные данные".
   - key: custom_data.edit_title
     t: Изменить заголовок графика
   - key: custom_data.customize
