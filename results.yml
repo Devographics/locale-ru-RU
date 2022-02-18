@@ -172,6 +172,8 @@ translations:
     t: Дислексия
   - key: options.disability_status_others.diabetes
     t: Диабет
+  - key: options.disability_status_others.carpal_tunnel
+    t: Кистевой туннельный синдром
 
   ###########################################################################
   # Sections
