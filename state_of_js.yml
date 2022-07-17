@@ -480,7 +480,7 @@ translations:
     # Resources
     ###########################################################################
 
-    - key: resources.first_steps
+    - key: resources.first_steps_js
       t: Первые шаги в JavaScript
-    - key: resources.first_steps.description
+    - key: resources.first_steps_js.description
       t: Когда вы только начинали, как вы изучали JavaScript?

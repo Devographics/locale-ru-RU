@@ -795,7 +795,7 @@ translations:
     # Resources
     ###########################################################################
 
-    - key: resources.first_steps
+    - key: resources.first_steps_css
       t: Первые шаги в CSS
-    - key: resources.learning_methods.description
+    - key: resources.first_steps_css.description
       t: Когда вы только начинали, как вы первоначально изучали CSS?
