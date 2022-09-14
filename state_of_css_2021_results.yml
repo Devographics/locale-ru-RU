@@ -392,11 +392,11 @@ translations:
     # Sponsors
     ###########################################################################
 
-    - key: partners.frontendmasters.description
+    - key: sponsors.frontendmasters.description
       t: Прокачайте свои навыки с помощью подробных современных курсов по фронтенду.
-    - key: partners.polypane.description
+    - key: sponsors.polypane.description
       t: Браузер для амбициозных разработчиков. Создавайте отзывчивые, доступные и быстрые сайты с лёгкостью.
-    - key: partners.google_chrome.description
+    - key: sponsors.google_chrome.description
       t: Спасибо команде Google Chrome за поддержку нашей работы.
 
     ###########################################################################

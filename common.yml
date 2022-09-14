@@ -170,9 +170,9 @@ translations:
       t: Отменить ответ
 
     # partners
-    - key: partners.our_partners
+    - key: sponsors.our_partners
       t: Наши партнёры
-    - key: partners.become_partner
+    - key: sponsors.become_partner
       t: Стать партнёром
 
     # 404
