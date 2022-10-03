@@ -80,8 +80,8 @@ translations:
         удалить их из нашей базы данных,
         пожалуйста, <a href="mailto:hello@stateofjs.com">напишите нам</a>.
 
-    - key: accounts.token_verified
-      t: Успешная проверка токена, перенаправление…
+  - key: accounts.token_verified
+    t: Успешная проверка токена, перенаправление…
 
-    - key: accounts.your_surveys
-      t: Ваши опросы
+  - key: accounts.your_surveys
+    t: Ваши опросы
