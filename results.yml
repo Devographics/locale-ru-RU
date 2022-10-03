@@ -199,6 +199,9 @@ translations:
 
   - key: sections.about.title
     t: О проекте
+    
+  - key: sections.how_to_help.title
+    t: Помочь нам
 
   - key: sections.support.title
     t: Поддержите нас
@@ -291,6 +294,8 @@ translations:
     t: Чешский
   - key: options.locale.pt-PT
     t: Португальский
+  - key: options.locale.pt-BR
+    t: Португальский (бразильский)
   - key: options.locale.it-IT
     t: Итальянский
   - key: options.locale.sv-SE
@@ -335,7 +340,7 @@ translations:
   - key: features.knowledge_score
     t: Оценка знаний
   - key: features.knowledge_score.description
-    t: Сколько CSS-возможностей знали участники опроса?
+    t: Как много возможностей, упомянутых в опросе, знали респонденты?
 
   ###########################################################################
   # Tools & Methodologies
@@ -510,7 +515,7 @@ translations:
   - key: blocks.newsletter.description
     t: |
       Если вы хотите узнать, когда мы опубликуем дополнительные результаты или объявим о начале опроса в следующем году,
-      напишите свой адрес электронной почты:
+      укажите адрес электронной почты:
   - key: blocks.newsletter.email
     t: Ваша электронная почта
   - key: blocks.newsletter.submit
@@ -521,15 +526,11 @@ translations:
     t: Анализ использования
   - key: blocks.features_overview.description
     t: |
-      На этой диаграмме представлены степени применения различных возможностей, объединённых по категориям.
+      Размер **внешнего круга** соответствует общему числу пользователей, которые знает о возможности, тогда как **внутренний круг** представляет тех, кто **только использовал** её.
 
-      Размер <span class="text-teal-darker text-bold">внешнего круга</span>
-      соответствует общему числу пользователей, которые знают о возможности, тогда как
-      <span class="text-teal text-bold">внутренний круг</span> представляет тех, кто действительно использовал её.
-
-      Наведите на любой круг, чтобы увидеть <span class="text-blackpink text-bold">всплывающую подсказку</span>
+      Наведите на любой круг, чтобы увидеть всплывающую подсказку
       с подробными данными об общем количестве опрошенных.
-
+      
   # export
   - key: export.export
     t: Экспорт
@@ -564,13 +565,13 @@ translations:
   - key: custom_data.details
     t: >
 
-      1. Скопируйте содержимое текстового поля "Запрос GraphQL" и вставьте его в среднюю панель [проводника GraphQL API](https://graphiql.stateofjs.com/).
+        1. Скопируйте содержимое текстового поля "Запрос GraphQL" и вставьте его в среднюю панель [проводника GraphQL API](https://graphiql.stateofjs.com/).
 
-      2. Измените запрос, добавив один или несколько **фильтров** из левой панели проводника. Проследите за тем, чтобы общая структура данных осталась прежней.
+        2. Измените запрос, добавив один или несколько **фильтров** из левой панели проводника. Проследите за тем, чтобы общая структура данных осталась прежней.
 
-      3. В окне проводника нажмите кнопку Play ("Выполнить запрос").
+        3. В окне проводника нажмите кнопку Play ("Выполнить запрос").
 
-      4. Скопируйте результаты изменённого запроса (`{ data: ... }`) в текстовое поле "Ваши данные" и нажмите "Изменить данные".
+        4. Скопируйте результаты изменённого запроса (`{ data: … }`) в текстовое поле "Ваши данные" и нажмите "Изменить данные".
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -656,6 +657,16 @@ translations:
     t: Процент использования
   - key: charts.axis_legends.awareness_percentage
     t: Процент узнаваемости
+    
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+    
   - key: charts.axis_legends.happiness
     t: Удовлетворённость
   - key: charts.axis_legends.knowledge_score
@@ -762,7 +773,7 @@ translations:
     t: Таблица
 
   ###########################################################################
-  # Table
+  # Tables
   ###########################################################################
   - key: table.label
     t: Имя метки
@@ -797,6 +808,7 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
+
 
   - key: table.percentages_table
     t: Проценты
@@ -885,8 +897,7 @@ translations:
   - key: hints.units_switcher_hint
     t: >
       Под каждым графиком есть блок кнопок, с помощью которых можно
-      переключаться между разными единицами представления
-      текущих данных.
+      переключаться между разными единицами представления текущих данных.
 
   - key: hints.export_hint
     t: >
@@ -921,7 +932,8 @@ translations:
 
   - key: hints.variants_hint
     t: >
-      В некоторых графиках есть дополнительные вкладки, на которых представлены взаимодополняющие разбивки тех же самых данных, или других, похожих данных. Обязательно также посмотрите их!
+      В некоторых графиках есть дополнительные вкладки, на которых представлены взаимодополняющие разбивки тех же самых данных,
+      или других, похожих данных. Обязательно также посмотрите их!
 
   - key: hints.share_hint
     t: >
@@ -930,7 +942,8 @@ translations:
 
   - key: hints.bracket_hint
     t: >
-      <span class="hint-bracket"><span class="hint-text">На следующей диаграмме представлены результаты турнира из трёх раундов с восьмью вариантами ответов. В каждом из туре респондентам из пары вариантов предстояло выбрать один ответ, чтобы по итогу в заключительном раунде остался единственный вариант, который считается победившим.</span><span class="hint-diagram"/></span>
+      <span class="hint-bracket"><span class="hint-text">На следующей диаграмме представлены результаты турнира из трёх раундов с восьмью вариантами ответов. В каждом из туре
+      респондентам из пары вариантов предстояло выбрать один ответ, чтобы по итогу в заключительном раунде остался единственный вариант, который считается победившим.</span><span class="hint-diagram"/></span>
 
   ###########################################################################
   # Sponsor Chart
@@ -943,6 +956,7 @@ translations:
     t: >
       Спасибо за поддержку опроса. Ваш аватар появится рядом с графиком
       в течение следующего часа. Если этого не произойдет, пожалуйста, [напишите на электронную почту](mailto:chartsponsor@stateofjs.com).
+
 
   - key: sponsor.sponsored_by
     t: >
@@ -983,8 +997,10 @@ translations:
 
 
       5. Сайт будет пересобран в фоновом режиме, и в течение часа имя вашего Twitter-аккаунта и пожертвование появятся рядом с графиком.
+      
+      
   - key: sponsor.faq.title
-    t: F.A.Q.
+    t: Ответы на частозадаваемые вопросы
 
   - key: sponsor.faq.usage.title
     t: На что будет потрачено моё пожертвование?
@@ -1021,3 +1037,4 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: Это можно сделать в ишью [на GitHub](https://github.com/StateOfJS/Monorepo/issues/69) или [в Discord-чате](https://discord.gg/tuWRUWVyJs).
+    

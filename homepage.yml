@@ -11,44 +11,66 @@ translations:
     - key: homepage.get_in_touch
       t: Свяжитесь с нами
 
-    - key: homepage.made_by
-      t: 'Создатели State of CSS:'
-    - key: homepage.leave_issue
-      t: Создайте ишью
-
     - key: homepage.previous_years
       t: 'Предыдущие годы:'
-
-    - key: homepage.intro
-      t: >
-          ## CSS развивается быстрее, чем когда-либо.
-
-          Флексбоксы, гриды, мультиколонки… Не говоря уже о совершенно новых парадигмах, таких как CSS-in-JS.
-
-          После успешного проведения ежегодного опроса "State of JavaScript" 
-          мы решили войти в мир стилей и селекторов, чтобы 
-          определить последние тенденции… и попытаться преодолеть постоянно увеличивающийся "огромный раскол фронтендеров"!
 
     - key: homepage.take_survey
       t: Пройти опрос
 
     - key: homepage.view_results
-      t: Посмотреть результаты за 2019 год
+      t: Посмотреть результаты
 
     - key: share.help_spread
       t: Расскажите об опросе другим!
+      
+    - key: homepage.other_surveys
+      t: 'Другие опросы:'
 
+    - key: homepage.survey_open_now
+      t: Открытые опросы
+
+    - key: homepage.survey_preview
+      t: Предварительный просмотр
+
+    - key: homepage.most_recent_survey
+      t: Недавний
+
+    - key: homepage.current_survey
+      t: Текущий опрос
+
+    - key: homepage.past_surveys
+      t: Проведённые опросы
+
+    - key: homepage.view_questions
+      t: Посмотреть вопросы
+
+    - key: homepage.preview_questions
+      t: Preview Questions
+
+    # newsletter
     - key: newsletter.stay_tuned
-      t: Будьте на связи
+      t: Не пропустите следующий опрос
     - key: newsletter.leave_your_email
-      t: Напишите свой адрес электронной почты, чтобы узнать о следующих опросах.
+      t: Укажите свой адрес электронной почты, и мы оповестим вас о новом опросе.
+    - key: newsletter.email
+      t: Электронная почта
+    - key: newsletter.submit
+      t: Сообщить мне
 
-    - key: author.sacha.bio
-      t: >
-          Создатель JavaScript-библиотеки для визуализации данных [Nivo](http://nivo.rocks/) и
-          инструмента для создания красивых дашбордов [Mozaik](http://mozaik.rocks/).
+    # languages
+    - key: languages.available_languages
+      t: 'Текущие переводы:'
+    - key: languages.help_us_translate
+      t: Помочь перевести опрос →
 
-    - key: author.raphael.bio
-      t: >
-          Автор ежедневной электронной рассылки [Sidebar](http://sidebar.io) и создатель опенсорс-фреймворка
-          на стеке React+GraphQL [VulcanJS](http://vulcanjs.org).
+    # footer
+    - key: homepage.made_by_devographics
+      aliasFor: general.made_by_devographics
+    - key: homepage.netlify_link
+      aliasFor: general.netlify_link
+    - key: homepage.leave_issue
+      aliasFor: general.leave_issue
+    - key: homepage.join_discord
+      aliasFor: general.join_discord
+    - key: homepage.astro_link
+      t: Работает на [Astro](https://astro.build/)

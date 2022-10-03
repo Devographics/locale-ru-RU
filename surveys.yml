@@ -8,7 +8,47 @@ translations:
       t: Нет опросов для предварительного результата
     - key: general.global_nav
       t: Global
+    - key: general.survey_status_preview
+      t: Preview
+    - key: general.survey_status_open
+      t: Открыт
+    - key: general.survey_status_closed
+      t: Закрыт
 
+    ###########################################################################
+    # Errors
+    ###########################################################################
+
+    - key: error.duplicate_response
+      t: Sorry, you already have a session in progress for this survey. 
+
+    ###########################################################################
+    # Accounts
+    ###########################################################################
+
+    - key: accounts.create_account
+      t: Создание аккаунта
+    - key: accounts.create_account.description
+      t: Зарегистрировавшись вы **сможете посмотреть свои ответы в будущем** и узнать о готовности результатов опроса по электронной почте.
+    - key: accounts.create_account.note
+      t: Если **вы уже зарегистрированы** укажите свою электронную почту и мы пришлём ссылку для восстановления доступа к аккаунту.
+    - key: accounts.create_account.action
+      t: Войти под своим аккаунтом
+    - key: accounts.your_email
+      t: Электронная почта
+
+    - key: accounts.continue_as_guest
+      t: Анонимное участие
+    - key: accounts.continue_as_guest.description
+      t: Анонимное прохождение опроса означает, что вы **не сможете посмотреть свои ответы в пройденных опросах** после завершения сессии в вашем браузере.
+    - key: accounts.continue_as_guest.action
+      t: Заполнить опрос анонимно
+
+    - key: accounts.magic_link.no_email
+      t: Пожалуйста, введите свою электронную почту
+    - key: accounts.magic_link.success
+      t: "Проверьте свою электронную почту! Мы отправили вам письмо со ссылкой: перейдите по ней, чтобы войти в свой аккаунт."
+            
     ###########################################################################
     # FAQ
     ###########################################################################
@@ -46,7 +86,7 @@ translations:
     - key: faq.team
       t: Кто занимается организацией опросов?
     - key: faq.team.description
-      t: Опросы в основном проводятся [мной](http://sachagreif.com) в сотрудничестве с соавторами, переводчиками и добровольцами.
+      t: Опросы проводятся командой [Devographics](http://devographics.com) в сотрудничестве с добровольцами и переводчиками.
 
     ###########################################################################
     # Form Controls
@@ -68,7 +108,88 @@ translations:
     - key: bracket.cancel
       t: Отменить
 
+    - key: experience.leave_comment
+      t: Добавить комментарий (необязательно)
+    - key: experience.leave_comment_short
+      t: Прокомментировать
+    - key: experience.tell_us_more
+      t: "Вы ответили “{response}”. Поделитесь подробностями своего варианта ответа?"
+    - key: experience.tell_us_more_no_value
+      t: "Вы не выбрали ни одного из предлагаемых вариантов ответа. Расскажите нам, почему?"
 
     ###########################################################################
-    # Demographics (About You/User Info)
+    # Response
     ###########################################################################
+
+    - key: response.completion
+      t: 'завершён на {completion}%'
+
+    - key: response.details
+      t: Начат {startedAt}, завершён на {completion}%.
+
+    - key: response.view_results
+      t: Посмотреть результаты
+
+    ###########################################################################
+    # Survey-Specific Intros
+    ###########################################################################
+
+    - key: general.js2020.survey_intro
+      t: |
+          2020 has been a tough year for everyone, one that makes worrying about the
+          latest JavaScript frameworks seem pretty futile in comparison. 
+          Still, the world has to move on, and so does JavaScript. And once again, with your help
+          we'll try to build a comprehensive picture of the ecosystem to find out a little bit more
+          about where it's going. 
+    - key: general.css2021.survey_intro
+      t: |
+          Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and 
+          intrinsic sizing? And `@property` too?! Wow, you've been busy!
+          Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
+          dedicated contributors around the world managed to keep CSS moving forward. 
+          And so once more it's time to survey the CSS ecosystem and figure out
+          where this is all going. And maybe learn about a few new things while you're at it!
+    - key: general.js2021.survey_intro
+      t: |
+          First the 2020 Olympics got pushed back to 2021, 
+          and now the 2021 State of JavaScript survey is happening now, in 2022!
+          It's true: between work, family, and and all the turmoil in the world, 
+          some things got disrupted a little.
+          But while the year may be off-by-one, we hope the data provided by the 
+          survey itself will be just as informative and insightful as ever. 
+          And don't worry, there will be another survey towards the end of this year to set things straight again!
+    - key: general.graphql2022.survey_intro
+      t: |
+          When GraphQL was first introduced it offered a radically new way to build APIs, with more control, more granularity, and more flexibility. 
+          But that flexibility came at a price in the form of extra complexity, and a crop of frameworks, libraries, and services quickly appeared to help define better patterns and workflows. 
+          Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
+         
+    - key: general.css2022.survey_intro
+      t: |
+          CSS keeps progressing at an unprecedented rate. Luckily this year we got help from someone at the forefront of all these changes: [Lea Verou](https://lea.verou.me/) took the lead on selecting this year's questions, with a special focus on highlighting new and upcoming CSS features. 
+          What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+          With all this out of the way, let's see how CSS evolved in 2022!
+
+    ###########################################################################
+    # Survey-Specific FAQs
+    ###########################################################################
+
+    - key: faq.learn_more_css2022
+      t: Где можно узнать  поподробнее об этом опросе?
+    - key: faq.learn_more_css2022.description
+      t: Более подробную информацию об CSS-опросе можно узнать на [странице прошлогоднего опроса](https://2021.stateofcss.com/en-US/about/). 
+
+    - key: faq.survey_design_css2022
+      t: Кем был разработан этот опрос?
+    - key: faq.survey_design_css2022.description
+      t: В этом году благодаря гранту [UI Fund](https://web.dev/ui-fund/) от Google, [Лия Веру](https://lea.verou.me/) курирует [процесс проведения опроса](https://github.com/orgs/Devographics/projects/1/views/1), который можно посмотреть на GitHub. 
+
+    - key: faq.results_released_css2022
+      t: Когда будут опубликованы результаты опроса?
+    - key: faq.results_released_css2022.description
+      t: Опрос продлится до 20 октября 2022 года, а его результаты будут готовы в начале ноября. 
+
+    - key: faq.data_used_css2022
+      t: Как будут использоваться собранные ответы?
+    - key: faq.data_used_css2022.description
+      t: Вся полученная информация будет опубликована в открытом доступе. Таким образом ею смогут воспользоваться как рядовые веб-разработчики (например, чтобы обосновать свой технологический выбор), так разработчики самих браузеров, которые будут лучше понимать, что нужно реализовывать в первую очередь.

@@ -78,10 +78,16 @@ translations:
       t: Добавлено в этом году
     - key: general.new
       t: Новинка
-
+    - key: general.devographics_banner
+      t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> is the new name of the collective running the State of JavaScript, CSS, and GraphQL surveys.
+      
     # credits
     - key: credits.thanks
       t: Отдельная благодарность
+    - key: credits.contributors
+      t: Участники
+    - key: credits.contributors.description
+      t: Особая благодарность следующим людям за помощь в подготовке опроса.
     - key: credits.accessibility
       t: Консультирование по вопросам доступности
     - key: credits.survey_design
@@ -98,7 +104,8 @@ translations:
       t: Рефакторинг кода
     - key: credits.data_processing
       t: Обработка данных
-
+    - key: credits.back_end_development
+      t: Back-End Developement
 
     # support
     - key: general.support_from
@@ -117,7 +124,7 @@ translations:
       t: Содержание
     - key: general.all_questions_optional
       t: >
-        Примечание: необязательно отвечать на все вопросы, стопроцентное завершение опроса не требуется.
+          Примечание: необязательно отвечать на все вопросы, стопроцентное завершение опроса не требуется.
     - key: general.data_is_saved
       t: Все ваши ответы сохраняются при переходе к предыдущему или следующему разделу.
     - key: general.close_nav
@@ -134,12 +141,11 @@ translations:
       t: Вернуться на предыдущую страницу
     - key: general.thanks
       t: >
-        Спасибо за заполнение опроса!
+          Спасибо за заполнение опроса! Ваши ответы сохранены.
 
-        Ваши ответы сохранены. До завершения опроса вы можете посмотреть или изменить их.
 
-        Кроме того, вы поможете нам, если расскажите другим людям об этом опросе. Даже небольшая ваша активность поможет
-        повысить точность опроса:
+          Кроме того, вы поможете нам, если расскажите другим людям об этом опросе. Даже небольшая ваша активность поможет повысить точность
+          опроса:
     - key: thanks.learn_more_about
       t: "Некоторые возможности, которые хорошо бы вам изучить:"
     - key: thanks.knowledge_score
@@ -158,7 +164,7 @@ translations:
     # share
     - key: general.share_subject
       t: >
-        Опрос {surveyName}
+          Опрос {surveyName}
     - key: general.share_text
       t: >
         Опрос {surveyName} в этом году открыт! {link}
@@ -188,6 +194,14 @@ translations:
       t: Нажмите option/alt, чтобы активировать режим переводчика.
     - key: general.charts_nivo
       t: Визуализация данных сделана с помощью <a href="{link}">Nivo</a>.
+    - key: general.made_by_devographics
+      t: Разработано <a href="{link}">Devographics</a>
+    - key: general.view_code_example
+      t: Посмотреть пример использования
+    - key: general.feature_code_example
+      t: "**{featureName}**: пример использования"
+    - key: general.code_example
+      t: Пример использования
 
     ###########################################################################
     # Nav
@@ -473,62 +487,6 @@ translations:
       t: 100-200 т.
     - key: options.yearly_salary.range_more_than_200.short
       t: "> 200 т."
-
-    # job titles
-    - key: options.job_title.cto
-      t: Технический директор
-    - key: options.job_title.front_end_developer
-      t: Фронтенд-разработчик/инженер
-    - key: options.job_title.back_end_developer
-      t: Бэкенд-разработчик/инженер
-    - key: options.job_title.full_stack_developer
-      t: Фулстек-разработчик/инженер
-    - key: options.job_title.web_developer
-      t: Веб-разработчик
-    - key: options.job_title.web_designer
-      t: Веб-дизайнер
-    - key: options.job_title.ux_designer
-      t: UX-дизайнер
-    - key: options.job_title.ui_designer
-      t: UI-дизайнер
-    - key: options.job_title.back_end_dev
-      t: Бэкенд-разработчик/инженер
-
-    # JavaScript proficiency
-    - key: options.javascript_proficiency.0
-      t: Не пишу на JavaScript
-    - key: options.javascript_proficiency.1
-      t: Пишу короткие, простые скрипты на JavaScript или jQuery
-    - key: options.javascript_proficiency.2
-      t: Работаю с фронтендом, используя современные фреймворки (React, Vue и т.д.)
-    - key: options.javascript_proficiency.3
-      t: Могу написать фронтенд с нуля
-    - key: options.javascript_proficiency.4
-      t: Владею продвинутыми фронтенд-техниками (управление состоянием, загрузка данных и т.д.)
-
-    # CSS proficiency
-    - key: options.css_proficiency.0
-      t: Практически не знаю CSS
-    - key: options.css_proficiency.1
-      t: Использую CSS-фреймворки и изменяю существующие стили
-    - key: options.css_proficiency.2
-      t: Знаю правила специфичности, умею создавать раскладки
-    - key: options.css_proficiency.3
-      t: Владею анимацией, интерактивностью, переходами и т.д.
-    - key: options.css_proficiency.4
-      t: Могу взять на себя стилизацию всего фронтенда с нуля, следуя единой методологии
-
-    # Back-end proficiency
-    - key: options.backend_proficiency.0
-      t: Не работаю с бэкендом
-    - key: options.backend_proficiency.1
-      t: Могу устанавливать универсальные CMS (WordPress и т.п.) или статические генераторы сайтов (Jekyll, etc.)
-    - key: options.backend_proficiency.2
-      t: Могу разрабатывать приложения, используя существующие фреймворки (Rails, Laravel и т.п.)
-    - key: options.backend_proficiency.3
-      t: Могу разработать весь бэкенд с нуля (Go, Node.js и т.п.)
-    - key: options.backend_proficiency.4
-      t: Могу управлять сложными многосерверными или микросервисными архитектурами
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
@@ -838,6 +796,11 @@ translations:
     - key: options.bracket.combined
       t: Общее количество
 
+    # email_temporary (receive updates?)
+    - key: options.email_temporary.yes
+      t: Да, оповестите меня по электронной почте, когда будут опубликованы результаты опроса
+      
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -862,7 +825,6 @@ translations:
       t: Возраст
     - key: user_info.age.description
       t: Сколько вам лет?
-
 
     # years of experience
     - key: user_info.years_of_experience
@@ -889,14 +851,12 @@ translations:
       t: Кем вы представляетесь на публичных мероприятиях?
 
     # javascript proficiency
-
     - key: user_info.javascript_proficiency
       t: Уровень владения JavaScript
     - key: user_info.javascript_proficiency.description
       t: Ваш опыт работы с JavaScript?
 
     # css proficiency
-
     - key: user_info.css_proficiency
       t: Уровень владения CSS
     - key: user_info.css_proficiency.description
@@ -931,7 +891,11 @@ translations:
         Хотя мы понимаем, что сбор и публикация данных о многообразии людей может быть щекотливой темой,
         нам всё же важно запросить эту информацию,
         чтобы оценить репрезентативность относительно инклюзивности.
-
+    - key: user_info.race_ethnicity.not_allowed
+      t: >
+        В целях соблюдения политики вашей страны или региона данные о вашей расовой или этнической принадлежности
+        не собираются
+          
     # disability status
     - key: user_info.disability_status
       t: Статус инвалидности
@@ -949,6 +913,12 @@ translations:
       t: Как вы узнали об этом опросе?
     - key: user_info.email
       t: Ваша электронная почта
+    - key: user_info.email.description
+      t: > 
+          Вы заполнили опрос анонимно. При желании вы можете указать свою электронную почту, чтобы в дальнейшем посмотреть свои ответы и получать уведомления, когда будут готовы результаты опроса. 
+    - key: user_info.email.note
+      t: > 
+          Мы не храним никаких личных данных о вас: мы запрашиваем ваш адрес электронной почты только для того, чтобы создать уникальный секретный идентификатор. 
     - key: user_info.country
       t: Страна проживания
     - key: user_info.country.description
@@ -983,6 +953,23 @@ translations:
       t: Диплом о высшем образовании
     - key: user_info.higher_education_degree.description
       t: Есть ли у вас высшее образование?
+
+    # completion
+    - key: user_info.completion_stats
+      t: Завершение опроса
+    - key: user_info.completion_stats.description
+      t: Какую долю опроса заполнили респонденты?
+
+    # email_temporary (receive updates?)
+    - key: user_info.email_temporary
+      t: Хотите ли бы вы получить уведомление, когда будут опубликованы результаты опроса?
+    - key: user_info.email_temporary.note
+      t: >
+        Мы не храним личных данных, поэтому мы удалим из своей базы ваш адрес электронной почты после того, как передадим его сервису отправки рассылок.
+      
+    # how can we improve the survey?
+    - key: user_info.how_can_we_improve
+      t: Как мы могли бы улучшить этот опрос?
 
     ###########################################################################
     # Other Tools
@@ -1110,3 +1097,11 @@ translations:
       t: >
         Люди, которых вы читаете или на которых подписаны, либо просто хотите подчеркнуть их работу
         (поле со свободной формой ответа, имена записывайте через запятую).
+
+    # other surveys
+    - key: resources.other_surveys
+      t: Другие опросы
+    - key: resources.other_surveys.description
+      t: В каких ещё опросах разработчиков вы принимали участие?
+    - key: resources.other_surveys.others
+      t: Дополнительные опросы, не упомянутые выше
