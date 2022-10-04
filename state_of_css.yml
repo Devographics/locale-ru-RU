@@ -336,7 +336,10 @@ translations:
       t: Функции сравнения CSS
 
     - key: features.css_nesting.description
-      t: Встроенная в CSS реализация вложенности, не включая пре- или пост-процессоры.
+      t: Встроенная в CSS реализация вложенности, не включая пре- или постпроцессоры.
+      
+    - key: features.trigonometric_functions
+      t: Тригонометрические функции
       
     # missing features
     - key: features.nesting
@@ -742,9 +745,9 @@ translations:
       t: Какую из фичей в CSS вы хотели бы видеть сегодня? Процент пар, где расположенная слева возможность оказалась более желаемой, чем верхняя.
 
     - key: usage.css_js_balance
-      t: CSS vs JavaScript Balance
+      t: Баланс между CSS и JavaScript
     - key: usage.css_js_balance.description
-      t: Как вы распределяете свое время между написанием CSS (включая HTML-разметку) и JavaScript-кода?
+      t: Как бы вы распределили своё время между написанием CSS (включая HTML-разметку) и JavaScript-кода?
 
     ###########################################################################
     # Resources
