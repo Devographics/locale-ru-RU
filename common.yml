@@ -144,7 +144,7 @@ translations:
           Спасибо за заполнение опроса! Ваши ответы сохранены.
 
 
-          Кроме того, вы поможете нам, если расскажите другим людям об этом опросе. Даже небольшая ваша активность поможет повысить точность
+          Кроме того, вы поможете нам, если поделитесь ссылкой на этот опрос. Даже небольшая ваша активность поможет повысить точность
           опроса:
     - key: thanks.learn_more_about
       t: "Некоторые возможности, которые хорошо бы вам изучить:"
@@ -702,11 +702,11 @@ translations:
     - key: options.tool_evaluation.momentum_popularity.description
       t: Вызывает ли она сейчас большой ажиотаж?
     - key: options.tool_evaluation.user_base_size
-      t: Число людей
+      t: Количество пользователей
     - key: options.tool_evaluation.user_base_size.description
       t: Хорошо ли она себя зарекомендовала на протяжении многих лет?
     - key: options.tool_evaluation.developer_experience_tooling
-      t: Удобство разработки (DX)
+      t: Удобство при разработки (DX)
     - key: options.tool_evaluation.developer_experience_tooling.description
       t: Имеется ли у неё хорошие инструменты для разработки, большая экосистема плагинов и т.д.?
     - key: options.tool_evaluation.performance_user_experience
@@ -962,7 +962,7 @@ translations:
 
     # email_temporary (receive updates?)
     - key: user_info.email_temporary
-      t: Хотите ли бы вы, чтобы мы оповестили вас, когда будут опубликованы результаты опроса?
+      t: Хотите, чтобы мы оповестили вас, когда будут опубликованы результаты опроса?
     - key: user_info.email_temporary.note
       t: >
         Мы не храним личные данные, поэтому мы удалим из своей базы ваш адрес электронной почты после того, как передадим его сервису по отправки email-рассылок.
@@ -1104,4 +1104,4 @@ translations:
     - key: resources.other_surveys.description
       t: В каких ещё опросах разработчиков вы принимали участие?
     - key: resources.other_surveys.others
-      t: Дополнительные опросы, не упомянутые выше
+      t: Другие опросы (отсутствующие в списке выше)

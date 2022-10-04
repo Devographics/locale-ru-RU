@@ -340,7 +340,25 @@ translations:
       
     - key: features.trigonometric_functions
       t: Тригонометрические функции
-      
+    - key: logical_properties
+      t: Логические CSS-свойства
+    - key: viewport_percentage_length_units
+      t: Единицы измерения вьюпорта в процентом отношении
+    - key: media_queries_range_contexts
+      t: Медиавыражения в форме диапазона
+    - key: wide_gamut_colors
+      t: Широкая цветовая гамма (Wide Gamut Colors)
+    - key: relative_colors
+      t: Относительные цвета (Relative Colors)
+    - key: gradient_color_spaces
+      t: Цветовые пространства градиента (Gradient Color Spaces)
+    - key: scroll_snap
+      t: Прокрутка с привязкой (Scroll Snap)
+    - key: cascade_layers
+      t: Каскадные слои (Cascade Layers)
+    - key: css_nesting
+      t: Вложенность CSS
+
     # missing features
     - key: features.nesting
       t: Вложенность
@@ -660,7 +678,7 @@ translations:
       t: Браузерная несовместимость
     - key: opinions_others.browser_interoperability_features.others.description
       t: >
-          Что в CSS трудно вам использовать (или вы даже избегаете использовать)
+          Что в CSS трудно вам использовать (или вы даже стараетесь не использовать это)
           из-за плохой поддержки или различий работы в браузерах?
 
     - key: usage.interoperability_features_freeform.others
@@ -696,7 +714,7 @@ translations:
       t: Из каждой пары выберите то, что вы бы хотели больше всего видеть в CSS сегодня.
       
     - key: usage.missing_features_freeform.others
-      t: По вашему мнению, что полностью отсутствуют в CSS сейчас?
+      t: По вашему мнению, что сейчас не хватает в CSS?
       
     - key: opinions_others.currently_missing_from_css.others
       t: Возможности, которые вы хотели бы видеть в CSS
@@ -774,7 +792,7 @@ translations:
     - key: resources.people_css.others
       aliasFor: resources.people.others
     - key: resources.people_css.others.description
-      t: Люди, которых вы читаете или на которых подписаны, либо просто хотите подчеркнуть их работу.
+      t: Люди, которых вы читаете или на которых подписаны, либо просто хотите упомянуть, чтобы подчеркнуть важность их работы.
 
     ###########################################################################
     # Survey Help

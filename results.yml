@@ -1000,7 +1000,7 @@ translations:
       
       
   - key: sponsor.faq.title
-    t: Ответы на частозадаваемые вопросы
+    t: Ответы на часто задаваемые вопросы
 
   - key: sponsor.faq.usage.title
     t: На что будет потрачено моё пожертвование?
