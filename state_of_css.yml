@@ -345,23 +345,23 @@ translations:
       
     - key: features.trigonometric_functions
       t: Тригонометрические функции
-    - key: logical_properties
+    - key: features.logical_properties
       t: Логические CSS-свойства
-    - key: viewport_percentage_length_units
+    - key: features.viewport_percentage_length_units
       t: Единицы измерения вьюпорта в процентом отношении
-    - key: media_queries_range_contexts
+    - key: features.media_queries_range_contexts
       t: Медиавыражения в форме диапазона
-    - key: wide_gamut_colors
+    - key: features.wide_gamut_colors
       t: Широкая цветовая гамма (Wide Gamut Colors)
-    - key: relative_colors
+    - key: features.relative_colors
       t: Относительные цвета (Relative Colors)
-    - key: gradient_color_spaces
+    - key: features.gradient_color_spaces
       t: Цветовые пространства градиента (Gradient Color Spaces)
-    - key: scroll_snap
+    - key: features.scroll_snap
       t: Прокрутка с привязкой (Scroll Snap)
-    - key: cascade_layers
+    - key: features.cascade_layers
       t: Каскадные слои (Cascade Layers)
-    - key: css_nesting
+    - key: features.css_nesting
       t: Вложенность CSS
 
     # missing features
