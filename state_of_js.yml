@@ -41,10 +41,10 @@ translations:
     - key: sections.browser_apis.description
       t: Встроенные возможности браузера.
 
-    - key: sections.other_features.title
-      t: Другие возможности
-    - key: sections.other_features.description
-      t: Другие технологии и паттерны.
+    # - key: sections.other_features.title
+    #   t: Другие возможности
+    # - key: sections.other_features.description
+    #   t: Другие технологии и паттерны.
 
     - key: sections.patterns.title
       t: Паттерны

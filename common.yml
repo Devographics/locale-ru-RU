@@ -175,7 +175,9 @@ translations:
     - key: forms.clear_field
       t: Отменить ответ
 
-    # partners
+    # partners & sponsors
+    - key: sponsors.with_support_from
+      t: При особой поддержке
     - key: sponsors.our_partners
       t: Наши партнёры
     - key: sponsors.become_partner
