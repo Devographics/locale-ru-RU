@@ -698,7 +698,7 @@ translations:
     - key: options.tool_evaluation.learning_curve_documentation
       t: Документация
     - key: options.tool_evaluation.learning_curve_documentation.description
-      t: Легко ли её изучить и/или хорошо ли она задокументирован?
+      t: Легко ли её изучить и/или хорошо ли она задокументирована?
     - key: options.tool_evaluation.momentum_popularity
       t: Хайп и темп развития
     - key: options.tool_evaluation.momentum_popularity.description
