@@ -209,31 +209,16 @@ translations:
     # syntax
     - key: features.destructuring
       t: Деструктуризация
-    - key: features.destructuring.description
-      t: 'Пример: `const { foo } = bar`'
     - key: features.spread_operator
       t: Оператор расширения
-    - key: features.spread_operator.description
-      t: 'Пример: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: Стрелочные функции
-    - key: features.arrow_functions.description
-      t: 'Пример: `const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Оператор объединения с null
-    - key: features.nullish_coalescing.description
-      t: >
-        Пример: `const foo = 0 ?? 42`
     - key: features.optional_chaining
       t: Опциональная цепочка
-    - key: features.optional_chaining.description
-      t: >
-        Пример: `const dogName = adventurer.dog?.name`
     - key: features.private_fields
       t: Приватные поля
-    - key: features.private_fields.description
-      t: >
-        Пример: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -250,45 +235,11 @@ translations:
           один фрагмент кода другим, буквально “декорируя” его.
     - key: features.dynamic_import
       t: Динамический импорт
-    - key: features.dynamic_import.description
-      t: >
-        Пример: <code>await import('/modules/my-module.js')</code>
-    - key: features.promise_all_settled
-      t: Promise.allSettled()
-    - key: features.big_int
-      t: BigInt
-    - key: features.numeric_separators
-      t: Разделители в числовых литералах
-    - key: features.string_replace_all
-      t: String.prototype.replaceAll()
-    - key: features.string_match_all
-      t: String.prototype.matchAll()
+
     - key: features.logical_assignment
       t: Логическое присваивание
-    - key: features.promise_any
-      t: Promise.any()
-    - key: features.array_at
-      t: Array.prototype.at()
-    - key: features.top_level_await
-      t: Top-Level Await
-    - key: features.intl
-      t: Intl
     - key: features.custom_elements
       t: Кастомные элементы
-    - key: features.shadow_dom
-      t: Shadow DOM
-    - key: features.page_visibility
-      t: Page Visibility API
-    - key: features.broadcast_channel
-      t: Broadcast Channel API
-    - key: features.geolocation
-      t: Geolocation API
-    - key: features.file_system_access
-      t: File System Access API
-    - key: features.web_share
-      t: Web Share API
-    - key: features.webxr
-      t: WebXR
 
     # data structures
     - key: features.maps
@@ -309,28 +260,10 @@ translations:
       t: Интернационализация (i18n)
     - key: features.web_components
       t: Веб-компоненты
-    - key: features.web_audio
-      t: Web Audio API
-    - key: features.webgl
-      t: WebGL
-    - key: features.web_animations
-      t: Web Animations API
-    - key: features.webrtc
-      t: WebRTC
-    - key: features.web_speech
-      t: Web Speech API
-    - key: features.webvr
-      t: WebVR
-    - key: features.websocket
-      t: Websocket
-    - key: features.fetch
-      t: Fetch API
 
     # other features
     - key: features.pwa
       t: Прогрессивные веб-приложения (PWA)
-    - key: features.wasm
-      t: WebAssembly (WASM)
 
     # patterns
     - key: patterns.object_oriented_programming
