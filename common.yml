@@ -57,10 +57,10 @@ translations:
     - key: general.preview_survey
       t: Предварительный просмотр опроса »
     - key: general.finish_survey
-      t: Завершить опрос »
+      t: Завершить опрос
     - key: general.next_section
       t: Следующий раздел
-    - key: general.prev_section
+    - key: general.previous_section
       t: Предыдущий раздел
     - key: general.survey_closed
       t: Опрос уже закрыт.
