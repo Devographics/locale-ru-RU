@@ -801,7 +801,14 @@ translations:
     # email_temporary (receive updates?)
     - key: options.email_temporary.yes
       t: Да, сообщите мне по электронной почте, когда будут опубликованы результаты опроса
-      
+
+    # usage type
+    - key: options.usage_type.professionally
+      t: На работе
+    - key: options.usage_type.student
+      t: В учёбе
+    - key: options.usage_type.hobby
+      t: Для меня это хобби
 
     ###########################################################################
     # Tools
@@ -875,7 +882,7 @@ translations:
       t: Пол
     - key: user_info.gender.description
       t: >
-        Мы используем ответ для отслеживания и улучшения доступности и репрезентативности опроса
+        Мы используем ответ для отслеживания и улучшения доступности и репрезентативности опроса.
     - key: user_info.gender.note
       t: >
         Хотя мы понимаем, что сбор и публикация данных о многообразии людей может быть щекотливой темой,
@@ -891,7 +898,7 @@ translations:
     - key: user_info.race_ethnicity.note
       t: >
         Хотя мы понимаем, что сбор и публикация данных о многообразии людей может быть щекотливой темой,
-        нам всё же важно запросить эту информацию,
+        нам всё же важно узнать эту информацию,
         чтобы оценить репрезентативность относительно инклюзивности.
     - key: user_info.race_ethnicity.not_allowed
       t: >
@@ -944,7 +951,7 @@ translations:
     - key: user_info.industry_sector
       t: Сфера деятельности
     - key: user_info.industry_sector.description
-      t: В каких отраслях вы работаете?
+      t: В каких сферах деятельности вы работаете?
     - key: user_info.industry_sector.others
       t: Другие сферы деятельности
     - key: user_info.industry_sector.others.description
@@ -1107,3 +1114,11 @@ translations:
       t: В каких ещё опросах разработчиков вы принимали участие?
     - key: resources.other_surveys.others
       t: Другие опросы (отсутствующие в списке выше)
+
+    # video creators
+    - key: resources.video_creators
+      t: Авторы видеоконтента
+    - key: resources.video_creators.description
+      t: Люди или каналы, которых вы смотрите на видеоплощадках, таких как YouTube, Twitch, TikTok и т. д. 
+    - key: resources.video_creators.others
+      t: Другие авторы видеоконтента 
