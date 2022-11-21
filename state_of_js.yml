@@ -395,6 +395,10 @@ translations:
       t: Опциональная цепочка
     - key: features.private_fields
       t: Приватные поля
+    - key: features.numeric_separators
+      t: Разделители числовых разрядов
+    - key: features.regexp_match_indices
+      t: Индексы соответствия в регулярных выражениях 
 
     # language
     - key: features.proxies
@@ -578,11 +582,11 @@ translations:
       t: Как бы вы распределили своё время между написанием кода на JavaScript и TypeScript?
       
     - key: tools_others.edge_runtimes
-      t: Бессерверные/упрощённые среды выполнения JavaScript
+      t: Бессерверные среды выполнения JavaScript
     - key: tools_others.edge_runtimes.description
-      t: Какие упрощённые или бессерверные среды выполнения вы регулярно используете?
+      t: Какие бессерверные среды выполнения вы регулярно используете?
     - key: tools_others.edge_runtimes.others
-      t: Другие упрощённые или бессерверные среды выполнения
+      t: Другие бессерверные среды выполнения
 
     - key: usage.usage_type
       t: Использование JavaScript
