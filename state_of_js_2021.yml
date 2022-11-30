@@ -14,7 +14,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2021
       t: |
 
             <span class="first-letter">В</span> 2021 году так много всего произошло, что нам пришлось перенести опрос на 2022 год!

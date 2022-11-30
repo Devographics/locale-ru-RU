@@ -12,7 +12,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2020
       t: |
 
             <span class="first-letter">К</span>аким бы ни был плохим 2020 год, JavaScript не стоит на месте. В самом языке появились такие новые возможности как

@@ -540,7 +540,7 @@ translations:
     t: К сожалению, экспорт в CSV недоступен для этого набора данных.
   - key: export.graphql
     t: >
-      Вы можете скопировать этот запрос, чтобы выполнить его в <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">публичном API-сервере GraphQL</a>.
+      Вы можете скопировать этот запрос, чтобы выполнить его в <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">публичном API-сервере GraphQL</a>.
   - key: export.export_json
     t: Показать данные в виде JSON
   - key: export.export_graphql
