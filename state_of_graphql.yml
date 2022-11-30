@@ -264,7 +264,7 @@ translations:
     - key: usage.industry_sector.description
       t: Which industry sector(s) are you using GraphQL in?
     - key: usage.industry_sector.others
-      t: Other Industry Sectors
+      t: Другие сферы деятельности
 
     - key: usage.graphql_strong_points
       t: GraphQL Strong Points
