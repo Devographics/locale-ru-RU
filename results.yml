@@ -111,7 +111,7 @@ translations:
     t: ОЦЕНИВАЮТ
   - key: options.quadrant.analyze.long
     t: |
-      ОЦЕНИВАЮТ: Высокая степень использования, низкая степень удовлетворенности. Технологии, над прекращением использования которых стоит задуматься.
+      ОЦЕНИВАЮТ: Высокая степень использования, низкая степень удовлетворённости. Технологии, над прекращением использования которых стоит задуматься.
 
   - key: options.quadrant.1
     t: 1
@@ -132,7 +132,7 @@ translations:
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: Высокая степень использования, низкая степень удовлетворенности. Технологии, над прекращением использования которых стоит задуматься.
+      4: Высокая степень использования, низкая степень удовлетворённости. Технологии, над прекращением использования которых стоит задуматься.
 
   - key: ranges.selector.years_of_experience
     t: Опыт
@@ -147,7 +147,12 @@ translations:
   - key: options.first_steps.forums
     t: Форумы
   - key: options.first_steps.view_source
-    t: Посмотреть источник
+    t: Анализ исходного кода
+    t: Копипастинг
+  - key: options.first_steps.trial_and_error
+    t: Методом проб и ошибок
+  - key: options.first_steps.documentation
+    t: Чтение документации
 
   # other disablities
   - key: options.disability_status_others.adhd
@@ -174,6 +179,18 @@ translations:
     t: Диабет
   - key: options.disability_status_others.carpal_tunnel
     t: Кистевой туннельный синдром
+  - key: options.disability_status_others.migraine
+    t: Мигрень
+  - key: options.disability_status_others.speech_impairment
+    t: Нарушения речи
+  - key: options.disability_status_others.ocd
+    t: Обсессивно-компульсивное расстройство
+  - key: options.disability_status_others.chronic_pain
+    t: Хроническая боль
+  - key: options.disability_status_others.chronic_fatigue
+    t: Хроническая усталость
+  - key: options.disability_status_others.crohn
+    t: Болезнь Крона
 
   ###########################################################################
   # Sections
@@ -245,7 +262,7 @@ translations:
   - key: user_info.years_of_experience_by_salary
     t: Опыт работы в зависимости от уровня зарплаты
   - key: user_info.years_of_experience_by_salary.description
-    t: Опыт работы в зависимости от уровня зарплаты.
+    t: Соотношение уровня зарплаты и опыта работы.
 
   - key: user_info.yearly_salary_by_country
     t: Зарплата по странам
@@ -406,7 +423,7 @@ translations:
 
   # tools arrows
   - key: blocks.tools_arrows
-    t: Изменения в течение времени
+    t: Изменения с течением времени
   - key: blocks.tools_arrows.description
     t: |
       Каждая линия проходит с 2016 по 2020 год. Чем выше точка, тем больше людей использовало технологию.
@@ -462,7 +479,7 @@ translations:
     t: Рейтинг библиотек
   - key: blocks.tools_tier_list.description
     t: |
-      На этой диаграмме библиотеки ранжированы по коэффициенту удовлетворенности (процент пользователей,
+      На этой диаграмме библиотеки ранжированы по коэффициенту удовлетворённости (процент пользователей,
       которые бы снова воспользовались библиотекой). Обратите внимание, в списке участвуют библиотеки,
       которые упомянули более 10% респондентов.
   - key: blocks.tools_tier_list.bounds
@@ -489,6 +506,10 @@ translations:
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
+    t: Рейтинги с течением времени
+  - key: blocks.tools_experience_ranking.percentages
+    t: Проценты
+  - key: blocks.tools_experience_ranking.rankings
     t: Рейтинги
   - key: blocks.tools_experience_ranking.description
     t: Процент удовлетворённости, заинтересованности, использования, узнаваемости.
@@ -500,6 +521,14 @@ translations:
       - Заинтересованность: сравнение ответов **Хочу изучить** и **Не интересно**.
       - Использование: сравнение ответов **Буду использовать снова**/**Больше не буду использовать** с общим количеством.
       - Узнаваемость: разница между количеством ответов за узнаваемость и количеством ответов за вариант ответа **Впервые слышу**.
+
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: Показатели с течением времени
+  - key: blocks.tools_experience_linechart.description
+    t: Процент удовлетворённости, заинтересованности, использования, узнаваемости.
+  - key: blocks.tools_experience_linechart.note
+    aliasFor: blocks.tools_experience_ranking.note
 
   # happiness
   - key: blocks.happiness
@@ -595,6 +624,8 @@ translations:
   # Recommended Resources
   - key: blocks.recommended_resources
     t: Рекомендуемые ресурсы
+  - key: blocks.recommended_events
+    t: Рекомендуемые события
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
@@ -606,6 +637,10 @@ translations:
     t: Рейтинг факторов при выборе библиотеки (Пары)
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: Какие факторы наиболее всего важны при оценке новой библиотеки? Процент пар, где левый фактор оказался важнее, чем верхний.
+
+  # other
+  - key: blocks.freeform
+    t: (ответ в свободной форме)
 
   ###########################################################################
   # Charts
@@ -722,6 +757,24 @@ translations:
 
   - key: charts.no_answer
     t: Без ответа
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: Комментарии
+  - key: comments.comments_for
+    t: Комментарии по “{name}”
+  - key: comments.description
+    t: |
+      Эти комментарии были оставлены респондентами во время прохождения опроса
+      (рядом с вопросом было текстовое поле для комментария).
+
+  - key: comments.report_abuse
+    t: Пожаловаться на комментарий
+  - key: comments.share
+    t: Поделиться комментарием
 
   ###########################################################################
   # Sharing
@@ -885,6 +938,11 @@ translations:
   - key: award.most_write_ins_award.description
     t: Награждается, как наиболее популярный вариант ответа, указанный самими участниками опроса.
 
+  - key: award.most_commented_featured_award.title
+    t: Самый комментируемый
+  - key: award.most_commented_featured_award.description
+    t: Награждается, как возможность с наибольшим количеством комментариев.
+
   ###########################################################################
   # Hints
   ###########################################################################
@@ -917,7 +975,7 @@ translations:
 
   - key: hints.rankings_modes_hint
     t: >
-      Диаграмма с рейтингом может показывать удовлетворённость, заинтересованность, использование и узнаваемость технологий,
+      Диаграмма с мнениями с течением времени может показывать удовлетворённость, заинтересованность, использование и узнаваемость технологий,
       поэтому не стесняйтесь смотреть каждую из этих категорий, чтобы лучше понять текущую ситуацию.
 
   - key: hints.sharing_hint
@@ -944,6 +1002,10 @@ translations:
     t: >
       <span class="hint-bracket"><span class="hint-text">На следующей диаграмме представлены результаты турнира из трёх раундов с восьмью вариантами ответов. В каждом из туре
       респондентам из пары вариантов предстояло выбрать один ответ, чтобы по итогу в заключительном раунде остался единственный вариант, который считается победившим.</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      На вкладке <span class="hint-icon hint-comment-button">Комментарии</span> вы можете посмотреть комментарии, оставленные респондентами во время заполнения опроса. 
 
   ###########################################################################
   # Sponsor Chart
@@ -1037,4 +1099,201 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: Это можно сделать в ишью [на GitHub](https://github.com/StateOfJS/Monorepo/issues/69) или [в Discord-чате](https://discord.gg/tuWRUWVyJs).
-    
+
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Анализ данных
+  - key: sections.data_explorer.description
+    t: |
+      Попробуйте сами изучить аудиторию опроса: выберите два вопроса
+      и посмотрите распределение ответов на них. 
+      
+
+  - key: hints.data_explorer
+    t: |
+      Это предварительная версия новой возможности по изучению данных опроса. Если вы обнаружили ошибку или несоответствия между данными, пожалуйста, [сообщите нам об этом]({issueLink}).
+
+  # heading
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** total respondents)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} Respondents
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: Extra Respondents
+  - key: explorer.missing_respondents
+    t: Missing Respondents
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      1 dot represents {respondentsPerDot} respondents
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      1 dot represents {percentsPerDot}% of respondents
+  - key: explorer.extra_respondents.tooltip
+    t: Highlighted dots indicate higher-than-expected results.
+  - key: explorer.missing_respondents.tooltip
+    t: Empty dots indicate lower-than-expected results. 
+
+  - key: explorer.units_count
+    t: Count
+  - key: explorer.units_percentage
+    t: "% of Row"
+
+  - key: explorer.edit
+    t: Edit Parameters…
+
+  - key: explorer.get_data
+    t: Get Data…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Querying API…
+  - key: explorer.loading.2
+    t: Waiting for a response…
+  - key: explorer.loading.3
+    t: Still working…
+  - key: explorer.loading.4
+    t: Hang on just a little bit longer…
+  - key: explorer.loading.5
+    t: Sorry, this is taking a while. You can try waiting a little longer, or [report an issue]({issueLink}).
+  - key: explorer.timeout
+    t: Timeout
+  - key: explorer.timeout.description
+    t: The API didn't respond in time. Please try again later, or [report an issue]({issueLink}).
+
+  # share
+
+  - key: explorer.share
+    t: Share…
+  - key: explorer.share.title
+    t: Share “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” from the {surveyName} {year} survey
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} respondents"
+  - key: explorer.axis_percent
+    t: "{percentCount}% of respondents"
+
+  - key: explorer.x_axis_details
+    t: |
+      Out of all respondents who completed question “{yAxisLabel}”, **{totalCount}** survey respondents picked “{xQuestionLabel}” for “{xAxisLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** survey respondents picked “{yQuestionLabel}”
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
+
+  # controls
+  - key: explorer.dots_per_line
+    t: Dots per line
+  - key: explorer.respondents_per_dot
+    t: Количество ответивших в одной точке
+  - key: explorer.show_cell_counts
+    t: Показывать количество ответивших в ячейке
+
+  - key: explorer.sections.demographics
+    t: Demographics
+  - key: explorer.sections.features
+    t: Features
+  - key: explorer.sections.tools
+    t: Libraries
+
+  - key: explorer.all_fields
+    t: All fields
+  - key: explorer.select_item
+    t: Select item
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+  
+  - key: explorer.count_details.2
+    t: |
+        **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
+  
+  - key: explorer.count_details.3
+    t: |
+        Applying that percentage to the previous **{xAxisTotal}** respondents figure 
+        gives us an expected baseline of **{normalizedCount}** respondents in this intersection. 
+  
+  - key: explorer.count_details.4_extra
+    t: |
+        The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*. 
+ 
+  - key: explorer.count_details.4_missing
+    t: |
+        The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots. 
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within “{yAxisLabel}” respondents who selected “{yAnswerLabel}” that percentage climbs to  **{bucketPercentage}%**.
+  
+  - key: explorer.percentage_details.1_missing
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within “{yAxisLabel}” respondents who selected “{yAnswerLabel}” that percentage climbs to  **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+        Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
+  
+  - key: explorer.percentage_details.2_missing
+    t: |
+        Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+  
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
+  
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure 
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection. 
+  
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
+  
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
+
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### Extra & Missing Respondents
+
+      The chart above aims to identify areas showing higher-than-expected 
+      or lower-than-expected values compared to a calculated baseline. 
+      
+      For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company, 
+      you'd expect to find 500 CSS Grid users working in large companies. 
+
+      Any deviation above or below that expected total could potentially indicate an interesting
+      correlation between both variables, and is highlighted on the chart with either colored 
+      dots (for extra respondents above the baseline) or empty dots (for missing respondents).
