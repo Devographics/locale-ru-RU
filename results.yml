@@ -148,6 +148,7 @@ translations:
     t: Форумы
   - key: options.first_steps.view_source
     t: Анализ исходного кода
+  - key: options.first_steps.copy_paste
     t: Копипастинг
   - key: options.first_steps.trial_and_error
     t: Методом проб и ошибок
