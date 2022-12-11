@@ -1,12 +1,434 @@
 locale: ru-RU
 translations:
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.css2022.results_intro
-      t: |
-          CSS продолжает развиваться с невиданной скоростью. Сейчас мы видим не только добавление новых возможностей и свойств, но и то, как преобразуются сами основы языка, благодаря таким нововведениям как вложенность и каскадные слои.
+  - key: general.results.description
+    t: Ежегодный опрос от 2022 года о последних тенденциях в CSS.
+
+  - key: general.css2022.js2022_banner
+    t: Сейчас проходит опрос State of JS 2022, [примите в нём участие](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+
+  - key: general.css2022.results_intro
+    t: |
+        CSS продолжает развиваться с невиданной скоростью. Сейчас мы видим не только добавление новых возможностей и свойств, но и то, как преобразуются сами основы языка, благодаря таким нововведениям как вложенность и каскадные слои.
+        
+        К счастью, в этом году нам помог человек, находящийся в авангарде всех этих изменений. Участница рабочей группы W3C [Лия Веру](https://lea.verou.me/) составила вопросы для опроса, уделив особое внимание новым и будущим возможностям CSS. 
+
+        Надеемся, что результаты опроса помогут разработчикам браузеров грамотнее расставить приоритеты и добиться лучшей совместимости в разных браузеров. 
+
+        Что ж, давайте посмотрим, как изменился CSS в 2022 году!
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.css2022
+    t: |
+        <span class="first-letter">М</span>ы уже полагали, что CSS развился в довольно мощный язык, благодаря флексбоксу, гридам и CSS-переменным. Однако оказалось, что ещё есть куда расти. 
+        
+        Родительский селектор, нативная вложенность, выражения от контейнера, каскадные слои… Этот список абсолютно прорывных возможностей захватывает дух.
+        
+        И как же повезло, что с нами человек, который как никто другой поможет разобраться в происходящих изменениях: [Лия Веру](http://lea.verou.me/) возглавила разработку опроса этого года, и в результате чего получился опрос, который, как я надеюсь, включает все ключевые новшества, о которых следует знать.
+        
+        <span class="conclusion__byline">– Sacha Greif</span>
+
+        P.S. Также в этом году мы дали респондентам возможность оставлять комментарии к любой возможности или библиотеке, упомянутой в опросе! Обязательно посмотрите эти комментарии справа рядом с каждым графиком.
+        
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Футболка
+
+  - key: sections.tshirt.description
+    t: |
+      ## Поддержите наш опрос, купив футболку!
+
+      Едва ли кто-то бы скучал по плохому качеству видео, громоздким кассетам и необходимостью перематывать назад, — неизменными атрибутами эпохи VHS. Но вот чего *точно* не хватает, так это удивительного и неповторимого дизайна обложек VHS-кассет из 90-х годов.
+
+      Но теперь благодаря талантливому Кристоферу Кирк-Нильсену вы сможете насладиться всей этой невероятно крутой ретро-графикой и одновременно продемонстрировать свою любовь к CSS!
+
+  - key: tshirt.about
+    t: Подробнее о футболке
+
+  - key: tshirt.description
+    t: |
+        Наша приталенная футболка сделана из высококачественной супермягкой ткани, состоящей из трёх материалов (трибленд), создаваемая нашими партнёрами Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Купить
+
+  - key: tshirt.price
+    t: 29 долларов (без доставки)
+
+  - key: tshirt.designer.heading
+    t: Об дизайнере футболки
+
+  - key: tshirt.designer.name
+    t: Кристофер Кирк-Нильсен
+
+  - key: tshirt.designer.bio
+    t: |
+      Родом из Франции, но сейчас проживающий в США, Крис — не только крутой фронтендер, но и талантливый иллюстратор, специализирующийся на дизайне в стиле ретро. Мы рекомендуем вам ознакомиться с его [другими оформлениями футболок](https://chriskirknielsen.com/designs)!
           
-          К счастью, в этом году нам помог человек, находящийся в авангарде всех этих изменений. Участница рабочей группы W3C [Лия Веру](https://lea.verou.me/) составила вопросы для опроса, уделив особое внимание новым и будущим возможностям CSS. 
+  ###########################################################################
+  # Charts
+  ###########################################################################
 
-          Надеемся, что результаты опроса помогут разработчикам браузеров грамотнее расставить приоритеты и добиться лучшей совместимости в разных браузеров. 
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+  - key: options.features_categories.colors
+    aliasFor: sections.colors.title
+  - key: options.features_categories.selectors
+    aliasFor: sections.selectors.title
 
-          Что ж, давайте посмотрим, как изменился CSS в 2022 году!
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: |
+      Свойство `gap` для флексбокса стало таким полезным дополнением,
+      что совсем не удивляет рост в **{value}** в этом году.
+
+  # - key: award.tool_usage_delta_award.comment
+  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+  - key: award.most_commented_featured_award.comment
+    t: Набравшая **{value}** комментариев, ни одна другая фича даже близко не собрала столько отзывов, как сабгриды.
+
+  - key: award.tool_satisfaction_award.comment
+    t: |
+      Из всех решений CSS-in-JS, CSS Modules — единственное, которое сохранило
+      высокий показатель удовлетворённости в **{value}**.
+
+  # - key: award.tool_interest_award.comment
+  #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+
+  - key: award.most_write_ins_award.comment
+    t: |
+      Браузер Arc упомянули **{value}** раз, что сделано самым популярным ответом в свободной форме.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2022
+    t: |
+        В <span class="first-line">[прошлом году](https://2021.stateofcss.com/ru/conclusion/), Килиан утверждал, что написание CSS-кода изменится коренным образом, и судя по новому опросу, его предсказание сбывается.</span>
+
+        В отчёте [Interop 2022](https://wpt.fyi/interop-2022) представлены браузеры, которые объединились для работы над общими целями, что на данный момент привело к тому, что некоторые возможности из разряда "это никогда не будет реализовано" перешли в "уже ведётся работа над этим". Среди них довольно значимые возможности — родительские селекторы (`:has()`) и выражения от контейнера (`@container`). В течение многих лет разработчикам снова и снова заявляли, что из-за проблем для производительности эта функциональность не может быть реализована, но всё оказалось иначе. 
+
+        С другой стороны, реализация сабгридов всегда стояла в плане, но предстояло много работы, чтобы воплотить их в жизнь. Однако теперь они поддерживаются в Firefox и Safari, а также активно реализуются в Chrome, так что по всей видимости в следующем году мы увидим более частое использование сабгридов.
+
+        Думаю, что в 2023 году большее внимание будет уделено реализации нативной вложенности и функциям по работе со цветом.
+        Ведь использование вложенности — [основная причина](https://twitter.com/leaverou/status/806936438797307904), почему люди всё ещё пользуются препроцессорами. Поэтому её появление в самом CSS будет как нельзя кстати.
+        
+        Работа с цветом в CSS также должна существенно расшириться. Сейчас в CSS внедряется множество функций. Может быть к концу 2023 года мы сможем использовать цвета широкой гаммы и независимые от устройства цвета (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`), а также хотя бы по-простому смешивать два цвета через `color-mix()`.
+        
+        Всё это в совокупности указывает на то, что 2023 год будет очень интересным для CSS. Я с нетерпением жду всех грядущих впечатляющих реализаций, независимо от того, окажутся ли мои предсказания верными или нет. Какое всё же прекрасное время для написания кода на CSS!
+
+  - key: conclusion.css2022.bio
+    t: Участница группы W3C по технической архитектуре, сотрудница лаборатории искусственного интеллекта в Массачусетском технологическом институте
+    
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: 'Моё открытие в 2021 году: '
+  - key: picks.intro
+    t: Мы попросили участников CSS-сообщества поделиться своим ”открытием года”
+
+  - key: picks.david_east.name
+    t: CSS-сабгриды
+  - key: picks.david_east.bio
+    t: Любитель веб-технологий
+  - key: picks.david_east.description
+    t: |
+      CSS-сабгриды позволяют дочерним элементам наследовать свойства грида от своих родителей.
+      Вскоре станет намного проще размещать элементы по одинаковым
+      грид-линиям на всей странице.
+
+  - key: picks.bramus_van_damme.name
+    t: Селектор `:has()`
+  - key: picks.bramus_van_damme.bio
+    t: Chrome Developer Relations Engineer at Google
+  - key: picks.bramus_van_damme.description
+    t: |
+      Возможно, он вам известен как "родительский селектор", однако это имя
+      не отражает всю его мощь.
+      Этот селектор в корне изменил написание CSS-кода для меня.
+
+  - key: picks.kevin_j_powell.name
+    t: Джей Томпкинс (Jhey Tompkins)
+  - key: picks.kevin_j_powell.bio
+    t: CSS-евангелист
+  - key: picks.kevin_j_powell.description
+    t: |
+      Джей всегда расширяет границы того, что мы можем сделать с помощью CSS,
+      создавая забавные и впечатляющие демки. С учётом всех новых возможностей в CSS за последнее время,
+      Джей — один из лучших, кто может объяснить, как они работают.
+
+  - key: picks.samuel_kraft.name
+    t: The `:has()` Selector
+  - key: picks.samuel_kraft.bio
+    t: Design Engineer
+  - key: picks.samuel_kraft.description
+    t: |
+      Новый селектор :has() очень функциональный, открывая новые возможности для стилизации.
+      В своей замечательной статье Джен Симмонс (Jen Simmons) подробно разбирает и показывает его на примерах.
+
+  - key: picks.josh_comeau.name
+    t: Modern CSS
+  - key: picks.josh_comeau.bio
+    t: Разработчик и ментор
+  - key: picks.josh_comeau.description
+    t: |
+      CSS сильно изменился за последние несколько лет.
+      Стефани Эклз (Stephanie Eckles) показывает нам, как использовать современные возможности CSS
+      для решения старых проблем новыми способами.
+
+  - key: picks.adam_argyle.name
+    t: The `:has()` Selector
+  - key: picks.adam_argyle.bio
+    t: UI/CSS DevRel at Google
+  - key: picks.adam_argyle.description
+    t: |
+      CSS стал ещё лучше в том, как собрать вместе стили разных компонентов.
+      Мы ещё не осознаём в полной мере, как :has() изменит наши стили.
+
+  - key: picks.eric_w_bailey.name
+    t: Статья “Style with Stateful, Semantic Selectors” от Бена Майерса
+  - key: picks.eric_w_bailey.bio
+    t: Сторонник доступности и CSS-нерд
+  - key: picks.eric_w_bailey.description
+    t: |
+      Бен показывает, как использование селекторов ARIA-атрибутов
+      может просто и эффективно связать видимый интерфейс с состоянием.
+
+  - key: picks.michelle_barker.name
+    t: Interop 2022
+  - key: picks.michelle_barker.bio
+    t: Writer and creator of front-end blog CSS { In Real Life }
+  - key: picks.michelle_barker.description
+    t: |
+      Interop — результат сотрудничества разработчиков браузеров,
+      которые объединились вместе для реализации над 15 ключевыми областями,
+      включая новые CSS-возможности, такие как выражения от контейнера,
+      каскадные слои и функции для работы со цветом.
+
+  - key: picks.gift_egwuenu.name
+    t: Learn CSS
+  - key: picks.gift_egwuenu.bio
+    t: Представитель разработчиков в Cloudflare
+  - key: picks.gift_egwuenu.description
+    t: |
+      Я рекомендую этот ресурс всем, кто хочет изучить CSS с нуля.
+      Я лично использую его в качестве справочника каждый раз, когда мне нужно найти какое-либо свойство CSS.
+
+  - key: picks.ahmad_shadeed.name
+    t: Выражения от контейнера
+  - key: picks.ahmad_shadeed.bio
+    t: Автор книги [Debugging CSS](https://debuggingcss.com/), блогер [ishadeed.com](http://ishadeed.com)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      Если мне нужно было выбрать что-то одно из открытий 2022 года, то этим определенно стали выражения от контейнеров!
+      Они наконец-то появились в браузере, который вы сейчас используете.
+
+  # - key: picks.georgedoescode.name
+  #   t: 
+  # - key: picks.georgedoescode.bio
+  #   t: 
+  # - key: picks.georgedoescode.description
+  #   t: |
+
+  - key: picks.jen_simmons.name
+    t: Селектор `:has()`
+  - key: picks.jen_simmons.bio
+    t: Евангелист веб-технологий в Apple
+  - key: picks.jen_simmons.description
+    t: |
+      В течение двух десятилетий "родительский селектор" был самой желанной фичей в CSS.
+      Затем в 2022 году, совершенно неожиданно, появился псевдокласс :has(), который закрыл не только эту потребность.
+
+  - key: picks.sara_soueidan.name
+    t: Селектор `:has()`
+  - key: picks.sara_soueidan.bio
+    t: Независимый разработчик
+  - key: picks.sara_soueidan.description
+    t: |
+      Долгое время мы ждали выражения от контейнера.
+      Но вскоре после него появился :has(),
+      и мы поняли, сами того не подозревая, чего же так не хватало.
+
+  - key: picks.adam_wathan.name
+    t: Пустые CSS-переменные
+  - key: picks.adam_wathan.bio
+    t: Создатель Tailwind CSS
+  - key: picks.adam_wathan.description
+    t: |
+      Мало кто знает, но в CSS можно определить пустую переменную (`--my-var: ;`),
+      которую можно использовать на практике, несмотря на кажущуюся бесполезность.
+      Мы постоянно используем такой трюк в Tailwind, чтобы множественные значения
+      одного CSS-свойства можно было подставлять с помощью несколько классов.
+
+  # - key: picks.christianoliff.bio
+  #   t: Front-end developer for Trimble MAPS
+  # - key: picks.christianoliff.description
+  #   t: |
+  #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+  - key: picks.kilian_valkhof.name
+    t: Interop 2022
+  - key: picks.kilian_valkhof.bio
+    t: Веб-разработчик и создатель Polypane
+  - key: picks.kilian_valkhof.description
+    t: |
+      Compat — инициатива разработчиков браузеров, появившаяся в 2021 году,
+      устанавливающая, какие фичи нужно реализовывать в первую очередь.
+      Она должна не только помочь устранить браузерную несовместимость,
+      но также и увеличить скорость появления новых возможностей,
+      таких как каскадные слои.
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.sarasoueidan.bio
+  #   t: Independent UI/design engineer
+  # - key: picks.sarasoueidan.description
+  #   t: |
+  #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+  # - key: picks.5t3ph.bio
+  #   t: Software Engineer @ Microsoft
+  # - key: picks.5t3ph.description
+  #   t: |
+  #       In this conference talk, Manuel Matuzovic provides thoughtfully 
+  #       crafted examples that are engaging, approachable, and actionable.
+
+  # - key: picks.hugogiraudel.bio
+  #   t: Non-binary accessibility & diversity advocate
+  # - key: picks.hugogiraudel.description
+  #   t: |
+  #       Fela is an amazing piece of software. 
+  #       It’s pretty powerful, relatively easy to use and very performant
+
+  # - key: picks.foolip.bio
+  #   t: Software Engineer @ Google
+  # - key: picks.foolip.description
+  #   t: |
+  #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
+  #       notably bringing flex gap to WebKit, 
+  #       which means that soon it will be available on all modern browsers. 
+
+  # - key: picks.jina.bio
+  #   t: Design systems advocate and practitioner
+  # - key: picks.jina.description
+  #   t: |
+  #       The media query to reduce motion, which helps avoid 
+  #       triggering dizziness and discomfort.
+
+
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+  - key: sponsors.nijibox.description
+    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+  - key: sponsors.renderatl.description
+    t: The largest tech conference with a dedicated Design & CSS track.
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: >
+      В 2021 году опрос "State of CSS" проводился с 1 октября по 1 ноября, в нём приняло участие 14 310 человек. Этим опросом руковожу я, [Саша Грейф (Sacha Greif)](https://sachagreif.com/), при помощи команды опенсорс-разработчиков и консультантов.
+
+      Логотип и футболка опроса в этом году были разработаны и анимированы [Кристофером Кирк-Нильсеном (Christopher Kirk-Nielsen)](http://chriskirknielsen.com/).
+
+      ### Цели опроса
+
+      Как [State of JavaScript](https://stateofjs.com/), этот опрос был создан выявления будущих тенденций в экосистеме веб-разработки, чтобы помочь разработчикам сделать выбор в сторону той или иной технологии и инструмента.
+
+      Следовательно, наши опросы направлены на прогнозирование того, что появится в ближайшие несколько лет, а не на анализе популярных решений сейчас, поэтому в них не всегда будут отмечены фичи или технологии, которые наиболее чаще используются в данный момент.
+      
+      Кроме того, данные опроса также используются разработчиками самих браузеров для определения приоритетности функций и информирования о таких инициативах, как [Interop 2022](https://wpt.fyi/interop-2022).
+
+      ### Создание опроса
+
+      В этом году разработкой опроса руководила [Лия Веру (Lea Verou)](https://lea.verou.me/) благодаря финансовому гранту от команды Google Chrome (подробнее см. [на GitHub](https://github.com/orgs/Devographics/projects/1)). Все вопросы опроса были необязательными. 
+
+      Кроме того, в дальнейшем мы будем координировать разработку опроса, его рассмотрение и обратную связь через [список рассылки рабочей группы](https://www.devographics.com/working-group/).
+
+      ### Аудитория опроса
+
+      Опрос проводился открыто в онлайн-режиме, поэтому не было какого-либо отбора или фильтрации респондентов. В большинстве своём в текущем опросе поучаствовали люди, которые проходили опрос в предыдущих годах (они были оповещены о новом опросе через список рассылки) и посетители социальных сетей.
+
+      ### Финансирование проекта
+
+      Финансирование проекта осуществляется из разных источников:
+
+      - **Продажа футболок**.
+
+      - **Рекламные ссылки**: ссылки на рекомендуемые ресурсы внизу каждой страницы предоставлены нашим партнером [Frontend Masters](https://frontendmasters.com/).
+
+      - **Разовые партнёры**: в этом году команда [Google Chrome](https://www.google.com/chrome/) выделила небольшой бюджет, который позволил нанять [консультанта по доступности](https://fossheim.io/) для работы над опросом.
+
+      ### Технический стек
+
+      Более подробный технический обзор функционирования опросов вы можете найти в [отдельном посте](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
+      - **Коллекция данных**: кастомное приложение [Vulcan.js](http://vulcanjs.org/).
+
+      - **Хранение/обработка данных**: MongoDB и MongoDB Aggregations.
+
+      - **Data API**: API-сервер GraphQL на Node.js.
+
+      - **Сайт с результатами**: React-приложение на основе [Gatsby](https://www.gatsbyjs.com/).
+
+      - **Визуализации данных**: библиотека с React-компонентами [Nivo](https://nivo.rocks/).
+
+      - **Шрифт**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) и [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      
+      ### Полезные ссылки
+
+      - [Сообщить о технической проблеме](https://github.com/Devographics/Monorepo/issues)
+      
+      - [Предложить улучшение для опроса следующего года](https://github.com/Devographics/surveys/issues/66)
+      
+      - [Любые нетехнические вопросы](https://github.com/Devographics/surveys/issues)
+      
+      - [Присоединиться к чату в Discord](https://discord.gg/tuWRUWVyJs)
+      
+      - [Присоединиться к рабочей группе Devographics](https://www.devographics.com/working-group/) для участия в работе над самим опросом.
