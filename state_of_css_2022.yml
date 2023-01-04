@@ -108,7 +108,7 @@ translations:
   # - key: award.tool_usage_delta_award.comment
   #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
-  - key: award.most_commented_featured_award.comment
+  - key: award.most_commented_feature_award.comment
     t: Набравшая **{value}** комментариев, ни одна другая фича даже близко не собрала столько отзывов, как сабгриды.
 
   - key: award.tool_satisfaction_award.comment
