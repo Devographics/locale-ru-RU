@@ -1,0 +1,577 @@
+locale: ru
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: Результаты ежегодного опроса за 2022 год о последних тенденциях в экосистеме JavaScript.
+
+    - key: general.livestream_announcement
+      t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
+
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: introduction.js2022
+      t: |
+
+            <span class="first-letter">С</span>пустя нескольких лет относительной стабильности, многие начинают сомневаться, что так будет и дальше. 
+            
+            Новые фронтенд-фреймворки, такие как Solid и Qwik, бросают вызов React, когда как Astro, Remix и Next.js заставляют нас задуматься, над тем, что сколько лишнего кода в итоге используется на клиенте. 
+
+            Поэтому в собранных нами ответах много чего интересного, не говоря уже о том, что в опросе этого года приняло участие **39 472** человека, а это почти вдвое больше, чем в прошлом году!
+            
+            Однако, как вы может быть обратите внимание, такое огромное увеличение новых ответов неожиданным образом повлияли на результаты опроса. Например, узнаваемость или используемость некоторых фич по сравнению с предыдущим года наоборот снизилась.
+            
+            Хотя имея такое большое количество откликов, хочется как-то по-новому представить эти данные, чтобы извлечь из них больше полезных выводов. Именно по этой причине мы реализовали два новых способа работы с данными. С помощью **Data Explorer** вы можете сопоставить между собой два параметра и таким образом лучше увидеть отличия между ними. А используя **фильтры в графиках** вы можете отфильтровать графики по уровню зарплаты, стране, полу и многим другим демографическим вариантам.
+            
+            Мы также заменили собирательную категорию, связанную с бекэндом на более конкретную **Фреймворки для рендеринга**, а ещё в раздел "Ресурсы" добавили новый список с авторам видеоконтента.
+
+            Кроме этого, в разделы "Возможности" и "Библиотеки" появилась ссылка **Комментарии**, при клике на которую откроется попап-окно, где вы можете ознакомиться с собственными мнениями участников опроса!
+
+            На этом всё, давайте теперь узнаем, что произошло с JavaScript в 2022 году!
+
+            <span class="conclusion__byline">– Саша Грейф (Sacha Greif)</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
+    - key: sections.tshirt.description
+      t: |
+          ## Поддержите наш опрос, купив футболку!
+
+          Едва ли кто-то бы скучал по плохому качеству видео, громоздким кассетам и необходимостью перематывать назад, — неизменными атрибутами эпохи VHS. Но вот чего *точно* не хватает, так это удивительного и неповторимого дизайна обложек VHS-кассет из 90-х годов.
+
+          Но теперь благодаря талантливому Кристоферу Кирк-Нильсену вы сможете насладиться всей этой невероятно крутой ретро-графикой и одновременно продемонстрировать свою любовь к JavaScript!
+
+    - key: tshirt.about
+      t: Подробнее о футболке
+
+    - key: tshirt.description
+      t: |
+          Наша приталенная футболка сделана из высококачественной супермягкой ткани, состоящей из трёх материалов (трибленд), создаваемая нашими партнёрами Cotton Bureau.
+
+    - key: tshirt.getit
+      t: Купить
+
+    - key: tshirt.price
+      t: 29 долларов (без доставки)
+
+    - key: tshirt.designer.heading
+      t: Об дизайнере футболки
+
+    - key: tshirt.designer.name
+      t: Кристофер Кирк-Нильсен
+
+    - key: tshirt.designer.bio
+      t: |
+          Родом из Франции, но сейчас проживающий в США, Крис — не только крутой фронтендер, но и талантливый иллюстратор, специализирующийся на дизайне в стиле ретро. Мы рекомендуем вам ознакомиться с его [другими оформлениями футболок](https://chriskirknielsen.com/designs)!
+          
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+         В опросе этого года поучаствовало *39 471* человека со всего мира, и для
+         того, чтобы лучше отметить разнообразие мнений и сделать более точные выводы,
+         мы не жалея сил добавили новые способы представления полученных данных.
+
+    - key: sections.features.description
+      t: |
+        Несмотря на то, что JavaScript довольно активно развивается, похоже, что самим JavaScript-разработчикам этого не мало, судя по тому, как они относительно новые возможности уже применяют в работе.
+
+    - key: sections.technologies.description
+      t: |
+          Результаты этого года указывают на высокую раздробленность в мире JavaScript. Такое разнообразие может иногда вызвать головную боль, хотя в то же время конкуренция положительно сказывается на экосистеме в целом.
+
+    - key: sections.tools_others.description
+      t: |
+          Выбор той или иной технологии часто усложняется наличием конкурирующих между собой приоритетами, так что в этом году мы попытались представить этот процесс с помощью нового формата вопросов в виде турнира.
+
+    - key: sections.environments.description
+      t: |
+          В веб-разработке доступность долгое время оставалась на втором плане, однако сейчас многие разработчики
+          понимают, что на самом деле она должна быть фундаментом, на котором держится всё остальное.
+
+    - key: sections.resources.description
+      t: |
+          Если ранее мы только делали акцент на блогах, подкастах и сайтах,
+          то в этом году мы решили пойти ещё дальше и рассказать о людях, из которых состоит сообщество JavaScript!
+
+    - key: sections.opinions.description
+      t: |
+          Будь то проблемы, которые тормозят вас сегодня, или недостающие фичи, которые вы хотите использовать завтра,
+          у вас был шанс высказаться и пожаловаться на JavaScript!
+    
+    ###########################################################################
+    # Charts
+    ###########################################################################
+     
+    - key: options.features_categories.language
+      aliasFor: sections.language.title
+    - key: options.features_categories.browser_apis
+      aliasFor: sections.browser_apis.title
+    - key: options.features_categories.other_features
+      aliasFor: sections.other_features.title
+
+    - key: blocks.tools_quadrant.description
+      t: |
+        Эта диаграмма показывает **процент удовлетворённости** каждой технологией относительно её общего **количества пользователей**.
+        Делится на на четыре квадранта:
+
+        - **1**: Низкая степень использования, высокая степень удовлетворённости. Технологии, на которые стоит обратить внимание.
+
+        - **2**: Высокая степень использования, высокая степень удовлетворённости. Технологии, которые можно спокойно применять.
+
+        - **3**: Низкая степень использования, низкая степень удовлетворённости. Технологии, которые лучше избегать в настоящий момент.
+
+        - **4**: Высокая степень использования, низкая степень удовлетворённости. Технологии, от которых, возможно, стоит отказаться.
+
+
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.gender.note
+      t: |
+          Если вас интересуют подробности гендерной динамики опроса, мы [написали пост в блоге об этом](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj).
+
+    - key: blocks.currently_missing_from_css.note
+      t: |
+          С полным наборам ответов на этот вопрос можно ознакомиться в [нашем специальном проекте](https://whatsmissingfromcss.com/).
+
+    - key: blocks.source.note
+      t: >
+      
+        Эта диаграмма объединяет набор ссылок, URL-параметры и ответы в свободной форме (на английском языке).
+
+        - State of JS:  почтовая рассылка [State of JS](https://stateofjs.com).
+
+        - State of CSS: почтовая рассылка State of CSS; сюда относятся ответы, содержащие `email`, `by email` и т.д.
+
+        - Work: ответы, включающие `work`, `colleagues`, `coworkers` и т.д.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: В 2022 году **top-level await** с ростом в **{value}** стал неотъемлемой частью инструментария JavaScript-разработчика.
+
+    - key: award.tool_usage_delta_award.comment
+      t: |
+        **Vite** почти всего два года с нами, но прибавив **{value}** за последний год, он уже получил широкое распространение.
+
+    - key: award.tool_satisfaction_award.comment
+      t: Vite одерживает вверх с поистине невероятным процентом удовлетворённости в **{value}**!
+
+    - key: award.tool_interest_award.comment
+      t: Вызвав наибольший интерес (**{value}**), Vite завоёвывает ещё одну золотую награду!
+
+    - key: award.most_write_ins_award.comment
+      t: На многие вопросы можно было ответить в свободной форме, и **Astro** указали **{value}** раза, сделав его самым популярным вариантом.
+
+    - key: award.most_commented_feature_award.comment
+      t: Приватные поля отметили в **{value}** комментариях, намного больше, чем любую другую фичу.
+
+    - key: award.most_commented_tool_award.comment
+      t: Встретившись в **{value}** комментариях, React стал самой обсуждаемой библиотекой. 
+
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: conclusion.js2022
+      t: |
+            <span class="first-line">JavaScript and TypeScript are more vibrant than ever.</span> 
+
+            Мы увидели продолжение инноваций, направленных на повышение производительности, многие из которых касались реактивности и гидратации (или даже скорее её замены). Например, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) сделал ставку на удобство использования для разработчика и сфокусировался на разработке своего компилятора. Solid показал [новые подходы к реактивности](https://www.youtube.com/watch?v=2iK9zzhSKo4), а Qwik [изменил наш образ мышления, представив концепцию возобновляемости](https://www.youtube.com/watch?v=Zddw6qy5pf0).
+
+            Интересно наблюдать за инновациями в многоплатформенных решениях, таких как Tauri, Ionic и Flutter, которые открывают двери для разработки не только веб-приложений.
+
+            Мы видим глобальное распределение талантливых разработчиков, например, из Нигерии, а в этом году был [зафиксирован самый высокий рост разработчиков на GitHub из Индии](https://octoverse.github.com/2022/global-tech-talent). Во всем мире существуют удивительные проекты, такие как [Chakra UI](https://chakra-ui.com/) Сегуна Адебайо (Segun Adebayo) или [Hoppscotch](https://hoppscotch.io/) Лияса Томаса (Liyas Thomas), а также замечательные люди, поддерживающие развитие и обучение других людей, одна среди них Ада Ндука Ойом (Ada Nduka Oyom), которая основала [SheCodeAfrica](https://shecodeafrica.org/), некоммерческую организацию, помогающая улучшить положение более 17 тысяч женщин по всей Африке.
+
+            Если присмотреться, то можно заметить снижение уровня удовлетворённости у таких хорошо известных проектов, как React, Angular или Vue. В связи с этим, можно задаваться вопросом: как это повлияет на будущее? По моему мнению, подобный стад можно объяснить тем, что по мере того, как инструмент проходит проверку временем, им начинают активно пользоваться, обнаруживаются разные трудности, с которыми приходится сталкиваться в работе. Хотя с другой стороны у каждого инструмента есть свои плюсы и минусы. Так или иначе, это говорит о зрелости и чёткого понимания того, что эти инструменты могут предложить. Однако это не значит, что в результате инноваций даже устоявшиеся инструменты не могут продолжать совершенствоваться.
+
+            В заключение, не могу не отметить, как я рада видеть, что Vite второй год подряд выигрывает всё больше наград. Приятно видеть, что есть большие успехи в инструментах по сборке проектов, ведь это очень упрощает нам жизнь как разработчикам. Браво!
+
+    - key: conclusion.js2022.bio
+      t: Директор по разработке и веб-инфраструктуре в Google
+      
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_pick
+      t: 'Моё открытие в 2022 году: '
+    - key: picks.intro
+      t: Мы попросили участников JavaScript-сообщества поделиться своим ”открытием года”
+
+    # https://svelte.dev/blog/announcing-sveltekit-1.0
+    - key: picks.lee_robinson.name
+      t: SvelteKit 1.0
+    - key: picks.lee_robinson.bio
+      t: Вице-президент по DX в Vercel
+    - key: picks.lee_robinson.description
+      t: |
+          Спустя два года работы, SvelteKit наконец-то готов к массовому использованию.
+          У него поистине огромные возможности для разработчиков.
+
+    # - key: picks.vadim_makeev.name
+    #   t: Server-Side Rendering
+    # - key: picks.vadim_makeev.bio
+    #   t: DevRel, Podcaster & Web Standards Advocate
+    # - key: picks.vadim_makeev.description
+    #   t: |
+    #       The time has come to get our priorities straight. 
+    #       UX > DX, and it has always been like that. Performance FTW!
+            
+    # - key: picks.ben_ilegbodu.name
+    #   t: Lee Robinson
+    # - key: picks.ben_ilegbodu.bio
+    #   t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
+    # - key: picks.ben_ilegbodu.description
+    #   t: |
+    #       Lee has been great at shepherding and advocating for Next.js. 
+    #       He's helped me a ton with Next and continues to build excitement 
+    #       for where it's going
+            
+    # - key: picks.shawn_wang.name
+    #   t: Supabase
+    # - key: picks.shawn_wang.bio
+    #   t: Head of DX at Temporal
+    # - key: picks.shawn_wang.description
+    #   t: |
+    #       Supabase is making Postgres accessible to more developers and showing 
+    #       everyone how a small focused team can out-ship peers 10x their size.
+
+    # - key: picks.sarah_drasner.name
+    #   t: Pawel Kozlowski
+    # - key: picks.sarah_drasner.bio
+    #   t: Director of Engineering, Core Developer Web at Google
+    # - key: picks.sarah_drasner.description
+    #   t: |
+    #       Pawel Kozlowski is the kind of developer who can be open-minded to different 
+    #       approaches with humility and curiosity with the interest of improving things.
+
+    # - key: picks.sara_vieira.name
+    #   t: Paul Henschel
+    # - key: picks.sara_vieira.bio
+    #   t: International Agent of JS Bullshit
+    # - key: picks.sara_vieira.description
+    #   t: |
+    #       Paul's work on animations and ReactThreeFiber 
+    #       have made doing any kind of 3D work on the web way easier. 
+
+    # - key: picks.mark_erikson.name
+    #   t: Ryan Carniato
+    # - key: picks.mark_erikson.bio
+    #   t: Redux Maintainer
+    # - key: picks.mark_erikson.description
+    #   t: |
+    #       Ryan's reactive JS framework SolidJS hit 1.0, 
+    #       and he wrote numerous articles analyzing advanced 
+    #       JS framework implementation concepts.
+    
+    # - key: picks.alyssa_nicoll.name
+    #   t: BroccoDev's Twitch Stream
+    # - key: picks.alyssa_nicoll.bio
+    #   t: Sr. Developer Advocate at Progress
+    # - key: picks.alyssa_nicoll.description
+    #   t: |
+    #     Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer, 
+    #     developer, and most importantly teacher. 
+    #     I always have a blast watching his streams and learning from him.
+      
+    # - key: picks.michael_jackson.name
+    #   t: esbuild
+    # - key: picks.michael_jackson.bio
+    #   t: Co-founder of Remix
+    # - key: picks.michael_jackson.description
+    #   t: |
+    #     We have been building the Remix compiler on top of esbuild and it 
+    #     has definitely raised the bar as far as JS bundlers are concerned. 
+    #     It's incredibly fast and the plugin API allows us to do pretty much anything we want.
+
+    # - key: picks.david_khourshid.name
+    #   t: Remix
+    # - key: picks.david_khourshid.bio
+    #   t: Pianist and founder of Stately
+    # - key: picks.david_khourshid.description
+    #   t: |
+    #       Remix is a full-stack web framework that feels old-school, but in a good way, 
+    #       by putting you on the path to create fast, complex, and accessible modern web apps.
+      
+    # - key: picks.kent_c_dodds.name
+    #   t: Fly.io
+    # - key: picks.kent_c_dodds.bio
+    #   t: Director of Developer Experience, Remix
+    # - key: picks.kent_c_dodds.description
+    #   t: |
+    #       Fly enabled me (a frontend engineer with a distain for DevOps) 
+    #       to confidently deploy a real-world, globally-distributed, production-grade 
+    #       app.
+
+    # - key: picks.tejas_kumar.name
+    #   t: Joe Haddad
+    # - key: picks.tejas_kumar.bio
+    #   t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+    # - key: picks.tejas_kumar.description
+    #   t: |   
+    #       Joe works on Next.js at Vercel and is constantly looking to proudly 
+    #       demonstrate its power while actively listening 
+    #       to feedback from the community to support them better. 
+
+    # - key: picks.wes_bos.name
+    #   t: TC39 Proposals
+    # - key: picks.wes_bos.bio
+    #   t: JavaScript Teacher & Podcast Host
+    # - key: picks.wes_bos.description
+    #   t: |
+    #       A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
+      
+    # - key: picks.scott_tolinski.name
+    #   t: SvelteKit
+    # - key: picks.scott_tolinski.bio
+    #   t: Creator of Level-Up Tuts, co-host of Syntax
+    # - key: picks.scott_tolinski.description
+    #   t: |   
+    #       Svelte Kit provides the amazing developer experience of Svelte with all 
+    #       of the modern features of expected from a web platform. 
+
+    # https://astro.build/
+    - key: picks.miguel_angel_duran.name
+      t: Astro
+    - key: picks.miguel_angel_duran.bio
+      t: Стример Twitch, контент-автор
+    - key: picks.miguel_angel_duran.description
+      t: |
+        Astro — это новый перспективный генератор статических сайтов. 
+        За счёт отложенной гидратации при открытии сгенерированных веб-страниц по умолчанию не выполняется JavaScript, 
+        не говоря уже о том, что генератор не привязан к какому-либо UI-фреймворку. А благодар Vite, он очень быстрый и простой в использовании.
+
+    # https://sandpack.codesandbox.io/
+    - key: picks.josh_comeau.name
+      t: Sandpack
+    - key: picks.josh_comeau.bio
+      t: Разработчик и преподаватель
+    - key: picks.josh_comeau.description
+      t: |
+        Ребята из CodeSandbox выложили в опенсорс свой невероятно
+        мощный бандлер, работающий в браузере, и завернули его
+        в крутейший встраиваемый редактор кода. На выходе получился шикарный инструмент!
+        
+    # https://github.com/tc39/proposal-type-annotations
+    - key: picks.rich_harris.name
+      t: Предложение по реализации аннотаций типов
+    - key: picks.rich_harris.bio
+      t: Ведущий разработчик в Vercel
+    - key: picks.rich_harris.description
+      t: |   
+        Однозначно я хочу отметить предложение по реализации аннотаций типов, которое было представленоы в этом году.
+        
+    # https://twitter.com/mooeypoo
+    - key: picks.cassidy_williams.name
+      t: Мориэль Шоттлендер (Moriel Schottlender)
+    - key: picks.cassidy_williams.bio
+      t: Техдир в Contenda, любительница мемов и мечтательница
+    - key: picks.cassidy_williams.description
+      t: |
+        Мориэль — вдохновляющая разработчица, которая интересно рассказывает
+        об интернационализации и доступности,
+        а то, что она создаёт при помощи Vue,
+        настолько круто, что каждый должен увидеть это!
+
+    # https://www.withdiode.com/
+    - key: picks.charlie_gerard.name
+      t: Diode
+    - key: picks.charlie_gerard.bio
+      t: Старший представитель разработчиков в Stripe
+    - key: picks.charlie_gerard.description
+      t: |   
+        Diode — это интерактивный инструмент для создания и моделирования hardware-проектов в браузере. 
+        Для меня, как для любителя аппаратного обеспечения, это очень интересно,
+        а интерфейс, созданный с помощью Three.js, просто великолепен! 
+    
+    # https://arisa-fukuzaki.dev/
+    - key: picks.alba_silvente.name
+      t: Arisa Fukuzaki
+    - key: picks.alba_silvente.bio
+      t: FrontEnd developer working as DevRel at Storyblok
+    - key: picks.alba_silvente.description
+      t: |   
+        Arisa is a hybrid between FrontEnd and Dev Rels, lover of React and its ecosystem, 
+        she is always thinking about giving back to the community and contributes by giving talks,
+         workshops and articles on the subject. 
+    
+    # https://github.com/statelyai/xstate
+    - key: picks.matt_pocock.name
+      t: XState
+    - key: picks.matt_pocock.bio
+      t: TypeScript educator from the UK, building Total TypeScript.
+    - key: picks.matt_pocock.description
+      t: |
+        Если бы мне поручили создать с нуля что-то сложное,
+        например, редактор электронных таблиц, WYSIWYG-редактор или приложение для видеозвонков, я бы использовал XState. 
+        Это единственная библиотека, на которую я могу положиться при создании сложных систем.
+
+    # https://beta.reactjs.org/
+    - key: picks.kathryn_grayson_nanz.name
+      t: React Beta Docs
+    - key: picks.kathryn_grayson_nanz.bio
+      t: Developer Advocate at Progress
+    - key: picks.kathryn_grayson_nanz.description
+      t: |   
+        The new React docs are incredibly well-written, accessible for beginners, 
+        and beautifully designed. 
+        Documentation is one of the hardest things to do well, 
+        so this fantastic example is my pick of the year! 
+
+    
+    - key: picks.ryan_carniato.name
+      t: Astro
+    - key: picks.ryan_carniato.bio
+      t: Creator of Solid
+    - key: picks.ryan_carniato.description
+      t: |   
+        While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 and bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
+
+    - key: picks.theo_browne.name
+      t: tRPC
+    - key: picks.theo_browne.bio
+      t: Youtube Ranter & CEO @Ping.gg
+    - key: picks.theo_browne.description
+      t: | 
+        2022 was a big year for fullstack type-safety, and tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
+
+    - key: picks.sebastien_lorber.name
+      t: Remotion
+    - key: picks.sebastien_lorber.bio
+      t: This Week In React founder and Docusaurus maintainer
+    - key: picks.sebastien_lorber.description
+      t: |   
+        The ability to create videos with React is rad. We can get creative and use any cutting-edge web technology, not only DOM/CSS. With the GitHub Unwrapped project, it has proved it can scale, render thousands of videos and be an awesome marketing tool.
+
+    - key: picks.ben_holmes.name
+      t: Zod
+    - key: picks.ben_holmes.bio
+      t: 
+    - key: picks.ben_holmes.description
+      t: | 
+        Runtime safety came to define 2022 with tRPC's rise to stardom. 
+        Now, with Astro using Zod for type-safe Markdown and Remix users bringing Zod to form validation, 
+        it's becoming an must-have for any JavaScript developer
+
+    - key: picks.tyler_mcginnis.name
+      t: TanStack
+    - key: picks.tyler_mcginnis.bio
+      t: Founder, UI.dev
+    - key: picks.tyler_mcginnis.description
+      t: | 
+        My JavaScript pick of the year is TanStack, or anything else that 
+        Tanner and Dominik make.
+    
+    - key: picks.shaundai_person.name
+      t: Sarah Drasner
+    - key: picks.shaundai_person.bio
+      t: Senior Software Engineer, Netflix
+    - key: picks.shaundai_person.description
+      t: | 
+        Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us". 
+
+    - key: picks.xxxx.name
+      t:
+    - key: picks.xxxx.bio
+      t: 
+    - key: picks.xxxx.description
+      t: |   
+      
+###########################################################################
+# Sponsors
+###########################################################################
+
+    - key: sponsors.frontendmasters.description
+      t: Advance your skills with in-depth, modern front-end engineering courses.
+    - key: sponsors.google_chrome.description
+      t: Thanks to the Google Chrome team for supporting our work.
+    - key: sponsors.renderatl.description
+      t: This is a tech conference focused on Front-End Engineering.
+
+###########################################################################
+# FAQ/About
+###########################################################################
+    
+    - key: about.content
+      t: |
+            The 2022 State of JS survey ran from November 21 to December 22 2022, and collected 39,472 responses. The survey is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
+
+            This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+            ### Survey Goals
+
+            This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+            As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+
+            It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+            ### Survey Design
+
+            The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
+            
+            All survey questions were optional. 
+
+            ### Survey Audience
+
+            The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+
+            Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+
+            ### Representativeness & Inclusivity
+
+            While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+
+            In order to counter-balance this, we are implementing three distinct strategies:
+
+            - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
+            
+            - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+            
+            - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+
+            ### Project Funding
+
+            Funding from this project comes from a variety of sources:
+
+            - **T-shirt sales**. 
+
+            - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
+
+            - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) and [RenderATL](https://www.renderatl.com/).
+            
+            - **Other Funding**: this year, [Google](https://www.google.com/) and [Nijibox](https://nijibox.jp/) funded my work on the survey directly.
+
+            Any contribution or sponsorship is greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+
+            ### Technical Overview
+
+            You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4).
+
+            - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+
+            - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+            
+            - **Data API**: Node.js GraphQL API. 
+            
+            - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+            
+            - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+            
+            - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
