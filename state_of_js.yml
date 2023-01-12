@@ -114,9 +114,9 @@ translations:
     - key: sections.resources_js.description
       t: Какими ресурсами по JavaScript пользуетесь?
       
-    - key: sections.usage.title
+    - key: sections.usage_js.title
       t: Использование
-    - key: sections.usage.description
+    - key: sections.usage_js.description
       t: Как вы используете JavaScript
 
     ###########################################################################
@@ -646,7 +646,9 @@ translations:
       t: Насколько вы удовлетворены текущим состоянием инструментами сборки?
     - key: happiness.monorepo_tools
       t: Насколько вы удовлетворены текущим состоянием инструментами для монорепозиториев?
-
+    - key: happiness.rendering_frameworks
+      t: Насколько вы удовлетворены текущим состоянием фреймворков для рендеринга?
+      
     - key: happiness.state_of_the_web
       t: Насколько вы удовлетворены текущим состоянием веб-технологий?
 

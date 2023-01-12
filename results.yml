@@ -940,9 +940,14 @@ translations:
     t: Награждается, как наиболее популярный вариант ответа, указанный самими участниками опроса.
 
   - key: award.most_commented_feature_award.title
-    t: Самый комментируемый
+    t: Самая комментируемая возможность
   - key: award.most_commented_feature_award.description
     t: Награждается, как возможность с наибольшим количеством комментариев.
+
+  - key: award.most_commented_tool_award.title
+    t: Самая комментируемая библиотека
+  - key: award.most_commented_tool_award.description
+    t: Награждается, как библиотека с наибольшим количеством комментариев.
 
   ###########################################################################
   # Hints

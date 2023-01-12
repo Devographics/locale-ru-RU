@@ -19,7 +19,7 @@ translations:
 
             <span class="first-letter">С</span>пустя нескольких лет относительной стабильности, многие начинают сомневаться, что так будет и дальше. 
             
-            Новые фронтенд-фреймворки, такие как Solid и Qwik, бросают вызов React, когда как Astro, Remix и Next.js заставляют нас задуматься, над тем, что сколько лишнего кода в итоге используется на клиенте. 
+            Новые фронтенд-фреймворки, такие как Solid и Qwik, бросают вызов React, когда как Astro, Remix и Next.js заставляют нас задуматься, над тем, сколько лишнего кода в итоге используется на клиенте. 
 
             Поэтому в собранных нами ответах много чего интересного, не говоря уже о том, что в опросе этого года приняло участие **39 472** человека, а это почти вдвое больше, чем в прошлом году!
             
@@ -40,7 +40,7 @@ translations:
     ###########################################################################
 
     - key: sections.tshirt.title
-      t: T-shirt
+      t: Футболка
 
     - key: sections.tshirt.description
       t: |
@@ -81,7 +81,7 @@ translations:
       t: |
          В опросе этого года поучаствовало *39 471* человека со всего мира, и для
          того, чтобы лучше отметить разнообразие мнений и сделать более точные выводы,
-         мы не жалея сил добавили новые способы представления полученных данных.
+         мы не жалея сил добавили новые способы представления собранных данных.
 
     - key: sections.features.description
       t: |
@@ -179,7 +179,7 @@ translations:
       t: На многие вопросы можно было ответить в свободной форме, и **Astro** указали **{value}** раза, сделав его самым популярным вариантом.
 
     - key: award.most_commented_feature_award.comment
-      t: Приватные поля отметили в **{value}** комментариях, намного больше, чем любую другую фичу.
+      t: Приватные поля прокомментировали **{value}** человека, намного больше, чем любую другую фичу.
 
     - key: award.most_commented_tool_award.comment
       t: Встретившись в **{value}** комментариях, React стал самой обсуждаемой библиотекой. 
@@ -190,7 +190,7 @@ translations:
 
     - key: conclusion.js2022
       t: |
-            <span class="first-line">JavaScript and TypeScript are more vibrant than ever.</span> 
+            <span class="first-line">JavaScript и TypeScript развиваются как никогда динамично.</span> 
 
             Мы увидели продолжение инноваций, направленных на повышение производительности, многие из которых касались реактивности и гидратации (или даже скорее её замены). Например, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) сделал ставку на удобство использования для разработчика и сфокусировался на разработке своего компилятора. Solid показал [новые подходы к реактивности](https://www.youtube.com/watch?v=2iK9zzhSKo4), а Qwik [изменил наш образ мышления, представив концепцию возобновляемости](https://www.youtube.com/watch?v=Zddw6qy5pf0).
 
@@ -201,6 +201,8 @@ translations:
             Если присмотреться, то можно заметить снижение уровня удовлетворённости у таких хорошо известных проектов, как React, Angular или Vue. В связи с этим, можно задаваться вопросом: как это повлияет на будущее? По моему мнению, подобный стад можно объяснить тем, что по мере того, как инструмент проходит проверку временем, им начинают активно пользоваться, обнаруживаются разные трудности, с которыми приходится сталкиваться в работе. Хотя с другой стороны у каждого инструмента есть свои плюсы и минусы. Так или иначе, это говорит о зрелости и чёткого понимания того, что эти инструменты могут предложить. Однако это не значит, что в результате инноваций даже устоявшиеся инструменты не могут продолжать совершенствоваться.
 
             В заключение, не могу не отметить, как я рада видеть, что Vite второй год подряд выигрывает всё больше наград. Приятно видеть, что есть большие успехи в инструментах по сборке проектов, ведь это очень упрощает нам жизнь как разработчикам. Браво!
+            
+            *Примечание: Сара работает в компании Google, которая разрабатывает проекты, связанные с JavaScript (в их числе Angular и Flutter), а также она является спонсором данного опроса.*
 
     - key: conclusion.js2022.bio
       t: Директор по разработке и веб-инфраструктуре в Google
@@ -221,7 +223,7 @@ translations:
       t: Вице-президент по DX в Vercel
     - key: picks.lee_robinson.description
       t: |
-          Спустя два года работы, SvelteKit наконец-то готов к массовому использованию.
+          Спустя два года работы SvelteKit наконец-то готов к массовому использованию.
           У него поистине огромные возможности для разработчиков.
 
     # - key: picks.vadim_makeev.name
@@ -350,12 +352,12 @@ translations:
     - key: picks.miguel_angel_duran.name
       t: Astro
     - key: picks.miguel_angel_duran.bio
-      t: Стример Twitch, контент-автор
+      t: Стример на Twitch, контент-автор
     - key: picks.miguel_angel_duran.description
       t: |
         Astro — это новый перспективный генератор статических сайтов. 
         За счёт отложенной гидратации при открытии сгенерированных веб-страниц по умолчанию не выполняется JavaScript, 
-        не говоря уже о том, что генератор не привязан к какому-либо UI-фреймворку. А благодар Vite, он очень быстрый и простой в использовании.
+        не говоря уже о том, что этот генератор не привязан к какому-либо UI-фреймворку. А благодаря Vite он очень быстрый и простой в использовании.
 
     # https://sandpack.codesandbox.io/
     - key: picks.josh_comeau.name
@@ -415,7 +417,7 @@ translations:
     - key: picks.matt_pocock.name
       t: XState
     - key: picks.matt_pocock.bio
-      t: TypeScript educator from the UK, building Total TypeScript.
+      t: Преподаватель TypeScript из Великобритании, создатель проекта Total TypeScript.
     - key: picks.matt_pocock.description
       t: |
         Если бы мне поручили создать с нуля что-то сложное,
@@ -426,14 +428,13 @@ translations:
     - key: picks.kathryn_grayson_nanz.name
       t: React Beta Docs
     - key: picks.kathryn_grayson_nanz.bio
-      t: Developer Advocate at Progress
+      t: Представитель разработчиков в Progress
     - key: picks.kathryn_grayson_nanz.description
-      t: |   
-        The new React docs are incredibly well-written, accessible for beginners, 
-        and beautifully designed. 
-        Documentation is one of the hardest things to do well, 
-        so this fantastic example is my pick of the year! 
-
+      t: |
+        Новая документация React очень хорошо написана, понятна для новичков
+        и к тому же прекрасно оформлена.
+        По-настоящему хорошую документацию очень непросто создать,
+        поэтому это прекрасный пример отличной документации!
     
     - key: picks.ryan_carniato.name
       t: Astro
@@ -472,11 +473,11 @@ translations:
     - key: picks.tyler_mcginnis.name
       t: TanStack
     - key: picks.tyler_mcginnis.bio
-      t: Founder, UI.dev
+      t: Основатель UI.dev
     - key: picks.tyler_mcginnis.description
-      t: | 
-        My JavaScript pick of the year is TanStack, or anything else that 
-        Tanner and Dominik make.
+      t: |
+        Мой фаворит в этом году — TanStack и в целом весь вклад,
+        который вносят в опенсорс Таннер и Доминик.
     
     - key: picks.shaundai_person.name
       t: Sarah Drasner
