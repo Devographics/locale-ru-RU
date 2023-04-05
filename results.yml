@@ -8,9 +8,9 @@ translations:
     t: Поехали
 
   - key: page.previous
-    t: 'Назад:'
+    t: "Назад:"
   - key: page.next
-    t: 'Вперёд:'
+    t: "Вперёд:"
 
   - key: general.state_of_css_link
     t: State of CSS
@@ -19,7 +19,7 @@ translations:
     t: Сайт размещён на <a href="{link}">Netlify</a>.
 
   - key: general.completion_percentage
-    t: 'Процент заполнения:'
+    t: "Процент заполнения:"
 
   - key: sponsors.thanks
     t: Спасибо нашим партнёрам за поддержку!
@@ -217,7 +217,7 @@ translations:
 
   - key: sections.about.title
     t: О проекте
-    
+
   - key: sections.how_to_help.title
     t: Помочь нам
 
@@ -460,7 +460,7 @@ translations:
 
   # tool experience
   - key: blocks.tool_experience
-    t: 'Опыт работы с {name}'
+    t: "Опыт работы с {name}"
   - key: blocks.tool_experience.description
     t: Опыт участника опроса с {name}.
 
@@ -560,12 +560,12 @@ translations:
 
       Наведите на любой круг, чтобы увидеть всплывающую подсказку
       с подробными данными об общем количестве опрошенных.
-      
+
   # export
   - key: export.export
     t: Экспорт
   - key: export.title
-    t: 'Экспорт данных: {title}'
+    t: "Экспорт данных: {title}"
   - key: export.nocsv
     t: К сожалению, экспорт в CSV недоступен для этого набора данных.
   - key: export.graphql
@@ -595,13 +595,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. Скопируйте содержимое текстового поля "Запрос GraphQL" и вставьте его в среднюю панель [проводника GraphQL API](https://graphiql.stateofjs.com/).
+      1. Скопируйте содержимое текстового поля "Запрос GraphQL" и вставьте его в среднюю панель [проводника GraphQL API](https://graphiql.stateofjs.com/).
 
-        2. Измените запрос, добавив один или несколько **фильтров** из левой панели проводника. Проследите за тем, чтобы общая структура данных осталась прежней.
+      2. Измените запрос, добавив один или несколько **фильтров** из левой панели проводника. Проследите за тем, чтобы общая структура данных осталась прежней.
 
-        3. В окне проводника нажмите кнопку Play ("Выполнить запрос").
+      3. В окне проводника нажмите кнопку Play ("Выполнить запрос").
 
-        4. Скопируйте результаты изменённого запроса (`{ data: … }`) в текстовое поле "Ваши данные" и нажмите "Изменить данные".
+      4. Скопируйте результаты изменённого запроса (`{ data: … }`) в текстовое поле "Ваши данные" и нажмите "Изменить данные".
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -648,15 +648,15 @@ translations:
   ###########################################################################
 
   - key: chart_units.respondents
-    t: '{count} человек ответило на этот вопрос ({percentage}% от общего количества участников)'
+    t: "{count} человек ответило на этот вопрос ({percentage}% от общего количества участников)"
   - key: chart_units.percentage
     t: Проценты
   - key: chart_units.count
     t: Количество
   - key: chart_units.percentage_question
-    t: 'Процент ответивших на вопрос'
+    t: "Процент ответивших на вопрос"
   - key: chart_units.percentage_survey
-    t: 'Процент респондентов опроса'
+    t: "Процент респондентов опроса"
 
   - key: charts.average
     t: Average
@@ -667,7 +667,7 @@ translations:
   - key: charts.all_respondents
     t: Общее количество респондентов
   - key: charts.facet_responses
-    t: '{count} ответов'
+    t: "{count} ответов"
 
   - key: charts.axis_legends.years_of_experience
     t: Опыт работы
@@ -693,7 +693,7 @@ translations:
     t: Процент использования
   - key: charts.axis_legends.awareness_percentage
     t: Процент узнаваемости
-    
+
   - key: chart_units.interest_percentage
     aliasFor: charts.axis_legends.interest_percentage
   - key: chart_units.satisfaction_percentage
@@ -702,7 +702,7 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: chart_units.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-    
+
   - key: charts.axis_legends.happiness
     t: Удовлетворённость
   - key: charts.axis_legends.knowledge_score
@@ -712,9 +712,9 @@ translations:
   - key: charts.axis_legends.age
     t: Возраст
   - key: charts.axis_legends.users_percentage_survey
-    t: '% респондентов опроса'
+    t: "% респондентов опроса"
   - key: charts.axis_legends.users_percentage_question
-    t: '% ответивших на вопрос'
+    t: "% ответивших на вопрос"
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: исходный уровень
@@ -790,17 +790,17 @@ translations:
   - key: share.site.title
     t: Посмотрите результаты опроса {siteTitle}
   - key: share.site.twitter_text
-    t: 'Посмотрите результаты опроса {siteTitle} {link} {hashtag}'
+    t: "Посмотрите результаты опроса {siteTitle} {link} {hashtag}"
   - key: share.site.subject
     t: Результаты опроса {siteTitle}
   - key: share.site.body
-    t: 'Лишь некоторые интересные результаты опроса: {link}'
+    t: "Лишь некоторые интересные результаты опроса: {link}"
   - key: share.block.twitter_text
-    t: '{hashtag} {year}: {title} {link}'
+    t: "{hashtag} {year}: {title} {link}"
   - key: share.block.subject
     t: Результаты опроса {siteTitle}
   - key: share.block.body
-    t: 'Лишь некоторые интересные результаты опроса ({title}): {link}'
+    t: "Лишь некоторые интересные результаты опроса ({title}): {link}"
   - key: share.twitter
     t: Поделиться в Twitter
   - key: share.facebook
@@ -834,11 +834,11 @@ translations:
   - key: table.item
     t: Элемент
   - key: table.percentage_survey
-    t: 'Процент от всех участников опроса'
+    t: "Процент от всех участников опроса"
   - key: table.percentage_question
-    t: 'Процент от ответивших на вопрос'
+    t: "Процент от ответивших на вопрос"
   - key: table.percentage_facet
-    t: '% of facet respondents'
+    t: "% of facet respondents"
   - key: table.count
     t: Количество
   - key: table.year
@@ -862,7 +862,6 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-
 
   - key: table.percentages_table
     t: Проценты
@@ -1011,7 +1010,7 @@ translations:
 
   - key: hints.comments_hint
     t: >
-      На вкладке <span class="hint-icon hint-comment-button">Комментарии</span> вы можете посмотреть комментарии, оставленные респондентами во время заполнения опроса. 
+      На вкладке <span class="hint-icon hint-comment-button">Комментарии</span> вы можете посмотреть комментарии, оставленные респондентами во время заполнения опроса.
 
   ###########################################################################
   # Sponsor Chart
@@ -1024,7 +1023,6 @@ translations:
     t: >
       Спасибо за поддержку опроса. Ваш аватар появится рядом с графиком
       в течение следующего часа. Если этого не произойдет, пожалуйста, [напишите на электронную почту](mailto:chartsponsor@stateofjs.com).
-
 
   - key: sponsor.sponsored_by
     t: >
@@ -1042,7 +1040,7 @@ translations:
       а в благодарность аватар вашего Twitter-аккаунта будет показан рядом с графиком!
 
   - key: sponsor.chart_id
-    t: 'ID графика: '
+    t: "ID графика: "
 
   - key: sponsor.sponsor_this_chart
     t: Поддержать график (от {baseAmount} долларов)
@@ -1065,8 +1063,7 @@ translations:
 
 
       5. Сайт будет пересобран в фоновом режиме, и в течение часа имя вашего Twitter-аккаунта и пожертвование появятся рядом с графиком.
-      
-      
+
   - key: sponsor.faq.title
     t: Ответы на часто задаваемые вопросы
 
@@ -1115,8 +1112,7 @@ translations:
   - key: sections.data_explorer.description
     t: |
       Попробуйте сами изучить аудиторию опроса: выберите два вопроса
-      и посмотрите распределение ответов на них. 
-      
+      и посмотрите распределение ответов на них.
 
   - key: hints.data_explorer
     t: |
@@ -1151,7 +1147,7 @@ translations:
   - key: explorer.extra_respondents.tooltip
     t: Highlighted dots indicate higher-than-expected results.
   - key: explorer.missing_respondents.tooltip
-    t: Empty dots indicate lower-than-expected results. 
+    t: Empty dots indicate lower-than-expected results.
 
   - key: explorer.units_count
     t: Count
@@ -1215,13 +1211,6 @@ translations:
   - key: explorer.show_cell_counts
     t: Показывать количество ответивших в ячейке
 
-  - key: explorer.sections.demographics
-    t: Demographics
-  - key: explorer.sections.features
-    t: Features
-  - key: explorer.sections.tools
-    t: Libraries
-
   - key: explorer.all_fields
     t: All fields
   - key: explorer.select_item
@@ -1232,29 +1221,29 @@ translations:
   - key: explorer.count_details.1
     t: |
       **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
-  
+
   - key: explorer.count_details.2
     t: |
-        **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
-  
+      **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
   - key: explorer.count_details.3
     t: |
-        Applying that percentage to the previous **{xAxisTotal}** respondents figure 
-        gives us an expected baseline of **{normalizedCount}** respondents in this intersection. 
-  
+      Applying that percentage to the previous **{xAxisTotal}** respondents figure 
+      gives us an expected baseline of **{normalizedCount}** respondents in this intersection.
+
   - key: explorer.count_details.4_extra
     t: |
-        The actual count is **{bucketCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*. 
- 
+      The actual count is **{cellCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
+
   - key: explorer.count_details.4_missing
     t: |
-        The actual count is **{bucketCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots. 
+      The actual count is **{cellCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
 
   - key: explorer.percentage_details.1_extra
     t: |
       Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
       within “{yAxisLabel}” respondents who selected “{yAnswerLabel}” that percentage climbs to  **{bucketPercentage}%**.
-  
+
   - key: explorer.percentage_details.1_missing
     t: |
       Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
@@ -1262,33 +1251,32 @@ translations:
 
   - key: explorer.percentage_details.2_extra
     t: |
-        Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
-  
+      Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
   - key: explorer.percentage_details.2_missing
     t: |
-        Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
+      Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
 
   # - key: explorer.percentage_details.1
   #   t: |
   #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
-  
+
   # - key: explorer.percentage_details.2
   #   t: |
-  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”. 
-  
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
   # - key: explorer.percentage_details.3
   #   t: |
-  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure 
-  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection. 
-  
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
   # - key: explorer.percentage_details.4_extra
   #   t: |
-  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*. 
-  
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
   # - key: explorer.percentage_details.4_missing
   #   t: |
-  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots. 
-
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
 
   - key: explorer.extra_missing_respondents
     t: |
@@ -1296,7 +1284,7 @@ translations:
 
       The chart above aims to identify areas showing higher-than-expected 
       or lower-than-expected values compared to a calculated baseline. 
-      
+
       For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company, 
       you'd expect to find 500 CSS Grid users working in large companies. 
 
