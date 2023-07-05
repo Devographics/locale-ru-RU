@@ -391,10 +391,6 @@ translations:
     t: Область видимости
   - key: features.scoping.description
     t: Возможность более точно задать, где должны применятся стили.
-  - key: features.subgrid
-    t: Сабгрид
-  - key: features.subgrid.description
-    t: Создание вложенных подгридов внутри родительского грида.
 
   ###########################################################################
   # Units & Selectors
