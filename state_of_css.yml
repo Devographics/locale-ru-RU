@@ -608,7 +608,7 @@ translations:
     t: Что вы обычно реализуете для улучшения доступности?
   - key: environments.accessibility_features.others
     t: Другие фичи для доступности
-  - key: environments.accessibility_features.others
+  - key: environments.accessibility_features.others.description
     t: Помимо представленных вариантов, что вы ещё делаете для доступности
 
   - key: environments.css_for_print

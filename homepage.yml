@@ -1,76 +1,75 @@
 locale: ru-RU
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded
-      t: Сделано в Японии.
-    - key: homepage.leave_issue
-      t: Создайте ишью
-    - key: homepage.get_in_touch
-      t: Свяжитесь с нами
+  - key: homepage.hand_coded
+    t: Сделано в Японии.
+  - key: homepage.leave_issue
+    t: Создайте ишью
+  - key: homepage.get_in_touch
+    t: Свяжитесь с нами
 
-    - key: homepage.previous_years
-      t: 'Предыдущие годы:'
+  - key: homepage.previous_years
+    t: "Предыдущие годы:"
 
-    - key: homepage.take_survey
-      t: Пройти опрос
+  - key: homepage.take_survey
+    t: Пройти опрос
 
-    - key: homepage.view_results
-      t: Посмотреть результаты
+  - key: homepage.view_results
+    t: Посмотреть результаты
 
-    - key: share.help_spread
-      t: Расскажите об опросе другим!
-      
-    - key: homepage.other_surveys
-      t: 'Другие опросы:'
+  - key: share.help_spread
+    t: Расскажите об опросе другим!
 
-    - key: homepage.survey_open_now
-      t: Открытые опросы
+  - key: homepage.other_surveys
+    t: "Другие опросы:"
 
-    - key: homepage.survey_preview
-      t: Предварительный просмотр
+  - key: homepage.survey_open_now
+    t: Открытые опросы
 
-    - key: homepage.most_recent_survey
-      t: Недавний
+  - key: homepage.survey_preview
+    t: Предварительный просмотр
 
-    - key: homepage.current_survey
-      t: Текущий опрос
+  - key: homepage.most_recent_survey
+    t: Недавний
 
-    - key: homepage.past_surveys
-      t: Проведённые опросы
+  - key: homepage.current_survey
+    t: Текущий опрос
 
-    - key: homepage.view_questions
-      t: Посмотреть вопросы
+  - key: homepage.past_surveys
+    t: Проведённые опросы
 
-    - key: homepage.preview_questions
-      t: Preview Questions
+  - key: homepage.view_questions
+    t: Посмотреть вопросы
 
-    # newsletter
-    - key: newsletter.stay_tuned
-      t: Не пропустите следующий опрос
-    - key: newsletter.leave_your_email
-      t: Укажите свой адрес электронной почты, и мы оповестим вас о новом опросе.
-    - key: newsletter.email
-      t: Электронная почта
-    - key: newsletter.submit
-      t: Сообщить мне
+  - key: homepage.preview_questions
+    t: Preview Questions
 
-    # languages
-    - key: languages.available_languages
-      t: 'Текущие переводы:'
-    - key: languages.help_us_translate
-      t: Помочь перевести опрос →
+  # newsletter
+  - key: newsletter.stay_tuned
+    t: Не пропустите следующий опрос
+  - key: newsletter.leave_your_email
+    t: Укажите свой адрес электронной почты, и мы оповестим вас о новом опросе.
+  - key: newsletter.email
+    t: Электронная почта
+  - key: newsletter.submit
+    t: Сообщить мне
 
-    # footer
-    - key: homepage.made_by_devographics
-      aliasFor: general.made_by_devographics
-    - key: homepage.netlify_link
-      aliasFor: general.netlify_link
-    - key: homepage.leave_issue
-      aliasFor: general.leave_issue
-    - key: homepage.join_discord
-      aliasFor: general.join_discord
-    - key: homepage.astro_link
-      t: Работает на [Astro](https://astro.build/)
+  # languages
+  - key: languages.available_languages
+    t: "Текущие переводы:"
+  - key: languages.help_us_translate
+    t: Помочь перевести опрос →
+
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Работает на [Astro](https://astro.build/)
