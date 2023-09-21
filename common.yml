@@ -18,7 +18,7 @@ translations:
       - Сохранить текущий прогресс прохождения опроса
 
       - Оповестить вас, когда будут опубликованы результаты
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       Извините, но опрос завершён! Вы можете посмотреть свои ответы, но изменить их уже не получится.
   - key: general.survey_read_only
@@ -602,19 +602,19 @@ translations:
       Ничего из вышеперечисленного
 
   # Disability Status (short)
-  - key: options.disability_status.visual_impairments
+  - key: options.disability_status.visual_impairments.short
     t: >
       Нарушения зрения
-  - key: options.disability_status.hearing_impairments
+  - key: options.disability_status.hearing_impairments.short
     t: >
       Нарушения слуха
-  - key: options.disability_status.mobility_impairments
+  - key: options.disability_status.mobility_impairments.short
     t: >
       Нарушения подвижности
-  - key: options.disability_status.cognitive_impairments
+  - key: options.disability_status.cognitive_impairments.short
     t: >
       Когнитивные нарушения
-  - key: options.disability_status.not_listed
+  - key: options.disability_status.not_listed.short
     t: >
       Ничего из вышеперечисленного
 
