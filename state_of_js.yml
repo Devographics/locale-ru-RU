@@ -1,717 +1,717 @@
 locale: ru-RU
 namespace: js
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
-
-    - key: general.state_of_js.intro
-      t: >
-          Миру JavaScript не помешало бы немного классификации.
-
-
-          Начиная с 2016 года, в опросе ежегодно
-          участвуют более 20 000 разработчиков для того, чтобы изучить текущие и будущие тенденции.
-
-
-          Пройдите опрос и помогите нам выяснить, какие библиотеки
-          планируют изучить разработчики в будущем, какими из них больше всего довольны уже сейчас, и т.д.
-
-    - key: general.state_of_js.description
-      t: Ежегодный опрос JavaScript-разработчиков
-
-    ###########################################################################
-    # Sections
-    ###########################################################################
-
-    - key: sections.syntax.title
-      t: Синтаксис
-    - key: sections.syntax.description
-      t: Грамматика JavaScript.
-
-    - key: sections.language.title
-      t: Язык
-    - key: sections.language.description
-      t: Словарь JavaScript.
-
-    - key: sections.data_structures.title
-      t: Структуры данных
-    - key: sections.data_structures.description
-      t: Как вы храните и управляете данными.
-
-    - key: sections.browser_apis.title
-      t: API браузера
-    - key: sections.browser_apis.description
-      t: Встроенные возможности браузера.
-
-    - key: sections.other_features.title
-      t: Другие возможности
-    - key: sections.other_features.description
-      t: Другие технологии и паттерны.
-
-    - key: sections.patterns.title
-      t: Паттерны
-    - key: sections.patterns.description
-      t: Как вы пишете код.
-
-    - key: sections.javascript_flavors.title
-      t: Разновидности JavaScript
-    - key: sections.javascript_flavors.description
-      t: Языки, компилируемые в JavaScript.
-
-    - key: sections.front_end_frameworks.title
-      t: Фронтенд-фреймворки
-    - key: sections.front_end_frameworks.description
-      t: Фронтенд-фреймворки и библиотеки.
-
-    - key: sections.datalayer.title
-      t: Слой доступа к данным
-    - key: sections.datalayer.description
-      t: Загрузка и управление данными в приложении.
-
-    - key: sections.rendering_frameworks.title
-      t: Фреймворки для рендеринга
-    - key: sections.rendering_frameworks.description
-      t: Фреймворки, связанные с рендерингом приложения
-
-    - key: sections.back_end_frameworks.title
-      t: Бэкенд-фреймворки
-    - key: sections.back_end_frameworks.description
-      t: JavaScript на сервере.
-
-    - key: sections.testing.title
-      t: Тестирование
-    - key: sections.testing.description
-      t: Инструменты для тестирования кода.
-
-    - key: sections.mobile_desktop.title
-      t: Мобильные устройства и десктоп
-    - key: sections.mobile_desktop.description
-      t: JavaScript для мобильных устройств и десктопные приложения.
-
-    - key: sections.build_tools.title
-      t: Сборщики
-    - key: sections.build_tools.description
-      t: Компиляция и сборка кода.
-
-    - key: sections.monorepo_tools.title
-      t: Инструменты для монорепозиториев
-    - key: sections.monorepo_tools.description
-      t: Инструменты, использующиеся для управления монорепозиториями с JavaScript-кодом.
-
-    - key: sections.tools_others.title
-      t: Другие инструменты
-    - key: sections.tools_others.description
-      t: Другие JavaScript-инструменты.
-
-    - key: sections.other_tools.title
-      t: Другие инструменты
-    - key: sections.other_tools.description
-      t: Какими из представленных инструментов и технологий вы регулярно пользуетесь.
-
-    - key: sections.resources_js.title
-      t: Ресурсы
-    - key: sections.resources_js.description
-      t: Какими ресурсами по JavaScript пользуетесь?
-      
-    - key: sections.usage_js.title
-      t: Использование
-    - key: sections.usage_js.description
-      t: Как вы используете JavaScript
-
-    ###########################################################################
-    # Survey Help
-    ###########################################################################
-
-    - key: features.features_intro
-      t: >
-          Приветствуем вас в ежегодном опросе! В первой части мы постараемся выяснить,
-          какие **возможности** JavaScript вам знакомы.
-          
-          Не расстраиваетесь слишком сильно, если вы слышали о чём-то, но ещё не использовали это!
-
-    - key: tools.tools_intro
-      t: >
-          Следующие несколько разделов посвящены **библиотекам** и **фреймворкам**,
-          которые составляют экосистему JavaScript. Расскажите нам, что вам нравится или интересно!
-
-    ###########################################################################
-    # Options
-    ###########################################################################
-
-    # JS pain points
-    # - key: options.js_pain_points.browser_interoperability
-    #   t: Browser Compatibility
-    # - key: options.js_pain_points.browser_interoperability.description
-    #   t: Differences between Chrome, Safari, Firefox, etc.
-    # - key: options.js_pain_points.animations
-    #   t: Animations
-    # - key: options.js_pain_points.animations.description
-    #   t: Managing animations, transitions, etc. using JavaScript.
-    # - key: options.js_pain_points.form_handling
-    #   t: Form Handling
-    # - key: options.js_pain_points.form_handling.description
-    #   t: Creating forms, managing their state and errors, and saving their data.
-    - key: options.js_pain_points.state_management
-      t: Управление состоянием
-    - key: options.js_pain_points.state_management.description
-      t: Управление состоянием глобальных данных в сложных приложениях.
-    # - key: options.js_pain_points.performance_issues
-    #   t: Performance Issues
-    # - key: options.js_pain_points.performance_issues.description
-    #   t: Bundle sizes, slow loading, and other performance issues.
-    - key: options.js_pain_points.managing_dependencies
-      t: Управление зависимостями
-    - key: options.js_pain_points.managing_dependencies.description
-      t: Управление зависимостями, версиями пакетов и размерами бандлов.
-    - key: options.js_pain_points.architecture
-      t: Архитектура кода
-    - key: options.js_pain_points.architecture.description
-      t: Организация и поддержка кодовой базы.
-    - key: options.js_pain_points.finding_packages
-      t: Поиск пакетов
-    - key: options.js_pain_points.finding_packages.description
-      t: Поиск и оценка пакетов JavaScript.
-    - key: options.js_pain_points.writing_modules
-      t: Написание модулей
-    - key: options.js_pain_points.writing_modules.description
-      t: Написание модулей JavaScript и их публикация в виде пакетов.
-    - key: options.js_pain_points.debugging
-      t: Отладка
-    - key: options.js_pain_points.debugging.description
-      t: Выявление и решение проблем с кодом.
-    - key: options.js_pain_points.async_code
-      t: Асинхронный код
-    - key: options.js_pain_points.async_code.description
-      t: Работа с асинхронными функциями.
-    - key: options.js_pain_points.modules_management
-      t: Управление модулями
-    - key: options.js_pain_points.modules_management.description
-      t: Написание и импорт модулей.
-    - key: options.js_pain_points.date_management
-      t: Управление датами
-    - key: options.js_pain_points.date_management.description
-      t: Обработка и управление датами и временем.
-    # - key: options.js_pain_points.xxx
-    #   t:
-    # - key: options.js_pain_points.xxx.description
-    #   t:
-
-    - key: options.top_js_pain_points.state_management
-      aliasFor: options.js_pain_points.state_management
-    - key: options.top_js_pain_points.state_management.description
-      aliasFor: options.js_pain_points.state_management.description
-    - key: options.top_js_pain_points.managing_dependencies
-      aliasFor: options.js_pain_points.managing_dependencies
-    - key: options.top_js_pain_points.managing_dependencies.description
-      aliasFor: options.js_pain_points.managing_dependencies.description
-    - key: options.top_js_pain_points.architecture
-      aliasFor: options.js_pain_points.architecture
-    - key: options.top_js_pain_points.architecture.description
-      aliasFor: options.js_pain_points.architecture.description
-    - key: options.top_js_pain_points.finding_packages
-      aliasFor: options.js_pain_points.finding_packages
-    - key: options.top_js_pain_points.finding_packages.description
-      aliasFor: options.js_pain_points.finding_packages.description
-    - key: options.top_js_pain_points.writing_modules
-      aliasFor: options.js_pain_points.writing_modules
-    - key: options.top_js_pain_points.writing_modules.description
-      aliasFor: options.js_pain_points.writing_modules.description 
-    - key: options.top_js_pain_points.debugging
-      aliasFor: options.js_pain_points.debugging
-    - key: options.top_js_pain_points.debugging.description
-      aliasFor: options.js_pain_points.debugging.description
-    - key: options.top_js_pain_points.async_code
-      aliasFor: options.js_pain_points.async_code
-    - key: options.top_js_pain_points.async_code.description
-      aliasFor: options.js_pain_points.async_code.description
-    - key: options.top_js_pain_points.modules_management
-      aliasFor: options.js_pain_points.modules_management
-    - key: options.top_js_pain_points.modules_management.description
-      aliasFor: options.js_pain_points.modules_management.description
-    - key: options.top_js_pain_points.date_management
-      aliasFor: options.js_pain_points.date_management
-    - key: options.top_js_pain_points.date_management.description
-      aliasFor: options.js_pain_points.date_management.description
-
-    # JS missing features
-    - key: options.currently_missing_from_js.static_typing
-      t: Статическая типизация
-    - key: options.currently_missing_from_js.static_typing.description
-      t: Нативные типы (аналогично тому, что предлагает TypeScript).
-    - key: options.currently_missing_from_js.standard_library
-      t: Стандартная библиотека
-    - key: options.currently_missing_from_js.standard_library.description
-      t: Стандартная библиотека общих утилит
-    - key: options.currently_missing_from_js.pattern_matching
-      t: Сопоставление с образцом
-    - key: options.currently_missing_from_js.pattern_matching.description
-      t: Новое ключевое слово `match` для объектов, сопоставляющих образцы.
-    - key: options.currently_missing_from_js.pipe_operator
-      t: Оператор конвейеров
-    - key: options.currently_missing_from_js.pipe_operator.description
-      t: Новый оператор `|>` для передачи результата одной функции другой.
-    - key: options.currently_missing_from_js.decorators
-      t: Декораторы
-    - key: options.currently_missing_from_js.decorators.description
-      t: Декораторы, используемые для метапрограммирования и добавления функциональности к значению.
-    - key: options.currently_missing_from_js.immutable_data_structures
-      t: Иммутабельные структуры данных
-    - key: options.currently_missing_from_js.immutable_data_structures.description
-      t: Новые глубоко неизменяемые структуры данных, такие как `Record` и `Tuple`.
-    - key: options.currently_missing_from_js.better_date_management
-      t: Продвинутое управление временем
-    - key: options.currently_missing_from_js.better_date_management.description
-      t: Новый объект `Temporal` для работы с датами и временем.
-    - key: options.currently_missing_from_js.observable
-      t: Observable
-    - key: options.currently_missing_from_js.observable.description
-      t: Новый тип `Observable`, используемый для моделирования источников данных.
-    # - key: options.currently_missing_from_js.xxx
-    #   t:
-    # - key: options.currently_missing_from_js.xxx.description
-    #   t:
-
-    - key: options.top_currently_missing_from_js.static_typing
-      aliasFor: options.currently_missing_from_js.static_typing
-    - key: options.top_currently_missing_from_js.static_typing.description
-      aliasFor: options.currently_missing_from_js.static_typing.description
-    - key: options.top_currently_missing_from_js.standard_library
-      aliasFor: options.currently_missing_from_js.standard_library
-    - key: options.top_currently_missing_from_js.standard_library.description
-      aliasFor: options.currently_missing_from_js.standard_library.description
-    - key: options.top_currently_missing_from_js.pattern_matching
-      aliasFor: options.currently_missing_from_js.pattern_matching
-    - key: options.top_currently_missing_from_js.pattern_matching.description
-      aliasFor: options.currently_missing_from_js.pattern_matching.description
-    - key: options.top_currently_missing_from_js.pipe_operator
-      aliasFor: options.currently_missing_from_js.pipe_operator
-    - key: options.top_currently_missing_from_js.pipe_operator.description
-      aliasFor: options.currently_missing_from_js.pipe_operator.description
-    - key: options.top_currently_missing_from_js.decorators
-      aliasFor: options.currently_missing_from_js.decorators
-    - key: options.top_currently_missing_from_js.decorators.description
-      aliasFor: options.currently_missing_from_js.decorators.description
-    - key: options.top_currently_missing_from_js.immutable_data_structures
-      aliasFor: options.currently_missing_from_js.immutable_data_structures
-    - key: options.top_currently_missing_from_js.immutable_data_structures.description
-      aliasFor: options.currently_missing_from_js.immutable_data_structures.description
-    - key: options.top_currently_missing_from_js.better_date_management
-      aliasFor: options.currently_missing_from_js.better_date_management
-    - key: options.top_currently_missing_from_js.better_date_management.description
-      aliasFor: options.currently_missing_from_js.better_date_management.description
-    - key: options.top_currently_missing_from_js.observable
-      aliasFor: options.currently_missing_from_js.observable
-    - key: options.top_currently_missing_from_js.observable.description
-      aliasFor: options.currently_missing_from_js.observable.description
-
-    # What do you use JS for?
-    - key: options.what_do_you_use_js_for.frontend_development
-      t: Фронтенд-разработка
-    - key: options.what_do_you_use_js_for.backend_development
-      t: Бэкенд-разработка
-    - key: options.what_do_you_use_js_for.data_analysis
-      t: Анализ данных
-    - key: options.what_do_you_use_js_for.machine_learning
-      t: Машинное обучение
-    - key: options.what_do_you_use_js_for.desktop_apps
-      t: Разработка десктоп-приложений
-    - key: options.what_do_you_use_js_for.mobile_apps
-      t: Разработка мобильных приложений
-    - key: options.what_do_you_use_js_for.embedded_apps
-      t: Разработка встраиваемых приложений
-    - key: options.what_do_you_use_js_for.game_development
-      t: Разработка игр
-    - key: options.what_do_you_use_js_for.data_visualization
-      t: Визуализация данных
-    - key: options.what_do_you_use_js_for.graphics_animation
-      t: Графика и анимация
-
-    # JS App Patterns
-  
-    - key: options.js_app_patterns.single_page_app
-      t: Одностраничное приложение (Single Page Application, SPA)
-    - key: options.js_app_patterns.single_page_app.description
-      t: Приложения, выполняющиеся целиком в браузере
-    - key: options.js_app_patterns.multiple_page_app
-      t: Многостраничное приложение (Multi-Page Application, MPA)
-    - key: options.js_app_patterns.multiple_page_app.description
-      t: Приложения, полностью работающие на сервере, с минимальным динамическим поведением на стороне клиента
-    - key: options.js_app_patterns.static_site_generation
-      t: Генератор статических сайтов (Static Site Generation, SSG)
-    - key: options.js_app_patterns.static_site_generation.description
-      t: Заранее отрендеренный статический контент, возможно с динамическим поведением на стороне клиента
-    - key: options.js_app_patterns.server_side_rendering
-      t: Серверный рендеринг (Server-Side Rendering, SSR)
-    - key: options.js_app_patterns.server_side_rendering.description
-      t: Динамический рендеринг HTML-контента на сервере с последующей регидратацией на клиенте
-    - key: options.js_app_patterns.partial_hydration
-      t: Частичная гидрация (Partial Hydration)
-    - key: options.js_app_patterns.partial_hydration.description
-      t: Гидратация только некоторых компонентов на клиенте (например, React Server Components)
-    - key: options.js_app_patterns.progressive_rehydration
-      t: Прогрессивная гидратация (Progressive Hydration)
-    - key: options.js_app_patterns.progressive_rehydration.description
-      t: Управление порядком гидратации компонентов на клиенте
-    - key: options.js_app_patterns.islands_architecture
-      t: Архитектура островов (Islands Architecture)
-    - key: options.js_app_patterns.islands_architecture.description
-      t: Остров — изолированная часть динамического контента с несколькими точками входа на полностью статическом сайте (Astro, Eleventy)
-    - key: options.js_app_patterns.progressive_enhancement
-      t: Прогрессивное улучшение (Progressive Enhancement)
-    - key: options.js_app_patterns.progressive_enhancement.description
-      t: Обеспечение работоспособности приложения даже без JavaScript
-    - key: options.js_app_patterns.incremental_static_generation
-      t: Инкрементальная статическая генерация (Incremental Static Generation)
-    - key: options.js_app_patterns.incremental_static_generation.description
-      t: Возможность динамически дополнять или изменять статический сайт даже после первоначальной сборки (Next.js ISR, Gatsby DSG)
-    - key: options.js_app_patterns.streaming_ssr
-      t: Потоковый серверный рендеринг (Streaming SSR)
-    - key: options.js_app_patterns.streaming_ssr.description
-      t: Разбиение контента, отрендеренного сервером, на более мелкие потоковые фрагменты
-    - key: options.js_app_patterns.resumability
-      t: Возобновляемость (Resumability)
-    - key: options.js_app_patterns.resumability.description
-      t: Сериализация состояния фреймворка на сервере для выполнения JS-кода на клиенте без гидратации.
-    - key: options.js_app_patterns.edge_rendering
-      t: Рендеринг на с применением пограничных серверов (Edge Rendering)
-    - key: options.js_app_patterns.edge_rendering.description
-      t: Изменение HTML-контента на пограничных (ближайших к конечному пользователю) серверах перед отправкой клиенту
-
-    ###########################################################################
-    # Features
-    ###########################################################################
-
-    # syntax
-    - key: features.destructuring
-      t: Деструктуризация
-    - key: features.spread_operator
-      t: Оператор расширения
-    - key: features.arrow_functions
-      t: Стрелочные функции
-    - key: features.nullish_coalescing
-      t: Оператор объединения с null
-    - key: features.optional_chaining
-      t: Опциональная цепочка
-    - key: features.private_fields
-      t: Приватные поля
-    - key: features.numeric_separators
-      t: Разделители числовых разрядов
-    - key: features.regexp_match_indices
-      t: Индексы соответствия в регулярных выражениях 
-
-    # language
-    - key: features.proxies
-      t: Прокси
-    - key: features.async_await
-      t: Async/Await
-    - key: features.promises
-      t: Промисы
-    - key: features.decorators
-      t: Декораторы
-    - key: features.decorators.description
-      t: >
-          В упрощённом виде, декоратор — это просто способ обернуть
-          один фрагмент кода другим, буквально “декорируя” его.
-    - key: features.dynamic_import
-      t: Динамический импорт
-
-    - key: features.logical_assignment
-      t: Логическое присваивание
-    - key: features.custom_elements
-      t: Кастомные элементы
-
-    # data structures
-    - key: features.maps
-      t: Ассоциативные массивы (объекты Map)
-    - key: features.sets
-      t: Множества (объекты Set)
-    - key: features.typed_arrays
-      t: Типизированные массивы
-    - key: array_prototype_flat
-      t: Array.prototype.flat
-
-    # browser apis
-    - key: features.service_workers
-      t: Сервис-воркеры
-    - key: features.local_storage
-      t: Локальное хранилище
-    - key: features.i18n
-      t: Интернационализация (i18n)
-    - key: features.web_components
-      t: Веб-компоненты
-
-    # other features
-    - key: features.pwa
-      t: Прогрессивные веб-приложения (PWA)
-
-    # patterns
-    - key: patterns.object_oriented_programming
-      t: Объектно‑ориентированное программирование
-    - key: features.functional_programming
-      t: Функциональное программирование
-    - key: features.reactive_programming
-      t: Реактивное программирование
-
-    # upcoming features
-    # - key: features.static_typing
-    #   t: Статическая типизация
-
-    # - key: features.standard_library
-    #   t: Стандартная библиотека
-
-    # - key: features.pattern_matching
-    #   t: Сопоставление по образцу (Pattern Matching)
-
-    # - key: features.pipe_operator
-    #   t: Оператор конвейера
-
-    # - key: features.immutable_data_structures
-    #   t: Иммутабельные структуры данных
-
-    # slider
-    - key: options.js_ts_balance.0
-      t: 100% JS
-    - key: options.js_ts_balance.4
-      t: 50%–50%
-    - key: options.js_ts_balance.8
-      t: 100% TS
-
-    ###########################################################################
-    # Tools
-    ###########################################################################
-
-    - key: tools.angular.description
-      t: >
-        Обратите внимание, что этот вопрос относится к опыту работы с [Angular](https://angular.io/),
-        а *не* с устаревшим [AngularJS](https://angularjs.org/).
-
-    - key: tools.best_of_js_projects.note
-      t: >
-        Проекты в выпадающем списке получены из базы данных [Best of JS](https://bestofjs.org/). 
-        Если в этом списке отсутствует используемый вами проект, вы можете [добавить его](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md), открыв ишью.
-
-    ###########################################################################
-    # Other Tools
-    ###########################################################################
-
-    - key: tools_others.runtimes
-      t: Среды выполнения JavaScript
-    - key: tools_others.runtimes.description
-      t: Какие движки/среды выполнения/рантаймы вы регулярно используете?
-    - key: tools_others.runtimes.others
-      t: Другие среды выполнения
-    - key: tools_others.runtimes.others.description
-      t: Другие ответы (поле со свободной формой ответа).
-
-    - key: tools_others.package_registries
-      t: Реестры пакетов
-    - key: tools_others.package_registries.description
-      t: Из каких реестров вы регулярно загружаете пакеты?
-    - key: tools_others.package_registries.others
-      t: Другие реестры пакетов
-    - key: tools_others.package_registries.others.description
-      t: Другие ответы (поле со свободной формой ответа).
-
-    - key: tools_others.form_factors
-      aliasFor: environments.form_factors
-    - key: tools_others.form_factors.description
-      aliasFor: environments.form_factors.description
-
-    - key: tools_others.backend_as_a_service
-      t: Backend-as-a-Service Providers
-    - key: tools_others.backend_as_a_service.description
-      t: Services that host your data and offer a client API to access it. 
-    - key: tools_others.backend_as_a_service.others
-      t: Other BaaS Providers
-
-    - key: tools_others.date_management
-      t: Управление датой
-    - key: tools_others.date_management.description
-      t: Библиотеки, помогающие управлять датами и часовыми поясами.
-    - key: tools_others.date_management.others
-      t: Другие библиотеки, связанные с датой
-
-    - key: tools_others.data_visualization
-      t: Визуализация данных
-    - key: tools_others.data_visualization.description
-      t: Библиотеки, помогающие работать с диаграммами и другими визуализациями данных. 
-    - key: tools_others.data_visualization.others
-      t: Другие библиотеки по визуализации данных
-
-    - key: tools_others.graphics_animation
-      t: Графика и анимации
-    - key: tools_others.graphics_animation.description
-      t: Библиотеки, создающие графику и анимации. 
-    - key: tools_others.graphics_animation.others
-      t: Другие библиотеки по созданию графики и анимаций
-
-    - key: tools_others.data_fetching
-      t: Получение данных
-    - key: tools_others.data_fetching.description
-      t: Библиотеки, управляющие получением и кешированием данных.
-    - key: tools_others.data_fetching.others
-      t: Другие библиотеки по получению данных
-
-    - key: tools_others.backend_frameworks
-      aliasFor: sections.back_end_frameworks.title
-    - key: tools_others.backend_frameworks.description
-      t: Фреймворки для генерации API и управления бэкендом
-    - key: tools_others.backend_frameworks.others
-      t: Другие бэкенд-фреймворки
-
-    ###########################################################################
-    # Usage
-    ###########################################################################
-
-    - key: usage.js_app_patterns
-      t: Паттерны приложений
-    - key: usage.js_app_patterns.description
-      t: Какие из перечисленных ниже паттернов в архитектуре и рендеринга вы использовали **за последний год**?
-    - key: usage.js_app_patterns.others
-      t: Другие паттерны приложений
-
-    - key: usage.what_do_you_use_js_for
-      t: Для чего вы используете JavaScript?
-    - key: usage.what_do_you_use_js_for.others
-      t: Другие варианты использования JavaScript
-      
-    - key: usage.js_ts_balance
-      t: Баланс между JavaScript и TypeScript
-    - key: usage.js_ts_balance.description
-      t: Как бы вы распределили своё время между написанием кода на JavaScript и TypeScript?
-      
-    - key: tools_others.edge_runtimes
-      t: Бессерверные среды выполнения JavaScript
-    - key: tools_others.edge_runtimes.description
-      t: Какие бессерверные среды выполнения вы регулярно используете?
-    - key: tools_others.edge_runtimes.others
-      t: Другие бессерверные среды выполнения
-
-    - key: usage.usage_type
-      t: Использование JavaScript
-    - key: usage.usage_type.description
-      t: Где вы в основном используете JavaScript?
-    - key: usage.usage_type.others
-      t: Other Usages
-
-    - key: opinions.pick_of_the_year
-      t: Your “Pick of the Year”
-    - key: opinions.pick_of_the_year.description
-      t: The name of a feature, library, website, person, etc. you want to highlight this year.
-    
-    - key: usage.industry_sector_js
-      aliasFor: usage.industry_sector
-    - key: usage.industry_sector_js.description
-      t: В каких сферах деятельности вы используете JavaScript?
-    - key: usage.industry_sector_js.others
-      aliasFor: usage.industry_sector.others
-
-    ###########################################################################
-    # Opinions
-    ###########################################################################
-
-    - key: opinions.js_moving_in_right_direction
-      t: JavaScript двигается в правильном направлении
-
-    - key: opinions.building_js_apps_overly_complex
-      t: Разрабатывать JavaScript-приложения сейчас слишком сложно
-
-    - key: opinions.js_over_used_online
-      t: JavaScript используется слишком часто
-
-    - key: opinions.enjoy_building_js_apps
-      t: Мне нравится писать приложения на JavaScript
-
-    - key: opinions.would_like_js_to_be_main_lang
-      t: Я бы хотел, чтобы JavaScript был моим основным языком программирования
-
-    - key: opinions.js_ecosystem_changing_to_fast
-      t: Экосистема JavaScript меняется слишком быстро
-
-    - key: opinions_others.missing_from_js.others
-      t: Что в данный момент вам не хватает в JavaScript?
-    - key: opinions_others.missing_from_js.others.description
-      t: Возможности, которые вы хотели бы видеть в JavaScript.
-
-    - key: happiness.front_end_frameworks
-      t: Насколько вы удовлетворены текущим состоянием фронтенд-фреймворков?
-    - key: happiness.back_end_frameworks
-      t: Насколько вы удовлетворены текущим состоянием бэкенд-фреймворков?
-    - key: happiness.testing
-      t: Насколько вы удовлетворены текущим состоянием инструментов для тестирования?
-    - key: happiness.mobile_desktop
-      t: Насколько вы удовлетворены текущим состоянием фреймворков для создания мобильных и десктопных приложений?
-    - key: happiness.build_tools
-      t: Насколько вы удовлетворены текущим состоянием инструментами сборки?
-    - key: happiness.monorepo_tools
-      t: Насколько вы удовлетворены текущим состоянием инструментами для монорепозиториев?
-    - key: happiness.rendering_frameworks
-      t: Насколько вы удовлетворены текущим состоянием фреймворков для рендеринга?
-      
-    - key: happiness.state_of_the_web
-      t: Насколько вы удовлетворены текущим состоянием веб-технологий?
-
-    - key: happiness.state_of_js
-      t: Насколько вы удовлетворены текущим состоянием JavaScript?
-
-    # Pain Points
-    - key: opinions.js_pain_points
-      t: Болевые точки JavaScript
-    - key: opinions.js_pain_points.description
-      t: Из каждой пары выберите проблему, с которой вы чаще всего сталкиваетесь.
-
-    - key: opinions_others.js_pain_points.others
-      t: Другие болевые точки JavaScript
-      
-    - key: opinions.top_js_pain_points
-      aliasFor: opinions.js_pain_points
-    - key: opinions.top_js_pain_points.description
-      t: Выберите три проблемы в JavaScript, которые вызывают у вас наибольшие трудности.
-    - key: opinions_others.top_js_pain_points.others
-      aliasFor: opinions_others.js_pain_points.others
-
-    # Missing Features
-    - key: opinions.currently_missing_from_js
-      t: Что вам не хватает в JavaScript?
-    - key: opinions.currently_missing_from_js.description
-      t: Из каждой пары выберите то, что вы бы хотели больше всего видеть в JavaScript сегодня.
-    - key: opinions_others.currently_missing_from_js.others
-      t: Другие недостающие фичи
-
-    - key: opinions.top_currently_missing_from_js
-      aliasFor: opinions.currently_missing_from_js
-    - key: opinions.top_currently_missing_from_js.description
-      t: Выберите три фичи, которые бы вы хотели использовать уже сегодня в JavaScript.
-    - key: opinions_others.top_currently_missing_from_js.others
-      aliasFor: opinions_others.currently_missing_from_js.others
-
-    # pain points/currently missing (results)
-    - key: js_pain_points.js_pain_points_wins
-      t: Болевые точки JavaScript
-    - key: js_pain_points.js_pain_points_wins.description
-      t: Наиболее часто возникающая проблема при работе с JavaScript? Результаты ранжируются по количеству выигранных раундов.
-
-    - key: js_pain_points.js_pain_points_matchups
-      t: Болевые точки JavaScript (Matchups)
-    - key: js_pain_points.js_pain_points_matchups.description
-      t: Наиболее часто возникающая проблема при работе с JavaScript? Процент раундов, где расположенная слева проблема чаще встречается по сравнению с верхней.
-
-    - key: currently_missing_from_js.currently_missing_from_js_wins
-      t: Отсутствующие фичи в JavaScript (Пары)
-    - key: currently_missing_from_js.currently_missing_from_js_wins.description
-      t: Какую из фичей в JavaScript вы хотели бы использовать уже сегодня? Результаты ранжируются по количеству выигранных раундов.
-
-    - key: currently_missing_from_js.currently_missing_from_js_matchups
-      t: Отсутствующие фичи в JavaScript (Пары)
-    - key: currently_missing_from_js.currently_missing_from_js_matchups.description
-      t: Какую из фичей в JavaScript вы хотели бы использовать уже сегодня? Процент раундов, где расположенная слева проблема чаще встречается по сравнению с верхней.
-
-    ###########################################################################
-    # Resources
-    ###########################################################################
-
-    - key: resources.first_steps_js
-      t: Первые шаги в JavaScript
-    - key: resources.first_steps_js.description
-      t: Когда вы только начинали, как вы изучали JavaScript?
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_js.intro
+    t: >
+      Миру JavaScript не помешало бы немного классификации.
+
+
+      Начиная с 2016 года, в опросе ежегодно
+      участвуют более 20 000 разработчиков для того, чтобы изучить текущие и будущие тенденции.
+
+
+      Пройдите опрос и помогите нам выяснить, какие библиотеки
+      планируют изучить разработчики в будущем, какими из них больше всего довольны уже сейчас, и т.д.
+
+  - key: general.state_of_js.description
+    t: Ежегодный опрос JavaScript-разработчиков
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.syntax.title
+    t: Синтаксис
+  - key: sections.syntax.description
+    t: Грамматика JavaScript.
+
+  - key: sections.language.title
+    t: Язык
+  - key: sections.language.description
+    t: Словарь JavaScript.
+
+  - key: sections.data_structures.title
+    t: Структуры данных
+  - key: sections.data_structures.description
+    t: Как вы храните и управляете данными.
+
+  - key: sections.browser_apis.title
+    t: API браузера
+  - key: sections.browser_apis.description
+    t: Встроенные возможности браузера.
+
+  - key: sections.other_features.title
+    t: Другие возможности
+  - key: sections.other_features.description
+    t: Другие технологии и паттерны.
+
+  - key: sections.patterns.title
+    t: Паттерны
+  - key: sections.patterns.description
+    t: Как вы пишете код.
+
+  - key: sections.javascript_flavors.title
+    t: Разновидности JavaScript
+  - key: sections.javascript_flavors.description
+    t: Языки, компилируемые в JavaScript.
+
+  - key: sections.front_end_frameworks.title
+    t: Фронтенд-фреймворки
+  - key: sections.front_end_frameworks.description
+    t: Фронтенд-фреймворки и библиотеки.
+
+  - key: sections.datalayer.title
+    t: Слой доступа к данным
+  - key: sections.datalayer.description
+    t: Загрузка и управление данными в приложении.
+
+  - key: sections.rendering_frameworks.title
+    t: Фреймворки для рендеринга
+  - key: sections.rendering_frameworks.description
+    t: Фреймворки, связанные с рендерингом приложения
+
+  - key: sections.back_end_frameworks.title
+    t: Бэкенд-фреймворки
+  - key: sections.back_end_frameworks.description
+    t: JavaScript на сервере.
+
+  - key: sections.testing.title
+    t: Тестирование
+  - key: sections.testing.description
+    t: Инструменты для тестирования кода.
+
+  - key: sections.mobile_desktop.title
+    t: Мобильные устройства и десктоп
+  - key: sections.mobile_desktop.description
+    t: JavaScript для мобильных устройств и десктопные приложения.
+
+  - key: sections.build_tools.title
+    t: Сборщики
+  - key: sections.build_tools.description
+    t: Компиляция и сборка кода.
+
+  - key: sections.monorepo_tools.title
+    t: Инструменты для монорепозиториев
+  - key: sections.monorepo_tools.description
+    t: Инструменты, использующиеся для управления монорепозиториями с JavaScript-кодом.
+
+  - key: sections.tools_others.title
+    t: Другие инструменты
+  - key: sections.tools_others.description
+    t: Другие JavaScript-инструменты.
+
+  - key: sections.other_tools.title
+    t: Другие инструменты
+  - key: sections.other_tools.description
+    t: Какими из представленных инструментов и технологий вы регулярно пользуетесь.
+
+  - key: sections.resources_js.title
+    t: Ресурсы
+  - key: sections.resources_js.description
+    t: Какими ресурсами по JavaScript пользуетесь?
+
+  - key: sections.usage_js.title
+    t: Использование
+  - key: sections.usage_js.description
+    t: Как вы используете JavaScript
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro
+    t: >
+      Приветствуем вас в ежегодном опросе! В первой части мы постараемся выяснить,
+      какие **возможности** JavaScript вам знакомы.
+
+      Не расстраиваетесь слишком сильно, если вы слышали о чём-то, но ещё не использовали это!
+
+  - key: tools.tools_intro
+    t: >
+      Следующие несколько разделов посвящены **библиотекам** и **фреймворкам**,
+      которые составляют экосистему JavaScript. Расскажите нам, что вам нравится или интересно!
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  # JS pain points
+  # - key: options.js_pain_points.browser_interoperability
+  #   t: Browser Compatibility
+  # - key: options.js_pain_points.browser_interoperability.description
+  #   t: Differences between Chrome, Safari, Firefox, etc.
+  # - key: options.js_pain_points.animations
+  #   t: Animations
+  # - key: options.js_pain_points.animations.description
+  #   t: Managing animations, transitions, etc. using JavaScript.
+  # - key: options.js_pain_points.form_handling
+  #   t: Form Handling
+  # - key: options.js_pain_points.form_handling.description
+  #   t: Creating forms, managing their state and errors, and saving their data.
+  - key: options.js_pain_points.state_management
+    t: Управление состоянием
+  - key: options.js_pain_points.state_management.description
+    t: Управление состоянием глобальных данных в сложных приложениях.
+  # - key: options.js_pain_points.performance_issues
+  #   t: Performance Issues
+  # - key: options.js_pain_points.performance_issues.description
+  #   t: Bundle sizes, slow loading, and other performance issues.
+  - key: options.js_pain_points.managing_dependencies
+    t: Управление зависимостями
+  - key: options.js_pain_points.managing_dependencies.description
+    t: Управление зависимостями, версиями пакетов и размерами бандлов.
+  - key: options.js_pain_points.architecture
+    t: Архитектура кода
+  - key: options.js_pain_points.architecture.description
+    t: Организация и поддержка кодовой базы.
+  - key: options.js_pain_points.finding_packages
+    t: Поиск пакетов
+  - key: options.js_pain_points.finding_packages.description
+    t: Поиск и оценка пакетов JavaScript.
+  - key: options.js_pain_points.writing_modules
+    t: Написание модулей
+  - key: options.js_pain_points.writing_modules.description
+    t: Написание модулей JavaScript и их публикация в виде пакетов.
+  - key: options.js_pain_points.debugging
+    t: Отладка
+  - key: options.js_pain_points.debugging.description
+    t: Выявление и решение проблем с кодом.
+  - key: options.js_pain_points.async_code
+    t: Асинхронный код
+  - key: options.js_pain_points.async_code.description
+    t: Работа с асинхронными функциями.
+  - key: options.js_pain_points.modules_management
+    t: Управление модулями
+  - key: options.js_pain_points.modules_management.description
+    t: Написание и импорт модулей.
+  - key: options.js_pain_points.date_management
+    t: Управление датами
+  - key: options.js_pain_points.date_management.description
+    t: Обработка и управление датами и временем.
+  # - key: options.js_pain_points.xxx
+  #   t:
+  # - key: options.js_pain_points.xxx.description
+  #   t:
+
+  - key: options.top_js_pain_points.state_management
+    aliasFor: options.js_pain_points.state_management
+  - key: options.top_js_pain_points.state_management.description
+    aliasFor: options.js_pain_points.state_management.description
+  - key: options.top_js_pain_points.managing_dependencies
+    aliasFor: options.js_pain_points.managing_dependencies
+  - key: options.top_js_pain_points.managing_dependencies.description
+    aliasFor: options.js_pain_points.managing_dependencies.description
+  - key: options.top_js_pain_points.architecture
+    aliasFor: options.js_pain_points.architecture
+  - key: options.top_js_pain_points.architecture.description
+    aliasFor: options.js_pain_points.architecture.description
+  - key: options.top_js_pain_points.finding_packages
+    aliasFor: options.js_pain_points.finding_packages
+  - key: options.top_js_pain_points.finding_packages.description
+    aliasFor: options.js_pain_points.finding_packages.description
+  - key: options.top_js_pain_points.writing_modules
+    aliasFor: options.js_pain_points.writing_modules
+  - key: options.top_js_pain_points.writing_modules.description
+    aliasFor: options.js_pain_points.writing_modules.description
+  - key: options.top_js_pain_points.debugging
+    aliasFor: options.js_pain_points.debugging
+  - key: options.top_js_pain_points.debugging.description
+    aliasFor: options.js_pain_points.debugging.description
+  - key: options.top_js_pain_points.async_code
+    aliasFor: options.js_pain_points.async_code
+  - key: options.top_js_pain_points.async_code.description
+    aliasFor: options.js_pain_points.async_code.description
+  - key: options.top_js_pain_points.modules_management
+    aliasFor: options.js_pain_points.modules_management
+  - key: options.top_js_pain_points.modules_management.description
+    aliasFor: options.js_pain_points.modules_management.description
+  - key: options.top_js_pain_points.date_management
+    aliasFor: options.js_pain_points.date_management
+  - key: options.top_js_pain_points.date_management.description
+    aliasFor: options.js_pain_points.date_management.description
+
+  # JS missing features
+  - key: options.currently_missing_from_js.static_typing
+    t: Статическая типизация
+  - key: options.currently_missing_from_js.static_typing.description
+    t: Нативные типы (аналогично тому, что предлагает TypeScript).
+  - key: options.currently_missing_from_js.standard_library
+    t: Стандартная библиотека
+  - key: options.currently_missing_from_js.standard_library.description
+    t: Стандартная библиотека общих утилит
+  - key: options.currently_missing_from_js.pattern_matching
+    t: Сопоставление с образцом
+  - key: options.currently_missing_from_js.pattern_matching.description
+    t: Новое ключевое слово `match` для объектов, сопоставляющих образцы.
+  - key: options.currently_missing_from_js.pipe_operator
+    t: Оператор конвейеров
+  - key: options.currently_missing_from_js.pipe_operator.description
+    t: Новый оператор `|>` для передачи результата одной функции другой.
+  - key: options.currently_missing_from_js.decorators
+    t: Декораторы
+  - key: options.currently_missing_from_js.decorators.description
+    t: Декораторы, используемые для метапрограммирования и добавления функциональности к значению.
+  - key: options.currently_missing_from_js.immutable_data_structures
+    t: Иммутабельные структуры данных
+  - key: options.currently_missing_from_js.immutable_data_structures.description
+    t: Новые глубоко неизменяемые структуры данных, такие как `Record` и `Tuple`.
+  - key: options.currently_missing_from_js.better_date_management
+    t: Продвинутое управление временем
+  - key: options.currently_missing_from_js.better_date_management.description
+    t: Новый объект `Temporal` для работы с датами и временем.
+  - key: options.currently_missing_from_js.observable
+    t: Observable
+  - key: options.currently_missing_from_js.observable.description
+    t: Новый тип `Observable`, используемый для моделирования источников данных.
+  # - key: options.currently_missing_from_js.xxx
+  #   t:
+  # - key: options.currently_missing_from_js.xxx.description
+  #   t:
+
+  - key: options.top_currently_missing_from_js.static_typing
+    aliasFor: options.currently_missing_from_js.static_typing
+  - key: options.top_currently_missing_from_js.static_typing.description
+    aliasFor: options.currently_missing_from_js.static_typing.description
+  - key: options.top_currently_missing_from_js.standard_library
+    aliasFor: options.currently_missing_from_js.standard_library
+  - key: options.top_currently_missing_from_js.standard_library.description
+    aliasFor: options.currently_missing_from_js.standard_library.description
+  - key: options.top_currently_missing_from_js.pattern_matching
+    aliasFor: options.currently_missing_from_js.pattern_matching
+  - key: options.top_currently_missing_from_js.pattern_matching.description
+    aliasFor: options.currently_missing_from_js.pattern_matching.description
+  - key: options.top_currently_missing_from_js.pipe_operator
+    aliasFor: options.currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.pipe_operator.description
+    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.decorators
+    aliasFor: options.currently_missing_from_js.decorators
+  - key: options.top_currently_missing_from_js.decorators.description
+    aliasFor: options.currently_missing_from_js.decorators.description
+  - key: options.top_currently_missing_from_js.immutable_data_structures
+    aliasFor: options.currently_missing_from_js.immutable_data_structures
+  - key: options.top_currently_missing_from_js.immutable_data_structures.description
+    aliasFor: options.currently_missing_from_js.immutable_data_structures.description
+  - key: options.top_currently_missing_from_js.better_date_management
+    aliasFor: options.currently_missing_from_js.better_date_management
+  - key: options.top_currently_missing_from_js.better_date_management.description
+    aliasFor: options.currently_missing_from_js.better_date_management.description
+  - key: options.top_currently_missing_from_js.observable
+    aliasFor: options.currently_missing_from_js.observable
+  - key: options.top_currently_missing_from_js.observable.description
+    aliasFor: options.currently_missing_from_js.observable.description
+
+  # What do you use JS for?
+  - key: options.what_do_you_use_js_for.frontend_development
+    t: Фронтенд-разработка
+  - key: options.what_do_you_use_js_for.backend_development
+    t: Бэкенд-разработка
+  - key: options.what_do_you_use_js_for.data_analysis
+    t: Анализ данных
+  - key: options.what_do_you_use_js_for.machine_learning
+    t: Машинное обучение
+  - key: options.what_do_you_use_js_for.desktop_apps
+    t: Разработка десктоп-приложений
+  - key: options.what_do_you_use_js_for.mobile_apps
+    t: Разработка мобильных приложений
+  - key: options.what_do_you_use_js_for.embedded_apps
+    t: Разработка встраиваемых приложений
+  - key: options.what_do_you_use_js_for.game_development
+    t: Разработка игр
+  - key: options.what_do_you_use_js_for.data_visualization
+    t: Визуализация данных
+  - key: options.what_do_you_use_js_for.graphics_animation
+    t: Графика и анимация
+
+  # JS App Patterns
+
+  - key: options.js_app_patterns.single_page_app
+    t: Одностраничное приложение (Single Page Application, SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: Приложения, выполняющиеся целиком в браузере
+  - key: options.js_app_patterns.multiple_page_app
+    t: Многостраничное приложение (Multi-Page Application, MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: Приложения, полностью работающие на сервере, с минимальным динамическим поведением на стороне клиента
+  - key: options.js_app_patterns.static_site_generation
+    t: Генератор статических сайтов (Static Site Generation, SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: Заранее отрендеренный статический контент, возможно с динамическим поведением на стороне клиента
+  - key: options.js_app_patterns.server_side_rendering
+    t: Серверный рендеринг (Server-Side Rendering, SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: Динамический рендеринг HTML-контента на сервере с последующей регидратацией на клиенте
+  - key: options.js_app_patterns.partial_hydration
+    t: Частичная гидрация (Partial Hydration)
+  - key: options.js_app_patterns.partial_hydration.description
+    t: Гидратация только некоторых компонентов на клиенте (например, React Server Components)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Прогрессивная гидратация (Progressive Hydration)
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Управление порядком гидратации компонентов на клиенте
+  - key: options.js_app_patterns.islands_architecture
+    t: Архитектура островов (Islands Architecture)
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Остров — изолированная часть динамического контента с несколькими точками входа на полностью статическом сайте (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Прогрессивное улучшение (Progressive Enhancement)
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: Обеспечение работоспособности приложения даже без JavaScript
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Инкрементальная статическая генерация (Incremental Static Generation)
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: Возможность динамически дополнять или изменять статический сайт даже после первоначальной сборки (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: Потоковый серверный рендеринг (Streaming SSR)
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Разбиение контента, отрендеренного сервером, на более мелкие потоковые фрагменты
+  - key: options.js_app_patterns.resumability
+    t: Возобновляемость (Resumability)
+  - key: options.js_app_patterns.resumability.description
+    t: Сериализация состояния фреймворка на сервере для выполнения JS-кода на клиенте без гидратации.
+  - key: options.js_app_patterns.edge_rendering
+    t: Рендеринг на с применением пограничных серверов (Edge Rendering)
+  - key: options.js_app_patterns.edge_rendering.description
+    t: Изменение HTML-контента на пограничных (ближайших к конечному пользователю) серверах перед отправкой клиенту
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  # syntax
+  - key: features.destructuring
+    t: Деструктуризация
+  - key: features.spread_operator
+    t: Оператор расширения
+  - key: features.arrow_functions
+    t: Стрелочные функции
+  - key: features.nullish_coalescing
+    t: Оператор объединения с null
+  - key: features.optional_chaining
+    t: Опциональная цепочка
+  - key: features.private_fields
+    t: Приватные поля
+  - key: features.numeric_separators
+    t: Разделители числовых разрядов
+  - key: features.regexp_match_indices
+    t: Индексы соответствия в регулярных выражениях
+
+  # language
+  - key: features.proxies
+    t: Прокси
+  - key: features.async_await
+    t: Async/Await
+  - key: features.promises
+    t: Промисы
+  - key: features.decorators
+    t: Декораторы
+  - key: features.decorators.description
+    t: >
+      В упрощённом виде, декоратор — это просто способ обернуть
+      один фрагмент кода другим, буквально “декорируя” его.
+  - key: features.dynamic_import
+    t: Динамический импорт
+
+  - key: features.logical_assignment
+    t: Логическое присваивание
+  - key: features.custom_elements
+    t: Кастомные элементы
+
+  # data structures
+  - key: features.maps
+    t: Ассоциативные массивы (объекты Map)
+  - key: features.sets
+    t: Множества (объекты Set)
+  - key: features.typed_arrays
+    t: Типизированные массивы
+  - key: array_prototype_flat
+    t: Array.prototype.flat
+
+  # browser apis
+  - key: features.service_workers
+    t: Сервис-воркеры
+  - key: features.local_storage
+    t: Локальное хранилище
+  - key: features.i18n
+    t: Интернационализация (i18n)
+  - key: features.web_components
+    t: Веб-компоненты
+
+  # other features
+  - key: features.pwa
+    t: Прогрессивные веб-приложения (PWA)
+
+  # patterns
+  - key: patterns.object_oriented_programming
+    t: Объектно‑ориентированное программирование
+  - key: features.functional_programming
+    t: Функциональное программирование
+  - key: features.reactive_programming
+    t: Реактивное программирование
+
+  # upcoming features
+  # - key: features.static_typing
+  #   t: Статическая типизация
+
+  # - key: features.standard_library
+  #   t: Стандартная библиотека
+
+  # - key: features.pattern_matching
+  #   t: Сопоставление по образцу (Pattern Matching)
+
+  # - key: features.pipe_operator
+  #   t: Оператор конвейера
+
+  # - key: features.immutable_data_structures
+  #   t: Иммутабельные структуры данных
+
+  # slider
+  - key: options.js_ts_balance.0
+    t: 100% JS
+  - key: options.js_ts_balance.4
+    t: 50%–50%
+  - key: options.js_ts_balance.8
+    t: 100% TS
+
+  ###########################################################################
+  # Tools
+  ###########################################################################
+
+  - key: tools.angular.description
+    t: >
+      Обратите внимание, что этот вопрос относится к опыту работы с [Angular](https://angular.io/),
+      а *не* с устаревшим [AngularJS](https://angularjs.org/).
+
+  - key: tools.best_of_js_projects.note
+    t: >
+      Проекты в выпадающем списке получены из базы данных [Best of JS](https://bestofjs.org/). 
+      Если в этом списке отсутствует используемый вами проект, вы можете [добавить его](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md), открыв ишью.
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.runtimes
+    t: Среды выполнения JavaScript
+  - key: tools_others.runtimes.description
+    t: Какие движки/среды выполнения/рантаймы вы регулярно используете?
+  - key: tools_others.runtimes.others
+    t: Другие среды выполнения
+  - key: tools_others.runtimes.others.description
+    t: Другие ответы (поле со свободной формой ответа).
+
+  - key: tools_others.package_registries
+    t: Реестры пакетов
+  - key: tools_others.package_registries.description
+    t: Из каких реестров вы регулярно загружаете пакеты?
+  - key: tools_others.package_registries.others
+    t: Другие реестры пакетов
+  - key: tools_others.package_registries.others.description
+    t: Другие ответы (поле со свободной формой ответа).
+
+  - key: tools_others.form_factors
+    aliasFor: environments.form_factors
+  - key: tools_others.form_factors.description
+    aliasFor: environments.form_factors.description
+
+  - key: tools_others.backend_as_a_service
+    t: Backend-as-a-Service Providers
+  - key: tools_others.backend_as_a_service.description
+    t: Services that host your data and offer a client API to access it.
+  - key: tools_others.backend_as_a_service.others
+    t: Other BaaS Providers
+
+  - key: tools_others.date_management
+    t: Управление датой
+  - key: tools_others.date_management.description
+    t: Библиотеки, помогающие управлять датами и часовыми поясами.
+  - key: tools_others.date_management.others
+    t: Другие библиотеки, связанные с датой
+
+  - key: tools_others.data_visualization
+    t: Визуализация данных
+  - key: tools_others.data_visualization.description
+    t: Библиотеки, помогающие работать с диаграммами и другими визуализациями данных.
+  - key: tools_others.data_visualization.others
+    t: Другие библиотеки по визуализации данных
+
+  - key: tools_others.graphics_animation
+    t: Графика и анимации
+  - key: tools_others.graphics_animation.description
+    t: Библиотеки, создающие графику и анимации.
+  - key: tools_others.graphics_animation.others
+    t: Другие библиотеки по созданию графики и анимаций
+
+  - key: tools_others.data_fetching
+    t: Получение данных
+  - key: tools_others.data_fetching.description
+    t: Библиотеки, управляющие получением и кешированием данных.
+  - key: tools_others.data_fetching.others
+    t: Другие библиотеки по получению данных
+
+  - key: tools_others.backend_frameworks
+    aliasFor: sections.back_end_frameworks.title
+  - key: tools_others.backend_frameworks.description
+    t: Фреймворки для генерации API и управления бэкендом
+  - key: tools_others.backend_frameworks.others
+    t: Другие бэкенд-фреймворки
+
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
+  - key: usage.js_app_patterns
+    t: Паттерны приложений
+  - key: usage.js_app_patterns.question
+    t: Какие из перечисленных ниже паттернов в архитектуре и рендеринга вы использовали **за последний год**?
+  - key: usage.js_app_patterns.others
+    t: Другие паттерны приложений
+
+  - key: usage.what_do_you_use_js_for
+    t: Для чего вы используете JavaScript?
+  - key: usage.what_do_you_use_js_for.others
+    t: Другие варианты использования JavaScript
+
+  - key: usage.js_ts_balance
+    t: Баланс между JavaScript и TypeScript
+  - key: usage.js_ts_balance.question
+    t: Как бы вы распределили своё время между написанием кода на JavaScript и TypeScript?
+
+  - key: tools_others.edge_runtimes
+    t: Бессерверные среды выполнения JavaScript
+  - key: tools_others.edge_runtimes.question
+    t: Какие бессерверные среды выполнения вы регулярно используете?
+  - key: tools_others.edge_runtimes.others
+    t: Другие бессерверные среды выполнения
+
+  - key: usage.usage_type
+    t: Использование JavaScript
+  - key: usage.usage_type.question
+    t: Где вы в основном используете JavaScript?
+  - key: usage.usage_type.others
+    t: Other Usages
+
+  - key: opinions.pick_of_the_year
+    t: Your “Pick of the Year”
+  - key: opinions.pick_of_the_year.description
+    t: The name of a feature, library, website, person, etc. you want to highlight this year.
+
+  - key: usage.industry_sector_js
+    aliasFor: usage.industry_sector
+  - key: usage.industry_sector_js.question
+    t: В каких сферах деятельности вы используете JavaScript?
+  - key: usage.industry_sector_js.others
+    aliasFor: usage.industry_sector.others
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.js_moving_in_right_direction
+    t: JavaScript двигается в правильном направлении
+
+  - key: opinions.building_js_apps_overly_complex
+    t: Разрабатывать JavaScript-приложения сейчас слишком сложно
+
+  - key: opinions.js_over_used_online
+    t: JavaScript используется слишком часто
+
+  - key: opinions.enjoy_building_js_apps
+    t: Мне нравится писать приложения на JavaScript
+
+  - key: opinions.would_like_js_to_be_main_lang
+    t: Я бы хотел, чтобы JavaScript был моим основным языком программирования
+
+  - key: opinions.js_ecosystem_changing_to_fast
+    t: Экосистема JavaScript меняется слишком быстро
+
+  - key: opinions_others.missing_from_js.others
+    t: Что в данный момент вам не хватает в JavaScript?
+  - key: opinions_others.missing_from_js.others.description
+    t: Возможности, которые вы хотели бы видеть в JavaScript.
+
+  - key: happiness.front_end_frameworks
+    t: Насколько вы удовлетворены текущим состоянием фронтенд-фреймворков?
+  - key: happiness.back_end_frameworks
+    t: Насколько вы удовлетворены текущим состоянием бэкенд-фреймворков?
+  - key: happiness.testing
+    t: Насколько вы удовлетворены текущим состоянием инструментов для тестирования?
+  - key: happiness.mobile_desktop
+    t: Насколько вы удовлетворены текущим состоянием фреймворков для создания мобильных и десктопных приложений?
+  - key: happiness.build_tools
+    t: Насколько вы удовлетворены текущим состоянием инструментами сборки?
+  - key: happiness.monorepo_tools
+    t: Насколько вы удовлетворены текущим состоянием инструментами для монорепозиториев?
+  - key: happiness.rendering_frameworks
+    t: Насколько вы удовлетворены текущим состоянием фреймворков для рендеринга?
+
+  - key: happiness.state_of_the_web
+    t: Насколько вы удовлетворены текущим состоянием веб-технологий?
+
+  - key: happiness.state_of_js
+    t: Насколько вы удовлетворены текущим состоянием JavaScript?
+
+  # Pain Points
+  - key: opinions.js_pain_points
+    t: Болевые точки JavaScript
+  - key: opinions.js_pain_points.description
+    t: Из каждой пары выберите проблему, с которой вы чаще всего сталкиваетесь.
+
+  - key: opinions_others.js_pain_points.others
+    t: Другие болевые точки JavaScript
+
+  - key: opinions.top_js_pain_points
+    aliasFor: opinions.js_pain_points
+  - key: opinions.top_js_pain_points.description
+    t: Выберите три проблемы в JavaScript, которые вызывают у вас наибольшие трудности.
+  - key: opinions_others.top_js_pain_points.others
+    aliasFor: opinions_others.js_pain_points.others
+
+  # Missing Features
+  - key: opinions.currently_missing_from_js
+    t: Что вам не хватает в JavaScript?
+  - key: opinions.currently_missing_from_js.description
+    t: Из каждой пары выберите то, что вы бы хотели больше всего видеть в JavaScript сегодня.
+  - key: opinions_others.currently_missing_from_js.others
+    t: Другие недостающие фичи
+
+  - key: opinions.top_currently_missing_from_js
+    aliasFor: opinions.currently_missing_from_js
+  - key: opinions.top_currently_missing_from_js.description
+    t: Выберите три фичи, которые бы вы хотели использовать уже сегодня в JavaScript.
+  - key: opinions_others.top_currently_missing_from_js.others
+    aliasFor: opinions_others.currently_missing_from_js.others
+
+  # pain points/currently missing (results)
+  - key: js_pain_points.js_pain_points_wins
+    t: Болевые точки JavaScript
+  - key: js_pain_points.js_pain_points_wins.description
+    t: Наиболее часто возникающая проблема при работе с JavaScript? Результаты ранжируются по количеству выигранных раундов.
+
+  - key: js_pain_points.js_pain_points_matchups
+    t: Болевые точки JavaScript (Matchups)
+  - key: js_pain_points.js_pain_points_matchups.description
+    t: Наиболее часто возникающая проблема при работе с JavaScript? Процент раундов, где расположенная слева проблема чаще встречается по сравнению с верхней.
+
+  - key: currently_missing_from_js.currently_missing_from_js_wins
+    t: Отсутствующие фичи в JavaScript (Пары)
+  - key: currently_missing_from_js.currently_missing_from_js_wins.description
+    t: Какую из фичей в JavaScript вы хотели бы использовать уже сегодня? Результаты ранжируются по количеству выигранных раундов.
+
+  - key: currently_missing_from_js.currently_missing_from_js_matchups
+    t: Отсутствующие фичи в JavaScript (Пары)
+  - key: currently_missing_from_js.currently_missing_from_js_matchups.description
+    t: Какую из фичей в JavaScript вы хотели бы использовать уже сегодня? Процент раундов, где расположенная слева проблема чаще встречается по сравнению с верхней.
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.first_steps_js
+    t: Первые шаги в JavaScript
+  - key: resources.first_steps_js.description
+    t: Когда вы только начинали, как вы изучали JavaScript?

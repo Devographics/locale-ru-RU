@@ -1063,7 +1063,7 @@ translations:
   # learning method
   - key: resources.first_steps
     t: Первые методы обучения
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: Когда вы только начинали, как вы первоначально изучали программирование?
   - key: resources.first_steps.others
     t: Другие первые методы обучения
@@ -1073,7 +1073,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Блоги и журналы
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Какие блоги, журналы (и т.п.) вы читаете?
   - key: resources.blogs_news_magazines.others
     t: Другие блоги и журналы
@@ -1083,7 +1083,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Сайты и курсы
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: К каким сайтам, курсам (и т.п.) вы обращаетесь?
   - key: resources.sites_courses.others
     t: Другие сайты и курсы
@@ -1093,7 +1093,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Подкасты
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Какие подкасты по программированию вы слушаете?
   - key: resources.podcasts.others
     t: Другие подкасты
@@ -1119,7 +1119,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Другие опросы
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: В каких ещё опросах разработчиков вы принимали участие?
   - key: resources.other_surveys.others
     t: Другие опросы (отсутствующие в списке выше)
