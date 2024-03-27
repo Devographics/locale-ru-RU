@@ -832,55 +832,55 @@ translations:
   # age
   - key: user_info.age
     t: Возраст
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: Сколько вам лет?
 
   # years of experience
   - key: user_info.years_of_experience
     t: Опыт
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Как долго вы работаете или учитесь в своей области.
 
   # company size
   - key: user_info.company_size
     t: Размер компании
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Насколько большая компания, в которой вы работаете.
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Годовая зарплата
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: В долларах США.
 
   # job title
   - key: user_info.job_title
     t: Должность
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Кем вы представляетесь на публичных мероприятиях?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: Уровень владения JavaScript
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: Ваш опыт работы с JavaScript?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: Уровень владения CSS
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: Ваш опыт работы с CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Уровень владения бэкендом
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Ваш опыт работы в бэкенд-разработке?
 
   # gender
   - key: user_info.gender
     t: Пол
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       Мы используем ответ для отслеживания и улучшения доступности и репрезентативности опроса.
   - key: user_info.gender.note
@@ -892,7 +892,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Раса и этническая принадлежность
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       Что из перечисленного ниже относится к вам (если есть)? Пожалуйста, отметьте всё, что подходит к вам.
   - key: user_info.race_ethnicity.note
@@ -908,7 +908,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Статус инвалидности
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       Что из перечисленного ниже имеет к вам отношение (если есть)? Пожалуйста, отметьте все подходящие варианты.
       Обратите внимание, временная нетрудоспособность или травмы также учитываются.
@@ -950,7 +950,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Сфера деятельности
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: В каких сферах деятельности вы работаете?
   - key: user_info.industry_sector.others
     t: Другие сферы деятельности
@@ -960,16 +960,16 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: Диплом о высшем образовании
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Есть ли у вас высшее образование?
 
   # completion
