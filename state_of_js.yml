@@ -497,7 +497,7 @@ translations:
 
   - key: tools_others.runtimes
     t: Среды выполнения JavaScript
-  - key: tools_others.runtimes.description
+  - key: tools_others.runtimes.question
     t: Какие движки/среды выполнения/рантаймы вы регулярно используете?
   - key: tools_others.runtimes.others
     t: Другие среды выполнения
@@ -506,7 +506,7 @@ translations:
 
   - key: tools_others.package_registries
     t: Реестры пакетов
-  - key: tools_others.package_registries.description
+  - key: tools_others.package_registries.question
     t: Из каких реестров вы регулярно загружаете пакеты?
   - key: tools_others.package_registries.others
     t: Другие реестры пакетов
@@ -520,35 +520,35 @@ translations:
 
   - key: tools_others.backend_as_a_service
     t: Backend-as-a-Service Providers
-  - key: tools_others.backend_as_a_service.description
+  - key: tools_others.backend_as_a_service.question
     t: Services that host your data and offer a client API to access it.
   - key: tools_others.backend_as_a_service.others
     t: Other BaaS Providers
 
   - key: tools_others.date_management
     t: Управление датой
-  - key: tools_others.date_management.description
+  - key: tools_others.date_management.question
     t: Библиотеки, помогающие управлять датами и часовыми поясами.
   - key: tools_others.date_management.others
     t: Другие библиотеки, связанные с датой
 
   - key: tools_others.data_visualization
     t: Визуализация данных
-  - key: tools_others.data_visualization.description
+  - key: tools_others.data_visualization.question
     t: Библиотеки, помогающие работать с диаграммами и другими визуализациями данных.
   - key: tools_others.data_visualization.others
     t: Другие библиотеки по визуализации данных
 
   - key: tools_others.graphics_animation
     t: Графика и анимации
-  - key: tools_others.graphics_animation.description
+  - key: tools_others.graphics_animation.question
     t: Библиотеки, создающие графику и анимации.
   - key: tools_others.graphics_animation.others
     t: Другие библиотеки по созданию графики и анимаций
 
   - key: tools_others.data_fetching
     t: Получение данных
-  - key: tools_others.data_fetching.description
+  - key: tools_others.data_fetching.question
     t: Библиотеки, управляющие получением и кешированием данных.
   - key: tools_others.data_fetching.others
     t: Другие библиотеки по получению данных

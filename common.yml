@@ -995,7 +995,7 @@ translations:
 
   - key: tools_others.libraries
     t: Библиотеки
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: Какие библиотеки вы регулярно используете?
   - key: tools_others.libraries.others
     t: Другие библиотеки
@@ -1004,7 +1004,7 @@ translations:
 
   - key: tools_others.text_editors
     t: Текстовые редакторы
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: Какими текстовыми редакторами вы регулярно пользуетесь?
   - key: tools_others.text_editors.others
     t: Другие текстовые редакторы
@@ -1013,7 +1013,7 @@ translations:
 
   - key: tools_others.utilities
     t: Утилиты
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Какие утилиты или инструменты вы регулярно используете?
   - key: tools_others.utilities.others
     t: Другие утилиты
@@ -1022,7 +1022,7 @@ translations:
 
   - key: tools_others.browsers
     t: Браузеры
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: В каких браузерах вы в основном работаете?
   - key: tools_others.browsers.others
     t: Другие браузеры
@@ -1031,7 +1031,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Сборщики
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: Какие сборщики вы используете?
   - key: tools_others.build_tools.others
     t: Другие сборщики
@@ -1040,7 +1040,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: Языки помимо JavaScript
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: На каких языках программирования вы ещё пишете?
   - key: tools_others.non_js_languages.others
     t: Другие языки
@@ -1049,7 +1049,7 @@ translations:
 
   - key: tools_others.javascript_flavors
     t: Разновидности JavaScript
-  - key: tools_others.javascript_flavors.description
+  - key: tools_others.javascript_flavors.question
     t: Языки, компилируемые в JavaScript
   - key: tools_others.javascript_flavors.others
     t: Другие разновидности JavaScript
