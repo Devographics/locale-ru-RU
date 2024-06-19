@@ -478,7 +478,7 @@ translations:
   # tool tier list
   - key: blocks.tools_tier_list
     t: Рейтинг библиотек
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       На этой диаграмме библиотеки ранжированы по коэффициенту удовлетворённости (процент пользователей,
       которые бы снова воспользовались библиотекой). Обратите внимание, в списке участвуют библиотеки,
