@@ -90,7 +90,7 @@ translations:
 
   - key: tools_others.pre_post_processors
     aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.question
     aliasFor: sections.pre_post_processors.description
 
   - key: tools_others.pre_post_processors.others
@@ -595,7 +595,7 @@ translations:
 
   - key: environments.form_factors
     t: Тестирование
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: На каких форм-факторах (размерах) или окружениях вы проверяете?
   - key: environments.form_factors.others
     t: Другие среды для тестирования
@@ -604,7 +604,7 @@ translations:
 
   - key: environments.accessibility_features
     t: Доступность
-  - key: environments.accessibility_features.description
+  - key: environments.accessibility_features.question
     t: Что вы обычно реализуете для улучшения доступности?
   - key: environments.accessibility_features.others
     t: Другие фичи для доступности
@@ -613,17 +613,17 @@ translations:
 
   - key: environments.css_for_print
     t: CSS для печати
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: Вы пишете стили для печати?
 
   - key: environments.css_for_email
     t: CSS для почтовых клиентов
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: Вы пишете CSS-стили для почтовых клиентов?
 
   - key: environments.what_do_you_use_css_for
     t: Где вы в основном применяете CSS?
-  - key: environments.what_do_you_use_css_for.description
+  - key: environments.what_do_you_use_css_for.question
     t: Что вы обычно оформляете с помощью CSS?
   - key: environments.what_do_you_use_css_for.others
     t: Другие варианты
@@ -763,7 +763,7 @@ translations:
 
   - key: usage.css_js_balance
     t: Баланс между CSS и JavaScript
-  - key: usage.css_js_balance.description
+  - key: usage.css_js_balance.question
     t: Как бы вы распределили своё время между написанием CSS (включая HTML-разметку) и JavaScript-кода?
 
   ###########################################################################
