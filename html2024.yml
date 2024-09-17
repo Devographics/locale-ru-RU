@@ -1,0 +1,251 @@
+locale: ru-RU
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Ежегодный опрос о последних тенденциях в HTML за 2024 год.
+
+  - key: general.html2024.survey_intro
+    t: |
+
+      HTML был самой базовой веб-технологией, и тот факт, что спустя три десятилетия он стал более актуальным, чем когда-либо, просто удивителен.
+
+      But despite its name, this surveys goes far beyond just HTML to encompass all areas of the web platform as a whole – and there is *a lot* to cover! 
+
+      So as you might expect, designing a survey like this one always involves tough choices. This year, we decided to focus on new and upcoming features to help you stay up to date; as well as areas that browser vendors are most interested in.
+
+      This means that your answers might end up having a direct impact on the roadmap of the browser you're using right now. Which is why I'm so excited to open this second edition of the State of HTML survey!
+
+  - key: features.features_intro_html2024
+    t: |
+      Welcome to the survey! This first part is all about sharing your experience with various web platform features:
+
+
+      - **Never heard of it**: it's your first time seeing this – or you've heard of it but have no idea what it does. 
+
+      - **Heard of it**: you've read or learned about this, but haven't actually used it yet. 
+
+      - **Used it**: you've used this at least once, even if it was just to play around. 
+
+
+      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.html2024
+    t: |
+      <span class="first-letter">C</span>SS is going through a period of unprecedented progress. Between `:has()`, container queries, subgrid, and many more, new features are making their way to browsers seemingly every month. 
+
+      The consequence of all this growth is that things can get a bit overwhelming. Thankfully this year we had [Chen Hui Jing](https://chenhuijing.com/) to help design the survey and guide us through the CSS jungle. 
+
+      And speaking of the survey, did you know browser vendors use its data as part of the [Interop](https://web.dev/interop-2023/) initiative to help prioritize which features to work on next?
+
+      Finally, we are introducing a new feature this year: the ability to **customize charts** with your own data filters. We're excited to see what kind of new insights you'll come up with!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Support the Survey With the State of HTML T-Shirt
+
+      Do you miss the the good old days of the mid-90s, when HTML was king and VHS tape covers featured futuristic, colorful artwork? 
+
+      The bad news is that even with 2024's technology, you can't yet go back in time to relive those glory days. But what you *can* do is wear this awesome original retro t-shirt, designed by none other than the talented Christopher Kirk-Nielsen.
+
+  - key: tshirt.about
+    t: About the T-shirt
+
+  - key: tshirt.description
+    t: |
+      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Get It
+
+  - key: tshirt.price
+    t: USD $32 + shipping
+
+  - key: tshirt.designer.heading
+    t: About the Designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.html2024
+    t: |
+      Welcome to the State of HTML survey results. This first-ever edition reached **20,904** participants from all around the world.
+
+  - key: sections.features.description.html2024
+    t: |
+      HTML features and other browser APIs
+
+  ###########################################################################
+  # Other Content
+  ###########################################################################
+
+  - key: features.all_features
+    t: All Features
+  - key: features.all_features.description
+    t: |
+      This chart recaps all of the survey's feature questions. The main bars represent a respondent's experience; and they are then further subdivided according to that respondent's sentiment. You can change the grouping to alternate between both. 
+
+
+      Note that you can also find a more specific breakdown of the same data in each feature sub-section.
+
+  - key: features.forms_features
+    t: Опыт работы с формами
+
+  - key: features.interactivity_features
+    t: Опыт работы с интерактивностью
+
+  - key: features.content_features
+    t: Опыт работы с контентом
+
+  - key: features.web_components_main_features
+    t: Опыт работы с веб-компонентами
+
+  - key: features.web_components_main_features
+    t: Опыт работы с веб-компонентами
+
+  - key: features.accessibility_features
+    t: Опыт работы с доступностью
+
+  - key: features.mobile_web_apps_features
+    t: Mobile Web Apps Experience & Sentiment
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Совершенствуйте свои навыки с помощью современных курсов по углубленному обучению фронтенд-инжинирингу.
+  - key: sponsors.google_chrome.description
+    t: Благодарим команду Google Chrome за поддержку нашей работы.
+  - key: sponsors.tokyodev.description
+    t: Найдите работу своей мечты в качестве разработчика в Японии уже сегодня.
+  - key: sponsors.renderatl.description
+    t: Техническая конференция обо всём, что связано с Интернетом.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.html2024.lea_verou.bio
+    t: W3C Technical Architecture Group Member & MIT CSAIL Researcher
+  - key: conclusion.html2024.lea_verou
+    t: >
+      *Phew!* This survey has taken a monumental effort by dozens of people across six continents. Not only did it set a new record for the most responses in a “State of…” survey debut, its data collection UI pioneered innovations that gave us unparalleled insight into developer attitudes, and will ripple far beyond its scope. 
+
+
+      Some argue that improving HTML is futile, but the survey resoundingly demonstrates the contrary. **Developers crave more interactive HTML elements**: not only were interactive elements like `<datalist>` or the Popover API among those accumulating the most positive sentiment across all categories, but in addition all top [missing elements](https://2024.stateofhtml.com/en-US/usage/#html_missing_elements) were interactive widgets. 
+
+
+      However, **making simple things easy** by providing canned functionality is no longer sufficient. **Making complex things possible** by supporting thorough customization is a necessity: insufficient customizability, especially around **styling**, was by far the top recurring pain point. 
+
+
+      As a result, form elements were also the elements [most frequently recreated](https://2024.stateofhtml.com/en-US/usage/#html_functionality_features); a lose-lose outcome that makes both developers and end-users suffer. Thankfully, there are many new initiatives to improve this, so the future looks bright.
+
+
+      Another big need is extensibility. It does not scale if only standards bodies have the privilege to extend HTML; and besides, generic elements cannot possibly address the enormous diversity of needs. Unfortunately, **Web Components APIs** (and especially Shadow DOM), while widely used, appear to fall short in terms of meeting developer needs and providing a smooth developer experience, as they topped the charts of worst experiences across the survey. However, the ongoing activity in this area (some of which I have been part of) leaves me hopeful that while it has been a rocky path, they are on track to reach their full potential.
+
+
+      Which brings me to my final point: it is important to remember that this survey is only a snapshot of developer perspectives and reflects the state of the web platform at the time. However, a primary goal of these surveys is to improve the status quo by providing better visibility into developer needs. How many of today’s pain points will be addressed tomorrow as a result? Join us later this year for the survey’s second iteration and let’s find out!
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_html2024
+    t: How long will answering the survey take?
+  - key: faq.how_long_will_survey_take_html2024.description
+    t: >
+      Depending on how many questions you answer (all questions can be skipped),
+      filling out the survey should take around 10-15 minutes.
+
+  - key: faq.learn_more_html2024
+    t: Where can I learn more?
+  - key: faq.learn_more_html2024.description
+    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
+
+  - key: faq.survey_design_html2024
+    t: How was this survey designed?
+  - key: faq.survey_design_html2024.description
+    t: >
+      This survey was designed as the results of an [open design process](https://github.com/Devographics/surveys/issues/246) involving browser vendors and the web development community.
+
+  - key: faq.results_released_html2024
+    t: When will the results be released?
+  - key: faq.results_released_html2024.description
+    t: The survey will run from September 12 to October 1, 2024, and the survey results will be released shortly after.
+
+  - key: faq.who_should_take_survey_html2024
+    t: Who should take this survey?
+  - key: faq.who_should_take_survey_html2024.description
+    t: >
+      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+
+  - key: faq.data_used_html2024
+    t: How will this data be used?
+  - key: faq.data_used_html2024.description
+    t: >
+      All data collected will be released openly for any developer or company to consult.
+      Browser vendors also [use this data](https://web.dev/blog/interop-2024) to prioritize focus areas and inform their roadmaps.
+
+  - key: faq.survey_goals_html2024
+    t: What are the survey's goals?
+  - key: faq.survey_goals_html2024.description
+    t: >
+      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
+
+  - key: about.content
+    t: |
+      The 2024 State of HTML survey ran from September 19 to October 19 2024, and collected 20,904 responses. 
+
+      The survey design effort was lead by [Lea Verou](https://lea.verou.me/) thanks to a grant from Google. Lea also oversaw the prototyping, testing, and implementation of new UI data collection elements; contributed to data processing; and helped with data visualization. 
+
+      The survey infrastructure is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
+
+      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Survey Goals
+
+      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+
+      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+
+      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+
+      The survey was openly accessible online and respondents were not filtered or selected in any way.
+
+      ### Project Funding
+
+      Funding from this project comes from a variety of sources:
+
+      - **T-shirt sales**. 
+
+      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+
+      - **Other Funding**: [Google](https://www.google.com/) and [TokyoDev](https://www.tokyodev.com/) also funded work on the survey.
+
+      ### Технический обзор
+
+      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a).
