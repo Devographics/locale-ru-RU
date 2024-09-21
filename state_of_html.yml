@@ -36,32 +36,32 @@ translations:
   ###########################################################################
 
   - key: sections.forms.title
-    t: Forms
+    t: Формы
   - key: sections.forms.description
-    t: Form-related elements and attributes
+    t: Элементы и атрибуты, связанные с формами
 
   - key: sections.interactivity.title
-    t: Interactivity
+    t: Интерактивность
   - key: sections.interactivity.description
-    t: APIs that enable richer user interactions.
+    t: API, включающие расширенные возможности взаимодействия с пользователем.
 
   - key: sections.web_components.title
-    t: Web Components
+    t: Веб-компоненты
   - key: sections.web_components.description
-    t: Making & using web components.
+    t: Создание и использование веб-компонентов.
 
   - key: sections.content.title
-    t: Content
+    t: Контент
   - key: sections.content.description
-    t: Embedding, multimedia, data, and other content-related features.
+    t: Встраивание контента, мультимеди, данные и другие возможности, связанные с контентом.
 
   - key: sections.external_content.title
-    t: External Content
+    t: Внешний контент
   - key: sections.external_content.description
-    t: Embedding external resources, and other multimedia APIs.
+    t: Встраивание внешних ресурсов и другие мультимедиа API.
 
   - key: sections.accessibility.title
-    t: Accessibility
+    t: Доступность
   - key: sections.accessibility.description
     t: Making sites and apps accessible by all.
 
@@ -555,10 +555,10 @@ translations:
   # other features
 
   - key: features.foo_attribute
-    t: "`{id}` attribute"
+    t: "Атрибут `{id}`"
 
   - key: features.slot_assignment
-    t: Explicit slot assignment (`slot="foo"`)
+    t: Явное назначение слота (`slot="foo"`)
 
   - key: features.tabindex
     t: "Атрибут `tabindex`"
@@ -570,10 +570,10 @@ translations:
     t: "`<model>` для контента AR/VR/3D"
 
   - key: features.slot_def
-    t: Defining slots (`<slot>` и `::slotted()`)
+    t: Определение слотов (`<slot>` и `::slotted()`)
 
   - key: features.controlslist
-    t: "`controlslist` attribute"
+    t: "Атрибут `controlslist`"
 
   - key: features.popover_api
     t: Popover API
@@ -582,16 +582,16 @@ translations:
     t: Lazy loading
 
   - key: features.sandbox_attr
-    t: "`sandbox` attribute for iframes"
+    t: "Атрибут `sandbox` для iframe"
 
   - key: features.details_element
-    t: "`<details>` and `<summary>`"
+    t: "`<details>` и `<summary>`"
 
   - key: features.crossorigin
     t: "`crossorigin` attribute"
 
   - key: features.host_css
-    t: Styling component host (`:host`, `:host()`, `:host-context()`)
+    t: Стилизация хоста веб-компонента (`:host`, `:host()`, `:host-context()`)
 
   - key: features.element_internals
     t: "`ElementInternals` API"
@@ -603,25 +603,25 @@ translations:
     t: Content-Security Policy (CSP)
 
   - key: features.structured_data
-    t: Structured data (RDFa, Microdata, Microformats)
+    t: Структурированные данные (RDFa, Microdata, Microformats)
 
   - key: features.extended_builtins
     t: Extended built-ins
 
   - key: features.html_modules
-    t: HTML Modules
+    t: HTML Модули
 
   - key: features.accordion
-    t: Exclusive accordion
+    t: Эксклюзивный аккордеон
 
   - key: features.imperative_slot
-    t: Imperative slot assignment
+    t: Императивное назначение слота
 
   # - key: features.focusgroup
   #   t: "`focusgroup` attribute"
 
   - key: features.form_validation
-    t: Form validation
+    t: Валидация форм
 
   - key: features.aria
     t: ARIA
@@ -636,34 +636,34 @@ translations:
     t: "Resource Hints: preload (`<link rel=preload>`)"
 
   - key: features.resource_hints
-    t: Resource Hints (all)
+    t: Resource Hints (все)
 
   - key: features.rh_prefetch
     t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
 
   - key: features.declarative_shadow
-    t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+    t: Декларативный Shadow DOM (`<template shadowrootmode="open">`)
 
   - key: features.referrerpolicy
-    t: "`referrerpolicy` attribute"
+    t: "Атрибут `referrerpolicy`"
 
   - key: features.integrity
-    t: Subresource Integrity (`integrity` attribute)
+    t: Целостность ресурсов (атрибут `integrity`)
 
   - key: features.pwa_manifest
-    t: PWA manifest
+    t: Манифест PWA
 
   - key: features.part_attr
-    t: Exposing component parts (`part` attribute)
+    t: Доступ к составляющим компонента (атрибут `part`)
 
   - key: features.part_selector
-    t: Styling component parts (`::part()`)
+    t: Стилизация составляющих компонента (`::part()`)
 
   - key: features.svg_element
-    t: Inline SVG (`<svg>`)
+    t: Инлайновый SVG (`<svg>`)
 
   - key: features.math_element
-    t: Inline MathML (`<math>`)
+    t: Инлайновый MathML (`<math>`)
 
   - key: features.scoped_element_registries
     t: Scoped Custom Element Registries
@@ -672,16 +672,16 @@ translations:
     t: Navigation API
 
   - key: features.custom_elements_defining
-    t: Defining Custom Elements
+    t: Создание кастомных элементов
 
   - key: features.decoding
-    t: "`decoding` attribute"
+    t: "Атрибут `decoding`"
 
   - key: features.custom_elements_using
-    t: Using Custom Elements
+    t: Использование кастомных элементов
 
   - key: features.fencedframe
-    t: Fenced frames
+    t: Отгороженные фреймы
 
   - key: features.credentialless
     t: Credentialess iframes
@@ -690,19 +690,19 @@ translations:
     t: HTML Media Capture
 
   - key: features.contenteditable_plaintext
-    t: "`plaintext-only` value for `contenteditable`"
+    t: "Значение `plaintext-only` для `contenteditable`"
 
   - key: features.dom_parts
     t: DOM Parts
 
   - key: features.fetchpriority
-    t: Fetch Priority API (`fetchpriority` attribute)
+    t: Fetch Priority API (атрибут `fetchpriority`)
 
   - key: features.autocomplete
     t: '`autocomplete="hint"`'
 
   - key: features.inert_attribute
-    t: "`inert` attribute"
+    t: "Атрибут `inert`"
 
   - key: features.client_hints
     t: HTTP client hints
@@ -712,7 +712,7 @@ translations:
   ###########################################################################
 
   - key: other_tools.site_generators
-    t: Site Generators
+    t: Генераторы сайтов
   - key: other_tools.site_generators.question
     t: Which of these static or dynamic site generators do you regularly use?
 
