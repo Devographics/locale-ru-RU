@@ -99,9 +99,9 @@ translations:
   - key: sections.monorepo_tools.description
     t: Инструменты, использующиеся для управления монорепозиториями с JavaScript-кодом.
 
-  - key: sections.tools_others.title
+  - key: sections.tools.title
     t: Другие инструменты
-  - key: sections.tools_others.description
+  - key: sections.tools.description
     t: Другие JavaScript-инструменты.
 
   - key: sections.other_tools.title
@@ -495,69 +495,69 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_others.runtimes
+  - key: tools.runtimes
     t: Среды выполнения JavaScript
-  - key: tools_others.runtimes.question
+  - key: tools.runtimes.question
     t: Какие движки/среды выполнения/рантаймы вы регулярно используете?
-  - key: tools_others.runtimes.others
+  - key: tools.runtimes.others
     t: Другие среды выполнения
-  - key: tools_others.runtimes.others.description
+  - key: tools.runtimes.others.description
     t: Другие ответы (поле со свободной формой ответа).
 
-  - key: tools_others.package_registries
+  - key: tools.package_registries
     t: Реестры пакетов
-  - key: tools_others.package_registries.question
+  - key: tools.package_registries.question
     t: Из каких реестров вы регулярно загружаете пакеты?
-  - key: tools_others.package_registries.others
+  - key: tools.package_registries.others
     t: Другие реестры пакетов
-  - key: tools_others.package_registries.others.description
+  - key: tools.package_registries.others.description
     t: Другие ответы (поле со свободной формой ответа).
 
-  - key: tools_others.form_factors
+  - key: tools.form_factors
     aliasFor: environments.form_factors
-  - key: tools_others.form_factors.description
+  - key: tools.form_factors.description
     aliasFor: environments.form_factors.question
 
-  - key: tools_others.backend_as_a_service
+  - key: tools.backend_as_a_service
     t: Backend-as-a-Service Providers
-  - key: tools_others.backend_as_a_service.question
+  - key: tools.backend_as_a_service.question
     t: Services that host your data and offer a client API to access it.
-  - key: tools_others.backend_as_a_service.others
+  - key: tools.backend_as_a_service.others
     t: Other BaaS Providers
 
-  - key: tools_others.date_management
+  - key: tools.date_management
     t: Управление датой
-  - key: tools_others.date_management.question
+  - key: tools.date_management.question
     t: Библиотеки, помогающие управлять датами и часовыми поясами.
-  - key: tools_others.date_management.others
+  - key: tools.date_management.others
     t: Другие библиотеки, связанные с датой
 
-  - key: tools_others.data_visualization
+  - key: tools.data_visualization
     t: Визуализация данных
-  - key: tools_others.data_visualization.question
+  - key: tools.data_visualization.question
     t: Библиотеки, помогающие работать с диаграммами и другими визуализациями данных.
-  - key: tools_others.data_visualization.others
+  - key: tools.data_visualization.others
     t: Другие библиотеки по визуализации данных
 
-  - key: tools_others.graphics_animation
+  - key: tools.graphics_animation
     t: Графика и анимации
-  - key: tools_others.graphics_animation.question
+  - key: tools.graphics_animation.question
     t: Библиотеки, создающие графику и анимации.
-  - key: tools_others.graphics_animation.others
+  - key: tools.graphics_animation.others
     t: Другие библиотеки по созданию графики и анимаций
 
-  - key: tools_others.data_fetching
+  - key: tools.data_fetching
     t: Получение данных
-  - key: tools_others.data_fetching.question
+  - key: tools.data_fetching.question
     t: Библиотеки, управляющие получением и кешированием данных.
-  - key: tools_others.data_fetching.others
+  - key: tools.data_fetching.others
     t: Другие библиотеки по получению данных
 
-  - key: tools_others.backend_frameworks
+  - key: tools.backend_frameworks
     aliasFor: sections.back_end_frameworks.title
-  - key: tools_others.backend_frameworks.description
+  - key: tools.backend_frameworks.description
     t: Фреймворки для генерации API и управления бэкендом
-  - key: tools_others.backend_frameworks.others
+  - key: tools.backend_frameworks.others
     t: Другие бэкенд-фреймворки
 
   ###########################################################################
@@ -581,11 +581,11 @@ translations:
   - key: usage.js_ts_balance.question
     t: Как бы вы распределили своё время между написанием кода на JavaScript и TypeScript?
 
-  - key: tools_others.edge_runtimes
+  - key: tools.edge_runtimes
     t: Бессерверные среды выполнения JavaScript
-  - key: tools_others.edge_runtimes.question
+  - key: tools.edge_runtimes.question
     t: Какие бессерверные среды выполнения вы регулярно используете?
-  - key: tools_others.edge_runtimes.others
+  - key: tools.edge_runtimes.others
     t: Другие бессерверные среды выполнения
 
   - key: usage.usage_type
