@@ -790,7 +790,7 @@ translations:
   - key: share.site.title
     t: Посмотрите результаты опроса {siteTitle}
   - key: share.site.twitter_text
-    t: "Посмотрите результаты опроса {siteTitle} {link} {hashtag}"
+    t: "Посмотрите результаты опроса {siteTitle} {link}"
   - key: share.site.subject
     t: Результаты опроса {siteTitle}
   - key: share.site.body
