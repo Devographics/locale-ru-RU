@@ -247,9 +247,9 @@ translations:
     t: Сопоставление с образцом
   - key: options.currently_missing_from_js.pattern_matching.description
     t: Новое ключевое слово `match` для объектов, сопоставляющих образцы.
-  - key: options.currently_missing_from_js.pipe_operator
+  - key: options.currently_missing_from_js.js_pipeline_operator
     t: Оператор конвейеров
-  - key: options.currently_missing_from_js.pipe_operator.description
+  - key: options.currently_missing_from_js.js_pipeline_operator.description
     t: Новый оператор `|>` для передачи результата одной функции другой.
   - key: options.currently_missing_from_js.decorators
     t: Декораторы
@@ -284,10 +284,10 @@ translations:
     aliasFor: options.currently_missing_from_js.pattern_matching
   - key: options.top_currently_missing_from_js.pattern_matching.description
     aliasFor: options.currently_missing_from_js.pattern_matching.description
-  - key: options.top_currently_missing_from_js.pipe_operator
-    aliasFor: options.currently_missing_from_js.pipe_operator
-  - key: options.top_currently_missing_from_js.pipe_operator.description
-    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator.description
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator.description
   - key: options.top_currently_missing_from_js.decorators
     aliasFor: options.currently_missing_from_js.decorators
   - key: options.top_currently_missing_from_js.decorators.description
@@ -463,7 +463,7 @@ translations:
   # - key: features.pattern_matching
   #   t: Сопоставление по образцу (Pattern Matching)
 
-  # - key: features.pipe_operator
+  # - key: features.js_pipeline_operator
   #   t: Оператор конвейера
 
   # - key: features.immutable_data_structures
